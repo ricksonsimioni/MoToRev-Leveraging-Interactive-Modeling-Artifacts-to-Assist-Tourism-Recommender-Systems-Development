@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.rs:Algorithm xmi:version="2.0"
+                  xmlns:xmi="http://www.omg.org/XMI"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:domain="http://org.rs.domain"
+                  xmlns:org.rs="http://org.rs"
+                  xmi:id="_KkjQYBRXEe-xqaUUKrsSng"
+                  name="TRS">
+<filteringRS xsi:type="org.rs:HybridBased" xmi:id="_MReFMBRXEe-xqaUUKrsSng">
+<_cfComponent xmi:id="_SHKGMBRXEe-xqaUUKrsSng">
+<data xmi:id="_Y8RDMBRfEe-xqaUUKrsSng">
+<rows xmi:id="_Row1" value="4.8">
+<_user href="domain.model#_4iuNMBRXEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Outdoor" href="domain.model#_P1GxQYtEZz-abc123xyz"/>
+</rows>
+<rows xmi:id="_Row2" value="4.3">
+<_user href="domain.model#_Hue2oBRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Outdoor" href="domain.model#_P2HqRZtFZa-def456uvw"/>
+</rows>
+<rows xmi:id="_Row3" value="4.1">
+<_user href="domain.model#_hihccBRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Outdoor" href="domain.model#_P3IrSa0GbY-ghi789rst"/>
+</rows>
+<rows xmi:id="_Row4" value="3.9">
+<_user href="domain.model#_jTkjUBRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Outdoor" href="domain.model#_P4JsTb1HcZ-jkl012opq"/>
+</rows>
+<rows xmi:id="_Row5" value="5.0">
+<_user href="domain.model#_jzWPkBRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Outdoor" href="domain.model#_P5KtUc2IdY-mno345lmn"/>
+</rows>
+<rows xmi:id="_Row6" value="4.6">
+<_user href="domain.model#_kLTckBRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Outdoor" href="domain.model#_P6LuVd3JeZ-pqr678ijk"/>
+</rows>
+<rows xmi:id="_Row7" value="4.4">
+<_user href="domain.model#_kkO58BRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Outdoor" href="domain.model#_P7MvWe4KfY-stu901fgh"/>
+</rows>
+<rows xmi:id="_Row8" value="4.2">
+<_user href="domain.model#_mY2SMBRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Outdoor" href="domain.model#_P8NwXf5LgZ-vwx234cde"/>
+</rows>
+<rows xmi:id="_Row9" value="4.7">
+<_user href="domain.model#_k-AE0BRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Indoor" href="domain.model#_P9OxYg6MhY-yza567bcd"/>
+</rows>
+<rows xmi:id="_Row10" value="3.8">
+<_user href="domain.model#_mviT4BRhEe-xqaUUKrsSng"/>
+<_item xsi:type="domain:Indoor" href="domain.model#_P10PyZh7NiY-bcd890efg"/>
+</rows>
+<rows xmi:id="_Row11" value="4.5">
+<_user href="domain.model#_9zJlMCMiEe-kdKBnMBYA1g"/>
+<_item xsi:type="domain:Indoor" href="domain.model#_P11QzAi8OjY-cde123hij"/>
+</rows>
+<rows xmi:id="_Row12" value="4.0">
+<_user href="domain.model#_-QDjoCMiEe-kdKBnMBYA1g"/>
+<_item xsi:type="domain:Indoor" href="domain.model#_P12RaBj9PkY-def456klm"/>
+</rows>
+<rows xmi:id="_Row13" value="4.9">
+<_user href="domain.model#_-tOn0CMiEe-kdKBnMBYA1g"/>
+<_item xsi:type="domain:Indoor" href="domain.model#_P13SbCk0QlY-efg789nop"/>
+</rows>
+<rows xmi:id="_Row14" value="4.3">
+<_user href="domain.model#__DaTMCMiEe-kdKBnMBYA1g"/>
+<_item xsi:type="domain:Indoor" href="domain.model#_P14TcDl1RmY-fgh012qrs"/>
+</rows>
+<rows xmi:id="_Row15" value="4.1">
+<_user href="domain.model#__W2MkCMiEe-kdKBnMBYA1g"/>
+<_item xsi:type="domain:Indoor" href="domain.model#_P15UdEm2SnY-ghi345tuv"/>
+</rows>
+</data>
+</_cfComponent>
+<_cbComponent xmi:id="_RyDY4BRXEe-xqaUUKrsSng">
+<contentBasedPreference xmi:id="_Pref1">
+<_user href="domain.model#_4iuNMBRXEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_F-onYJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref2">
+<_user href="domain.model#_Hue2oBRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_FaD6sJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref3">
+<_user href="domain.model#_hihccBRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_IEe5kJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref4">
+<_user href="domain.model#_jTkjUBRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_I0wf8J3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref5">
+<_user href="domain.model#_jzWPkBRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_Jq6r4J3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref6">
+<_user href="domain.model#_kLTckBRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_KbgbUJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref7">
+<_user href="domain.model#_kkO58BRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_F-onYJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref8">
+<_user href="domain.model#_mY2SMBRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_FaD6sJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref9">
+<_user href="domain.model#_k-AE0BRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_IEe5kJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref10">
+<_user href="domain.model#_mviT4BRhEe-xqaUUKrsSng"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_I0wf8J3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref11">
+<_user href="domain.model#_9zJlMCMiEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_Jq6r4J3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref12">
+<_user href="domain.model#_-QDjoCMiEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_KbgbUJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref13">
+<_user href="domain.model#_-tOn0CMiEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_F-onYJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref14">
+<_user href="domain.model#__DaTMCMiEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_FaD6sJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref15">
+<_user href="domain.model#__W2MkCMiEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_IEe5kJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref16">
+<_user href="domain.model#_AXysMCMjEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_I0wf8J3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref17">
+<_user href="domain.model#_Ap-oYCMjEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_Jq6r4J3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref18">
+<_user href="domain.model#_ADZwkCMjEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_KbgbUJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref19">
+<_user href="domain.model#_A-HFUCMjEe-kdKBnMBYA1g"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_F-onYJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+<contentBasedPreference xmi:id="_Pref20">
+<_user href="domain.model#_IYpCwKwTEe-3SJufpezX0Q"/>
+<_prefs xsi:type="domain:POICategory" href="domain.model#_FaD6sJ3OEe-msKNMZk5ySw"/>
+</contentBasedPreference>
+</_cbComponent>
+</filteringRS>
+</org.rs:Algorithm>

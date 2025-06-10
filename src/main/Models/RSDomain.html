@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" 
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
+        crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" 
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+          crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f5f7fa;
+      font-family: 'Arial', sans-serif;
+    }
+    .content {
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .page-title {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      color: #2c3e50;
+      font-weight: 600;
+      text-align: center;
+      position: relative;
+    }
+    .page-title:after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #3498db;
+      margin: 15px auto;
+      border-radius: 2px;
+    }
+    
+    /* Podium Container */
+    .podium-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 20px;
+      margin-bottom: 50px;
+      min-height: 400px;
+    }
+    
+    /* Podium Cards */
+    .podium-card {
+      border: none;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+    }
+    
+    /* Podium Positions */
+    .second-place {
+      width: 28%;
+      height: 320px;
+    }
+    .first-place {
+      width: 32%;
+      height: 380px;
+      order: 2;
+      z-index: 3;
+    }
+    .third-place {
+      width: 28%;
+      height: 280px;
+      order: 3;
+    }
+    
+    /* Podium Card Styling */
+    .podium-card .poi-img-container {
+      height: 55%;
+      overflow: hidden;
+      border-radius: 10px 10px 0 0;
+    }
+    .podium-card .poi-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .podium-card:hover .poi-img {
+      transform: scale(1.05);
+    }
+    
+    /* Podium Badges */
+    .podium-badge {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      z-index: 2;
+    }
+    .first-place .podium-badge {
+      background: linear-gradient(135deg, #FFD700, #C9B037);
+      height: 80px;
+      width: 80px;
+      top: -30px;
+    }
+    .second-place .podium-badge {
+      background: linear-gradient(135deg, #C0C0C0, #A8A8A8);
+    }
+    .third-place .podium-badge {
+      background: linear-gradient(135deg, #CD7F32, #A67C52);
+    }
+    
+    /* Podium Content */
+    .podium-content {
+      padding: 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .first-place .podium-content {
+      background: linear-gradient(to bottom, #FFF9E6, white);
+    }
+    .second-place .podium-content {
+      background: linear-gradient(to bottom, #F5F5F5, white);
+    }
+    .third-place .podium-content {
+      background: linear-gradient(to bottom, #F8EFE2, white);
+    }
+    
+    /* Regular Cards */
+    .regular-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .honor-card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      background: white;
+      position: relative;
+      overflow: hidden;
+    }
+    .honor-card::before {
+      content: "Honor Mention";
+      position: absolute;
+      top: 10px;
+      right: -30px;
+      background: #6c757d;
+      color: white;
+      padding: 3px 35px;
+      font-size: 12px;
+      transform: rotate(45deg);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .honor-card .poi-img-container {
+      height: 180px;
+      overflow: hidden;
+    }
+    .honor-card .poi-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .honor-content {
+      padding: 20px;
+    }
+    
+    /* Common Styles */
+    .poi-name {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    .poi-id {
+      color: #7f8c8d;
+      font-size: 13px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .poi-description {
+      color: #34495e;
+      line-height: 1.5;
+      font-size: 14px;
+      text-align: center;
+    }
+    .poi-footer {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .poi-rating {
+      color: #f39c12;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .no-pois {
+      text-align: center;
+      padding: 40px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .no-pois-icon {
+      font-size: 50px;
+      color: #f39c12;
+      margin-bottom: 20px;
+    }
+    
+    @media (max-width: 768px) {
+      .podium-container {
+        flex-direction: column;
+        align-items: center;
+        min-height: auto;
+      }
+      .podium-card {
+        width: 80% !important;
+        height: auto !important;
+        margin-bottom: 30px;
+        border-radius: 10px;
+      }
+      .first-place {
+        order: 1;
+      }
+      .regular-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="content">
+  <h3 class="page-title">Points of Interest Ranking</h3>
+
+  <div id="pois">
+      
+      <!-- Podium for top 3 -->
+      <div class="podium-container">
+        <!-- Second Place -->
+          <div class="podium-card second-place">
+            <div class="podium-badge">2</div>
+            <div class="poi-img-container">
+              <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/trekking.jpeg" alt="InfoPoint Naturalmente Trekking">
+            </div>
+            <div class="podium-content">
+              <h4 class="poi-name">InfoPoint Naturalmente Trekking</h4>
+              <div class="poi-id">ID: 39</div>
+              <p class="poi-description">
+                🥈 Second best choice in our ranking
+              </p>
+            </div>
+          </div>
+        
+        <!-- First Place -->
+          <div class="podium-card first-place">
+            <div class="podium-badge">1</div>
+            <div class="poi-img-container">
+              <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/istituzionale.jpeg" alt="InfoPoint Istituzionale Centro Visita di Pescasseroli">
+            </div>
+            <div class="podium-content">
+              <h4 class="poi-name">InfoPoint Istituzionale Centro Visita di Pescasseroli</h4>
+              <div class="poi-id">ID: 40</div>
+              <p class="poi-description">
+                🏆 Our top recommendation! Best in class
+              </p>
+
+            </div>
+          </div>
+        
+        <!-- Third Place -->
+          <div class="podium-card third-place">
+            <div class="podium-badge">3</div>
+            <div class="poi-img-container">
+              <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/cicerana.jpeg" alt="InfoPoint Ecorifugio Cicerana">
+            </div>
+            <div class="podium-content">
+              <h4 class="poi-name">InfoPoint Ecorifugio Cicerana</h4>
+              <div class="poi-id">ID: 38</div>
+              <p class="poi-description">
+                🥉 Excellent alternative worth considering
+              </p>
+
+            </div>
+          </div>
+      </div>
+      
+      <!-- Honor Mentions (last two) -->
+        <h4 style="text-align: center; margin: 40px 0 20px; color: #6c757d;">
+          <i class="fa fa-trophy" style="color: #f39c12;"></i> Honor Mentions
+        </h4>
+        <div class="regular-cards">
+            <div class="honor-card">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/wolf.jpeg" alt="Camping Wolf">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Camping Wolf</h4>
+                <div class="poi-id">ID: 21</div>
+                <p class="poi-description">
+                  Ranked #20 in our system - Worth checking out
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/pescasseroli.jpeg" alt="Pescasseroli">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Pescasseroli</h4>
+                <div class="poi-id">ID: 22</div>
+                <p class="poi-description">
+                  Ranked #19 in our system - Worth checking out
+                </p>
+
+              </div>
+            </div>
+        </div>
+      
+      <!-- Regular Cards (middle positions) -->
+        <h4 style="text-align: center; margin: 40px 0 20px; color: #6c757d;">
+          Other Recommendations
+        </h4>
+        <div class="regular-cards">
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/opi.jpeg" alt="Opi">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Opi</h4>
+                <div class="poi-id">ID: 23</div>
+                <p class="poi-description">
+                  Ranked #18 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/lupo.jpeg" alt="Area Faunistica del Lupo">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Area Faunistica del Lupo</h4>
+                <div class="poi-id">ID: 24</div>
+                <p class="poi-description">
+                  Ranked #17 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/cervo.jpeg" alt="Area Faunistica del Cervo">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Area Faunistica del Cervo</h4>
+                <div class="poi-id">ID: 25</div>
+                <p class="poi-description">
+                  Ranked #16 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/orso.jpeg" alt="Area Faunistica dell'Orso">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Area Faunistica dell'Orso</h4>
+                <div class="poi-id">ID: 26</div>
+                <p class="poi-description">
+                  Ranked #15 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/morso.jpeg" alt="MOrso">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">MOrso</h4>
+                <div class="poi-id">ID: 27</div>
+                <p class="poi-description">
+                  Ranked #14 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/alfedena.jpeg" alt="Civitella Alfadena">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Civitella Alfadena</h4>
+                <div class="poi-id">ID: 28</div>
+                <p class="poi-description">
+                  Ranked #13 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/museo.jpeg" alt="Museo Storico del Parco Nazionale d'Abruzzo, Lazio e Molise">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Museo Storico del Parco Nazionale d'Abruzzo, Lazio e Molise</h4>
+                <div class="poi-id">ID: 29</div>
+                <p class="poi-description">
+                  Ranked #12 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/orso_visit.jpeg" alt="Centro Visita dell'Orso">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Centro Visita dell'Orso</h4>
+                <div class="poi-id">ID: 30</div>
+                <p class="poi-description">
+                  Ranked #11 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/pipistrello.jpeg" alt="Centro Visita del Pipistrello">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Centro Visita del Pipistrello</h4>
+                <div class="poi-id">ID: 31</div>
+                <p class="poi-description">
+                  Ranked #10 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/transumanza.jpeg" alt="Museo della Transumanza">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Museo della Transumanza</h4>
+                <div class="poi-id">ID: 32</div>
+                <p class="poi-description">
+                  Ranked #9 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/archeologico.jpeg" alt="Museo Civico Archeologico Antonio De Nino">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">Museo Civico Archeologico Antonio De Nino</h4>
+                <div class="poi-id">ID: 33</div>
+                <p class="poi-description">
+                  Ranked #8 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/pro.jpeg" alt="InfoPoint Pro Loco Pescasseroli">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">InfoPoint Pro Loco Pescasseroli</h4>
+                <div class="poi-id">ID: 34</div>
+                <p class="poi-description">
+                  Ranked #7 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/scanno.jpeg" alt="InfoPoint Ufficio Informazioni Scanno">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">InfoPoint Ufficio Informazioni Scanno</h4>
+                <div class="poi-id">ID: 35</div>
+                <p class="poi-description">
+                  Ranked #6 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/marcieglie.jpeg" alt="InfoPoint Fattoria Didattica 'Le Case Marcieglie'">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">InfoPoint Fattoria Didattica 'Le Case Marcieglie'</h4>
+                <div class="poi-id">ID: 36</div>
+                <p class="poi-description">
+                  Ranked #5 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+            <div class="honor-card" style="position: relative;">
+              <div class="poi-img-container">
+                <img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/camosciara.jpeg" alt="InfoPoint Camosciara">
+              </div>
+              <div class="honor-content">
+                <h4 class="poi-name">InfoPoint Camosciara</h4>
+                <div class="poi-id">ID: 37</div>
+                <p class="poi-description">
+                  Ranked #4 - Solid option for visitors
+                </p>
+
+              </div>
+            </div>
+        </div>
+      
+  </div>
+</div>
+
+</body>
+</html>

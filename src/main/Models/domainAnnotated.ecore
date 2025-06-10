@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="domain" nsURI="http://org.rs.domain" nsPrefix="domain">
+  <eClassifiers xsi:type="ecore:EClass" name="RSDomain">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tourist" upperBound="-1"
+        eType="#//Tourist" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="itineraries" lowerBound="1"
+        upperBound="-1" eType="#//Itinerary" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pois" upperBound="-1" eType="#//POI"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="categories" upperBound="-1"
+        eType="#//POICategory" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="POI" abstract="true">
+    <eAnnotations source="item"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="category" eType="#//POICategory"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="latitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="longitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="openingHours" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="openingDays" unique="false"
+        upperBound="-1" eType="#//OpeningDays"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="priceRange" eType="#//PriceRange">
+      <eAnnotations source="preference"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Indoor" eSuperTypes="#//POI">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="capacity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="strike" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="crowdness" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Outdoor" eSuperTypes="#//POI">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="weatherCondition" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pathCondition" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hikingSkill" eType="#//HikingSkill">
+      <eAnnotations source="preference"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="POICategory">
+    <eAnnotations source="preference"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="category" eType="#//Category"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tourist">
+    <eAnnotations source="user"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gender" eType="#//Gender">
+      <eAnnotations source="profile"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Itinerary">
+    <eAnnotations source="item"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="transportationMode" eType="#//TransportationMode">
+      <eAnnotations source="preference"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pois" upperBound="-1" eType="#//POI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="TransportationMode">
+    <eLiterals name="BYCICLE"/>
+    <eLiterals name="CAR" value="1"/>
+    <eLiterals name="WALK" value="2"/>
+    <eLiterals name="PUBLIC" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Category">
+    <eLiterals name="ART"/>
+    <eLiterals name="HIKING" value="1"/>
+    <eLiterals name="RELIGION" value="2"/>
+    <eLiterals name="HISTORY" value="3"/>
+    <eLiterals name="NATURE" value="4"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Gender">
+    <eLiterals name="MALE"/>
+    <eLiterals name="FEMALE" value="1"/>
+    <eLiterals name="OTHER" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="HikingSkill">
+    <eLiterals name="BEGINNER"/>
+    <eLiterals name="AVERAGE" value="1"/>
+    <eLiterals name="ADVANCED" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="PriceRange">
+    <eLiterals name="LOW"/>
+    <eLiterals name="AVERAGE" value="1"/>
+    <eLiterals name="HIGH" value="2"/>
+    <eLiterals name="VHIGH" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="OpeningDays">
+    <eLiterals name="SUNDAY"/>
+    <eLiterals name="MONDAY" value="1"/>
+    <eLiterals name="TUESDAY" value="2"/>
+    <eLiterals name="WEDNESDAY" value="3"/>
+    <eLiterals name="THURSDAY" value="4"/>
+    <eLiterals name="FRIDAY" value="5"/>
+    <eLiterals name="SATURDAY" value="6"/>
+  </eClassifiers>
+</ecore:EPackage>

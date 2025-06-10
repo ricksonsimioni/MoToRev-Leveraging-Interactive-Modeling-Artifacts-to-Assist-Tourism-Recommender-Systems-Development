@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelink threeWay="false" forceExeedL="false" forceExeedM="false" forceExeedR="false">
+  <model path="/genericRecommenderSystem/src/main/Models/recommendersystemGenericMovie.model" position="RIGHT" />
+  <model path="/genericRecommenderSystem/src/main/Models/domain.movie.model" position="LEFT" />
+</modelink>
+

@@ -1,0 +1,110 @@
+@namespace(uri="http://org.rs.domain", prefix="domain")
+package domain;
+
+import "http://org.rs";
+
+class RSDomain {
+	val Tourist[*] tourist;
+	//val Itinerary[+] itineraries;
+	attr String name;
+	val POI[*] pois;
+	val POICategory[*] categories;
+}
+
+abstract class POI extends rs.Item {
+	attr String latitude;
+	attr String longitude;
+	ref  POICategory category;
+	attr String name;
+	attr String openingHours;
+	!unique attr OpeningDays[*] openingDays;
+	attr PriceRange priceRange;
+	attr String img;
+	
+}
+
+class POICategory extends rs.Preference {
+	id attr String categoryId;
+	attr Category category;
+}
+
+class Indoor extends POI {
+	attr String capacity;
+	attr boolean strike;
+	attr int crowdness;
+}
+
+class Outdoor extends POI {
+	attr String weatherCondition;
+	attr String pathCondition;
+	attr HikingSkill hikingSkill;
+}
+
+class TouristPreference extends rs.Preference {
+	attr PriceRange preferredPriceRange;
+	attr TransportationMode preferredTransportationMode;
+	attr HikingSkill hikingSkill;
+}
+
+class TouristProfile extends rs.Profile {
+	attr Gender gender;
+}
+
+class Tourist extends rs.User {
+	attr String name;
+	val TouristPreference[1] touristPreference;
+	val TouristProfile[1] touristProfile;
+}
+
+class Itinerary extends rs.Item {
+	ref POICategory[*] category;
+	attr TransportationMode transportationMode;
+	ref POI[*] pois;
+	attr String name;
+}
+
+enum TransportationMode {
+	BYCICLE = 0;
+	CAR = 1;
+	WALK = 2;
+	PUBLIC = 3;
+}
+
+enum Category {
+	COMUNE = 0;
+	INFOPOINT = 1;
+	AREA_FAUNISTICA = 2;
+	CENTRO_VISITA = 3;
+	MUSEO = 4;
+	GENERICO = 5;
+}
+
+enum Gender {
+	MALE = 0;
+	FEMALE = 1;
+	OTHER = 2;
+}
+
+enum HikingSkill {
+	BEGINNER = 0;
+	AVERAGE = 1;
+	ADVANCED = 2;
+}
+
+enum PriceRange {
+	LOW = 0;
+	AVERAGE = 1;
+	HIGH = 2;
+	VHIGH = 3;
+}
+
+enum OpeningDays {
+	SUNDAY = 0;
+	MONDAY = 1;
+	TUESDAY = 2;
+	WEDNESDAY = 3;
+	THURSDAY = 4;
+	FRIDAY = 5;
+	SATURDAY = 6;
+}
+

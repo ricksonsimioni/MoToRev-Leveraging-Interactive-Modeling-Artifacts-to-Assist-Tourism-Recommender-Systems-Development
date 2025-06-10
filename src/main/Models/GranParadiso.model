@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ASCII"?>
+<domain:RSDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domain="http://org.rs.domain" xmi:id="_A1B2C3D4E5F6G7H8I9J0K" name="National Park of Gran Paradiso">
+  <tourist xmi:id="_4iuNMBRXEe-xqaUUKrsSng" userId="1" name="Mario">
+    <touristPreference xmi:id="_43EskBRXEe-xqaUUKrsSng" preferredPriceRange="HIGH" preferredTransportationMode="WALK" hikingSkill="AVERAGE"/>
+    <touristProfile xmi:id="_5HHTsBRXEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_Hue2oBRhEe-xqaUUKrsSng" userId="2" name="Francesco">
+    <touristPreference xmi:id="_I0ljEBRhEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_JD5xcBRhEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_hihccBRhEe-xqaUUKrsSng" userId="3" name="Sophia">
+    <touristPreference xmi:id="_h8HoMBRhEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_ic5aABRhEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_jTkjUBRhEe-xqaUUKrsSng" userId="4" name="Olivia">
+    <touristPreference xmi:id="_ng1_kBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_nQblABRiEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_jzWPkBRhEe-xqaUUKrsSng" userId="5" name="Liam">
+    <touristPreference xmi:id="_nwkdoBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_lztk0BRhEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_kLTckBRhEe-xqaUUKrsSng" userId="6" name="Ava">
+    <touristPreference xmi:id="_oDtcEBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_oS_1QBRiEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_kkO58BRhEe-xqaUUKrsSng" userId="7" name="Noah">
+    <touristPreference xmi:id="_pC4aEBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_oswZEBRiEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_mY2SMBRhEe-xqaUUKrsSng" userId="8" name="William">
+    <touristPreference xmi:id="_pY3RIBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_pqqy0BRiEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_k-AE0BRhEe-xqaUUKrsSng" userId="9" name="Emma">
+    <touristPreference xmi:id="_qAJ6oBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_qUWpABRiEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_mviT4BRhEe-xqaUUKrsSng" userId="10" name="Isabella">
+    <touristPreference xmi:id="_q8b8sBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_qmwAkBRiEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_9zJlMCMiEe-kdKBnMBYA1g" userId="11" name="Benjamin">
+    <touristPreference xmi:id="_RH6d0KwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_RYJSMKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_-QDjoCMiEe-kdKBnMBYA1g" userId="12" name="James">
+    <touristPreference xmi:id="_Ro5rAKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_R5YXAKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_-tOn0CMiEe-kdKBnMBYA1g" userId="13" name="Mia">
+    <touristPreference xmi:id="_SJugIKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_SYdfsKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="__DaTMCMiEe-kdKBnMBYA1g" userId="14" name="Alexander">
+    <touristPreference xmi:id="_SpoIMKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_S8TzoKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="__W2MkCMiEe-kdKBnMBYA1g" userId="15" name="William">
+    <touristPreference xmi:id="_TmTy4KwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_TR5pIKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_AXysMCMjEe-kdKBnMBYA1g" userId="16" name="Harper">
+    <touristPreference xmi:id="_T5VckKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_UKe28KwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_Ap-oYCMjEe-kdKBnMBYA1g" userId="17" name="Valquiria">
+    <touristPreference xmi:id="_UhoysKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_VMHTEKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_ADZwkCMjEe-kdKBnMBYA1g" userId="18" name="Cecilia">
+    <touristPreference xmi:id="_VkZQMKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_V7zqoKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_A-HFUCMjEe-kdKBnMBYA1g" userId="19" name="Marcello">
+    <touristPreference xmi:id="_WN3rAKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_WnUs0KwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_IYpCwKwTEe-3SJufpezX0Q" userId="20" name="Irene">
+    <touristPreference xmi:id="_KxDEkKwTEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_KTfl4KwTEe-3SJufpezX0Q"/>
+  </tourist>
+  <pois xsi:type="domain:Outdoor" xmi:id="_P1GxQYtEZz-abc123xyz" itemId="1" category="_F-onYJ3OEe-msKNMZk5ySw" name="Lago di Loie"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_P2HqRZtFZa-def456uvw" itemId="2" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Colle del Nivolet"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_P3IrSa0GbY-ghi789rst" itemId="3" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Cogne Valley"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_P4JsTb1HcZ-jkl012opq" itemId="4" category="_F-onYJ3OEe-msKNMZk5ySw" name="Valnontey Animal Sanctuary"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_P5KtUc2IdY-mno345lmn" itemId="5" category="_F-onYJ3OEe-msKNMZk5ySw" name="Prati di Sant'Orso"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_P6LuVd3JeZ-pqr678ijk" itemId="6" category="_F-onYJ3OEe-msKNMZk5ySw" name="Grand Lake of Ceresole"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_P7MvWe4KfY-stu901fgh" itemId="7" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Refuge Victor Emmanuel II"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_P8NwXf5LgZ-vwx234cde" itemId="8" category="_IEe5kJ3OEe-msKNMZk5ySw" name="Cogne Municipality Center"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P9OxYg6MhY-yza567bcd" itemId="9" category="_Jq6r4J3OEe-msKNMZk5ySw" name="Centro Visitatori Gran Paradiso" openingHours="09:00-18:00"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P10PyZh7NiY-bcd890efg" itemId="10" category="_KbgbUJ3OEe-msKNMZk5ySw" name="Museo del Parco Nazionale Gran Paradiso" capacity="150"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P11QzAi8OjY-cde123hij" itemId="11" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Centro Visitatori Valnontey"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P12RaBj9PkY-def456klm" itemId="12" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Ufficio Informazioni Cogne"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P13SbCk0QlY-efg789nop" itemId="13" category="_KbgbUJ3OEe-msKNMZk5ySw" name="Museo Alpino di Cogne" capacity="80"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P14TcDl1RmY-fgh012qrs" itemId="14" category="_KbgbUJ3OEe-msKNMZk5ySw" name="Museo della Fauna Alpina"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P15UdEm2SnY-ghi345tuv" itemId="15" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint La Thuile" capacity=""/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P16VeFn3ToY-jkl678wxy" itemId="16" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Val di Rh&#xea;mes"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P17WfGo4UpY-mno901zab" itemId="17" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Aosta Centro" capacity=""/>
+  <pois xsi:type="domain:Indoor" xmi:id="_P18XgHp5VqY-pqr234cde" itemId="18" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Courmayeur Centro"/>
+  <categories xmi:id="_F-onYJ3OEe-msKNMZk5ySw" categoryId="AREA_FAUNISTICA" category="AREA_FAUNISTICA"/>
+  <categories xmi:id="_FaD6sJ3OEe-msKNMZk5ySw" categoryId="CENTRO_VISITA" category="CENTRO_VISITA"/>
+  <categories xmi:id="_IEe5kJ3OEe-msKNMZk5ySw" categoryId="COMUNE"/>
+  <categories xmi:id="_I0wf8J3OEe-msKNMZk5ySw" categoryId="GENERICO" category="GENERICO"/>
+  <categories xmi:id="_Jq6r4J3OEe-msKNMZk5ySw" categoryId="INFOPOINT" category="INFOPOINT"/>
+  <categories xmi:id="_KbgbUJ3OEe-msKNMZk5ySw" categoryId="MUSEO" category="MUSEO"/>
+</domain:RSDomain>
