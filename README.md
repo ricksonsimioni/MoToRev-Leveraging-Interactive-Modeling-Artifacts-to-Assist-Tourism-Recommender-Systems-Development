@@ -8,7 +8,7 @@
 
 ## About MoToRev
 
-MoToRev is a semi-automated Model-Driven Engineering (MDE) approach for developing Tourism Recommender Systems (TRSs). This repository contains the implementation of our novel framework that addresses the key challenges in TRS development:
+MoToRev is a Model-Driven Engineering (MDE) approach for developing Tourism Recommender Systems (TRSs). This repository contains the implementation of our novel framework that addresses the key challenges in TRS development:
 
 ## Features
 
