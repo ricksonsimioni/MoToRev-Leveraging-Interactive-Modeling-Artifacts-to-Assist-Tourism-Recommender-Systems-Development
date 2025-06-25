@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![Eclipse Modeling](https://img.shields.io/badge/Eclipse_Modeling-EMF%2C_Epsilon-green)
-![Apache Mahout](https://img.shields.io/badge/Apache_Mahout-0.14.0-orange)
+![Apache Mahout](https://img.shields.io/badge/Apache_Mahout)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![MDE](https://img.shields.io/badge/Approach-Model_Driven_Engineering-blueviolet)
 
