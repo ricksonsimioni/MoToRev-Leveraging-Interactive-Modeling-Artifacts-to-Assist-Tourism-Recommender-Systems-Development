@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>POI Ranking Grid</title>
+  
+  <!-- Bootstrap and Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" 
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
+        crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" 
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+          crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f5f7fa;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .content {
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .page-title {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      color: #2c3e50;
+      font-weight: 600;
+      text-align: center;
+      position: relative;
+    }
+
+    .page-title:after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #3498db;
+      margin: 15px auto;
+      border-radius: 2px;
+    }
+
+    .card-box {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .card-box:hover {
+      transform: scale(1.02);
+    }
+
+    .img-wrapper {
+      position: relative;
+      height: 180px;
+      overflow: hidden;
+    }
+
+    .poi-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .rank-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #007bff;
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .top-rank-1 .rank-badge {
+      background: linear-gradient(135deg, #FFD700, #C9B037);
+    }
+
+    .top-rank-2 .rank-badge {
+      background: linear-gradient(135deg, #C0C0C0, #A8A8A8);
+    }
+
+    .top-rank-3 .rank-badge {
+      background: linear-gradient(135deg, #CD7F32, #A67C52);
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .poi-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .poi-id {
+      font-size: 12px;
+      color: #7f8c8d;
+    }
+
+    .no-pois {
+      text-align: center;
+      padding: 40px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .no-pois-icon {
+      font-size: 50px;
+      color: #f39c12;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <h3 class="page-title">Points of Interest Ranking</h3>
+
+    <div id="pois">
+      [% if (pois.size() > 0) { %]
+        [% var count = pois.size(); %]
+        <div class="row">
+          [% for (i in (count - 1).to(0)) {
+               var p = pois.get(i);
+               var rank = count - i;
+               var badgeClass = "";
+               if (rank == 1) badgeClass = "top-rank-1";
+               else if (rank == 2) badgeClass = "top-rank-2";
+               else if (rank == 3) badgeClass = "top-rank-3";
+          %]
+            <div class="col-sm-6 col-md-4">
+              <div class="card-box [%= badgeClass %]">
+                <div class="img-wrapper">
+<img class="poi-img" src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/[%= p.img %]" alt="[%= p.name %]">
+                  <span class="rank-badge">#[%= rank %]</span>
+                </div>
+                <div class="card-content">
+                  <h4 class="poi-name">[%= p.name %]</h4>
+                  <p class="poi-id">ID: [%= p.itemId %] </p>
+                </div>
+              </div>
+            </div>
+          [% } %]
+        </div>
+      [% } else { %]
+        <div class="no-pois">
+          <div class="no-pois-icon">
+            <span class="glyphicon glyphicon-info-sign"></span>
+          </div>
+          <h3>No POIs available</h3>
+          <p class="text-muted">There are currently no points of interest to display.</p>
+        </div>
+      [% } %]
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="recommendations" nsURI="http://org.rs.recommendations" nsPrefix="recommendations">
+  <eClassifiers xsi:type="ecore:EClass" name="UserId" eSuperTypes="http://org.rs#//User"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ItemId" eSuperTypes="http://org.rs#//Item"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UserItemRow">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_user" lowerBound="1" eType="#//UserId"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_item" lowerBound="1" eType="#//ItemId"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UserItemMatrix">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rows" upperBound="-1" eType="#//UserItemRow"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Recommendations">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendations" upperBound="-1"
+        eType="#//UserItemMatrix" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>

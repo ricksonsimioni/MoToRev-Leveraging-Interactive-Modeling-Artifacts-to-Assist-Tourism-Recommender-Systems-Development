@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<recommendations:UserItemMatrix xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:recommendations="http://org.rs.recommendations" xmi:id="_BDihILMeEe-cHalY6VHacQ">
+  <rows xmi:id="_UHABZXMPCK-LMfEe-cHalY6VHacQ" userId="1" itemId="6" rating="0.0" category="AREA_FAUNISTICA"/>
+  <rows xmi:id="_FJKMQCPUYN-LMfEe-cHalY6VHacQ" userId="2" itemId="11" rating="0.0" category="CENTRO_VISITA"/>
+  <rows xmi:id="_FEIBFZVBHA-LMfEe-cHalY6VHacQ" userId="2" itemId="12" rating="0.0" category="CENTRO_VISITA"/>
+  <rows xmi:id="_HKHHEKGRYL-LMfEe-cHalY6VHacQ" userId="5" itemId="16" rating="0.0" category="INFOPOINT"/>
+  <rows xmi:id="_CTHCVEYYTP-LMfEe-cHalY6VHacQ" userId="8" itemId="12" rating="0.0" category="CENTRO_VISITA"/>
+  <rows xmi:id="_PSBKHVPAKM-LMfEe-cHalY6VHacQ" userId="8" itemId="7" rating="0.0" category="CENTRO_VISITA"/>
+  <rows xmi:id="_NDHIPOMYKA-LMfEe-cHalY6VHacQ" userId="11" itemId="17" rating="0.0" category="INFOPOINT"/>
+  <rows xmi:id="_FMXDHRXZDW-LMfEe-cHalY6VHacQ" userId="11" itemId="10" rating="0.0" category="INFOPOINT"/>
+  <rows xmi:id="_OPLWLPCCQT-LMfEe-cHalY6VHacQ" userId="11" itemId="18" rating="0.0" category="INFOPOINT"/>
+  <rows xmi:id="_RBEEGKVEGR-LMfEe-cHalY6VHacQ" userId="12" itemId="9" rating="0.0" category="MUSEO"/>
+  <rows xmi:id="_PIHOLIYRAU-LMfEe-cHalY6VHacQ" userId="13" itemId="5" rating="0.0" category="AREA_FAUNISTICA"/>
+  <rows xmi:id="_RCHPFIKNGY-LMfEe-cHalY6VHacQ" userId="14" itemId="7" rating="0.0" category="CENTRO_VISITA"/>
+  <rows xmi:id="_TYZUQXSFLC-LMfEe-cHalY6VHacQ" userId="14" itemId="12" rating="0.0" category="CENTRO_VISITA"/>
+  <rows xmi:id="_RVYRRTRWQE-LMfEe-cHalY6VHacQ" userId="15" itemId="19" rating="0.0" category="COMUNE"/>
+  <rows xmi:id="_IZIMFAYPMC-LMfEe-cHalY6VHacQ" userId="17" itemId="8" rating="0.0" category="INFOPOINT"/>
+  <rows xmi:id="_JTDYQOVQXT-LMfEe-cHalY6VHacQ" userId="17" itemId="16" rating="0.0" category="INFOPOINT"/>
+  <rows xmi:id="_QLYTJNINHD-LMfEe-cHalY6VHacQ" userId="17" itemId="15" rating="0.0" category="INFOPOINT"/>
+  <rows xmi:id="_VQSESCAUFM-LMfEe-cHalY6VHacQ" userId="17" itemId="20" rating="0.0" category="INFOPOINT"/>
+</recommendations:UserItemMatrix>

@@ -1,0 +1,117 @@
+rule RSModel2HTML
+transform s : domain::RSDomain {
+
+    template : "showcase-pois.egl"
+    target : "RSDomain.html"
+    parameters : Map{
+        "path" = Sequence{"RSDomain"},
+        "icon" = "diagram-ffffff",
+        "format" = "html",
+		"layers" = distinctUsers(
+		    		UserItemMatrix.all.first.rows
+		        	.select(r | r._user != null)
+		        	.collect(r | r._user)
+					).collect(u | Map{"id" = u.userId, "title" = u.name, "active"=false}),
+        "pois"=s.pois->asSequence(),
+        "users" = distinctUsers(
+            UserItemMatrix.all.first.rows
+                .select(r | r._user != null)
+                .collect(r | r._user)
+        )     
+    }
+}
+
+
+rule Indoor2HTML
+transform p : domain::Indoor {
+
+    template : "showcase-pois.egl"
+
+    parameters : Map{
+        "path" = Sequence{"RSDomain", "Indoor POIs", p.name},
+        "icon" = "diagram-ffffff",
+        "format" = "html",
+        "layers" = Sequence {
+          
+        },
+        "pois"= Sequence{p}
+        
+    }
+    
+}
+
+
+rule Outdoor2HTML
+transform p : domain::Outdoor {
+
+    template : "showcase-pois.egl"
+
+    parameters : Map{
+        "path" = Sequence{"RSDomain", "Outdoor POIs", p.name},
+        "icon" = "diagram-ffffff",
+        "format" = "html",
+        "layers" = Sequence {
+          
+        },
+        "pois"= Sequence{p}  
+    }
+    
+}
+
+rule PoisPerUser2HTML
+transform t : domain::Tourist {
+
+    template : "showcase-pois.egl"
+
+    parameters {
+        var userId = t.userId; 
+        var userPois = UserItemMatrix.all.first.rows
+            .select(r | r._user.userId = userId)
+            .sortBy(i | i.value)
+            ._item;
+
+        var allUsers = distinctUsers(
+            UserItemMatrix.all.first.rows
+                .select(r | r._user != null)
+                .collect(r | r._user)
+        );
+        return Map {
+            "path" = Sequence{"RSDomain", "Users", t.userId + " - " + t.name},
+            "icon" = "diagram-ffffff",
+            "format" = "html",
+            "layers" = allUsers.collect(u | Map{
+                "id" = u.userId, 
+                "title" = u.name, 
+                "active" = false
+            }),
+            "selectedUserId" = userId,
+            "pois" = userPois,
+            "users" = allUsers
+        };
+    }
+    
+}
+
+operation distinctUsers(users : Sequence(User)) : Sequence(User) {
+    var uniqueUsers : Sequence(User) = Sequence{};
+    var seenIds : Sequence(Integer) = Sequence{};
+
+    for (user in users) {
+        if (not seenIds.exists(id | id = user.userId)) {
+            seenIds.add(user.userId);
+            uniqueUsers.add(user);
+        }
+    }
+
+    return uniqueUsers;
+}
+
+operation isLayerActive(id : String) {
+    var layer = layers.selectOne(l|l.id = id);
+    if (layer.isDefined()) {
+        return layer.active;
+    }
+    else {
+        return true;
+    }
+}

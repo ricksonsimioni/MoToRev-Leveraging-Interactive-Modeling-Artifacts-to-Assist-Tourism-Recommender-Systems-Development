@@ -1,0 +1,26 @@
+@namespace(uri="http://org.rs.recommendations", prefix="recommendations")
+package recommendations;
+
+import "http://org.rs";
+
+class UserId extends rs.User {
+}
+
+class ItemId extends rs.Item {
+}
+
+class UserItemRow {
+	ref UserId[1] userId;
+	ref ItemId[1] itemId;
+	attr float rating;
+	val String category;
+}
+
+class UserItemMatrix {
+	val UserItemRow[*] rows;
+}
+
+class Recommendations {
+	val UserItemMatrix[*] recommendations;
+}
+
