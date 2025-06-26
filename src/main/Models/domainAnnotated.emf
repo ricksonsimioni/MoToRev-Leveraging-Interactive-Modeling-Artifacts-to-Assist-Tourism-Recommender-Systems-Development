@@ -1,0 +1,102 @@
+@namespace(uri="http://org.rs.domain.annotated", prefix="domain")
+package domainAnnotated;
+
+
+class RSDomain {
+	val Tourist[*] tourist;
+	val Itinerary[+] itineraries;
+	attr String name;
+	val POI[*] pois;
+	val POICategory[*] categories;
+}
+
+@item
+abstract class POI {
+	ref POICategory category; 
+	attr String latitude;
+	attr String longitude;
+	attr String name;
+	id attr int ~id;
+	attr String openingHours;
+	!unique attr OpeningDays[*] openingDays;
+	@preference
+	attr PriceRange priceRange;
+}
+
+class Indoor extends POI {
+	attr String capacity;
+	attr boolean strike;
+	attr int crowdness;
+}
+
+class Outdoor extends POI {
+	attr String weatherCondition;
+	attr String pathCondition;
+	@preference
+	attr HikingSkill hikingSkill;
+}
+
+@preference
+class POICategory { 
+	attr Category category;
+}
+
+@user
+class Tourist {
+	attr String name;
+	@profile
+	attr Gender gender;	
+}
+
+@item
+class Itinerary {
+	@preference
+	attr TransportationMode transportationMode;
+	ref POI[*] pois;
+	attr String name;
+}
+
+enum TransportationMode {
+	BYCICLE = 0;
+	CAR = 1;
+	WALK = 2;
+	PUBLIC = 3;
+}
+
+enum Category {
+	ART = 0;
+	HIKING = 1;
+	RELIGION = 2;
+	HISTORY = 3;
+	NATURE = 4;
+}
+
+enum Gender {
+	MALE = 0;
+	FEMALE = 1;
+	OTHER = 2;
+}
+
+enum HikingSkill {
+	BEGINNER = 0;
+	AVERAGE = 1;
+	ADVANCED = 2;
+}
+
+enum PriceRange {
+	LOW = 0;
+	AVERAGE = 1;
+	HIGH = 2;
+	VHIGH = 3;
+}
+
+enum OpeningDays {
+	SUNDAY = 0;
+	MONDAY = 1;
+	TUESDAY = 2;
+	WEDNESDAY = 3;
+	THURSDAY = 4;
+	FRIDAY = 5;
+	SATURDAY = 6;
+}
+

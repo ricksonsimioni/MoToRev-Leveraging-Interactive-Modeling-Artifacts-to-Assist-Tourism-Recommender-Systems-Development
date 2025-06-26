@@ -1,0 +1,121 @@
+<?nsuri http://org.rs.domain?>
+<?render-egx codegen.egx?>
+<?include recommendersystemGeneric.flexmi?>
+
+
+<RSDomain name="RSDomain">
+  <tourists>
+    <Tourist userId="1" name="Mario">
+      <touristProfile gender="MALE" />
+      <touristPreference preferredPriceRange="#HIGH" preferredTransportationMode="#WALK" hikingSkill="#AVERAGE" />
+    </Tourist>
+    <Tourist userId="2" name="Francesco">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>   
+    <Tourist userId="3" name="Sophia">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="4" name="Olivia">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="5" name="Liam">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="6" name="Ava">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="7" name="Noah">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="8" name="William">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="9" name="Emma">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>   
+    <Tourist userId="10" name="Isabella">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="11" name="Benjamin">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="12" name="James">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="13" name="Mia">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="14" name="Alexander">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="15" name="William">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="16" name="Harper">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="17" name="Valquiria">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="18" name="Cecilia">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+    <Tourist userId="19" name="Marcello">
+      <touristProfile gender="#MALE" />
+      <touristPreference preferredPriceRange="#HIGH" preferredTransportationMode="#CAR" hikingSkill="#ADVANCED" />
+    </Tourist>
+    <Tourist userId="20" name="Irene">
+      <touristProfile gender="#FEMALE" />
+      <touristPreference preferredPriceRange="#LOW" preferredTransportationMode="#BICYCLE" hikingSkill="#BEGINNER" />
+    </Tourist>
+</tourists>
+
+<categories>
+    <POICategory categoryId="AREA_FAUNISTICA" category="AREA_FAUNISTICA"/>
+    <POICategory categoryId="CENTRO_VISITA" category="CENTRO_VISITA"/>
+    <POICategory categoryId="COMUNE" category="COMUNE"/>
+    <POICategory categoryId="INFOPOINT" category="INFOPOINT"/>
+    <POICategory categoryId="MUSEO" category="MUSEO"/>
+    <POICategory categoryId="GENERICO" category="GENERICO"/>
+</categories>
+
+<pois>
+    <Outdoor itemId="21" name="Camping Wolf" location="Civitella Alfedena" category="AREA_FAUNISTICA" img="wolf.jpeg"/>
+    <Outdoor itemId="22" name="Pescasseroli" location="Pescasseroli" category="CENTRO_VISITA" img="pescasseroli.jpeg"/>
+    <Outdoor itemId="23" name="Opi" location="Opi" category="CENTRO_VISITA" img="opi.jpeg"/>
+    <Outdoor itemId="24" name="Area Faunistica del Lupo" location="" category="AREA_FAUNISTICA" img="lupo.jpeg"/>
+    <Outdoor itemId="25" name="Area Faunistica del Cervo" location="" category="AREA_FAUNISTICA" img="cervo.jpeg"/>
+    <Outdoor itemId="26" name="Area Faunistica dell'Orso" location="" category="AREA_FAUNISTICA" img="orso.jpeg"/>
+    <Outdoor itemId="27" name="MOrso" category="CENTRO_VISITA" img="morso.jpeg"/>    
+    <Outdoor itemId="28" name="Civitella Alfadena" category="COMUNE" img="alfedena.jpeg"/>    
+    <Indoor itemId="29" name="Museo Storico del Parco Nazionale d'Abruzzo, Lazio e Molise" location="Pescasseroli" category="MUSEO" img="museo.jpeg"/>
+    <Indoor itemId="30" name="Centro Visita dell'Orso" location="" category="CENTRO_VISITA" img="orso_visit.jpeg"/>
+    <Indoor itemId="31" name="Centro Visita del Pipistrello" location="" category="CENTRO_VISITA" img="pipistrello.jpeg"/>
+    <Indoor itemId="32" name="Museo della Transumanza" location="" category="MUSEO" img="transumanza.jpeg"/>
+    <Indoor itemId="33" name="Museo Civico Archeologico Antonio De Nino" location="" category="MUSEO" img="archeologico.jpeg"/>
+    <Indoor itemId="34" name="InfoPoint Pro Loco Pescasseroli" location="Pescasseroli" category="INFOPOINT" img="pro.jpeg"/>    
+    <Indoor itemId="35" name="InfoPoint Ufficio Informazioni Scanno" location="" category="INFOPOINT" img="scanno.jpeg"/>
+    <Indoor itemId="36" name="InfoPoint Fattoria Didattica 'Le Case Marcieglie'" location="" category="INFOPOINT" img="marcieglie.jpeg"/>
+    <Indoor itemId="37" name="InfoPoint Camosciara" location="" category="INFOPOINT" img="camosciara.jpeg"/>
+    <Indoor itemId="38" name="InfoPoint Ecorifugio Cicerana" location="" category="INFOPOINT" img="cicerana.jpeg"/>
+    <Indoor itemId="39" name="InfoPoint Naturalmente Trekking" location="" category="INFOPOINT" img="trekking.jpeg"/>
+    <Indoor itemId="40" name="InfoPoint Istituzionale Centro Visita di Pescasseroli" location="Pescasseroli" category="INFOPOINT" img="istituzionale.jpeg"/>
+</pois>
+</RSDomain>

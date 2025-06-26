@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>POI List</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" 
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
+        crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" 
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+          crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f5f7fa;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .content {
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .page-title {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      color: #2c3e50;
+      font-weight: 600;
+      text-align: center;
+      position: relative;
+    }
+
+    .page-title:after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #3498db;
+      margin: 15px auto;
+      border-radius: 2px;
+    }
+
+    .poi-list {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .poi-list img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .table > tbody > tr > td {
+      vertical-align: middle;
+    }
+
+    .poi-name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .poi-id {
+      font-size: 12px;
+      color: #888;
+    }
+
+    .no-pois {
+      text-align: center;
+      padding: 40px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .no-pois-icon {
+      font-size: 50px;
+      color: #f39c12;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="content">
+  <h3 class="page-title">Points of Interest</h3>
+
+  <div id="pois">
+    [% if (pois.size() > 0) { %]
+  <div class="poi-list">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th style="width: 15%;">Image</th>
+          <th>Point of Interest</th>
+          <th style="width: 15%; text-align: right;">ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        [% for (p in pois) { %]
+          <tr>
+            <td>
+              <img src="/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark/src/main/Models/img/[%= p.img %]" alt="[%= p.name %]">
+            </td>
+            <td>
+              <div class="poi-name">[%= p.name %]</div>
+            </td>
+            <td style="text-align: right;">
+              <div class="poi-id">[%= p.itemId %]</div>
+            </td>
+          </tr>
+        [% } %]
+      </tbody>
+    </table>
+  </div>
+[% } else { %]
+  <div class="no-pois">
+    <div class="no-pois-icon">
+      <span class="glyphicon glyphicon-info-sign"></span>
+    </div>
+    <h3>No POIs available</h3>
+    <p class="text-muted">There are currently no points of interest to display.</p>
+  </div>
+[% } %]
+
+  </div>
+</div>
+
+</body>
+</html>
