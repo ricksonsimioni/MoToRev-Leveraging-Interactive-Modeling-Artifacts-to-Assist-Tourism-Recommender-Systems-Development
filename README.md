@@ -12,19 +12,19 @@ MoToRev is a Model-Driven Engineering (MDE) approach for developing Tourism Reco
 
 ## Key Innovations
 
-- **Model-Driven Approach**: Encodes TRS knowledge as reusable modeling artifacts
+- **Model-Driven Approach**: Encodes TRS knowledge as reusable modelling artefacts
 - **Hybrid Recommendation**: Combines collaborative, content-based, and hybrid filtering
 - **Automated Pipeline**: From data models to recommendations and UI generation
 - **RASTA Project Proven**: Validated in sustainable tourism scenarios
 - **Domain Adaptable**: Flexible architecture for diverse tourism applications
 
 ## Repository Structure
-
+```
 MoToRev/
 ├── src/
 │ ├── main/
 │ │ ├── java/genericRecommenderSystem/ - Core recommendation engine
-│ │ │ ├── Main.java - Entry point with hybrid recommendation logic
+│ │ │ ├── Main.java - Entry point with the recommendation logic
 │ │ │ └── ... - Supporting classes
 │ │ ├── Models/ - EMF-based domain models
 │ │ │ ├── recommendersystemGeneric.ecore - Metamodel
@@ -32,10 +32,9 @@ MoToRev/
 │ │ │ ├── EOL_scripts/ - Model transformation scripts
 │ │ │ └── ... - Instance models
 │ │ └── resources/ - Configuration files
-├── docs/ - Research artifacts and papers
 ├── target/ - Build output
 └── pom.xml - Maven configuration
-
+```
 
 ## Getting Started
 
