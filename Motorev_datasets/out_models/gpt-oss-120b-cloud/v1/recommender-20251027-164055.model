@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain">
+  <org.rs:Algorithm xmi:id="_alg_TRS" name="TRS">
+    <filteringRS xsi:type="org.rs:HybridBased" xmi:id="_hyb1">
+      <cfComponent xsi:type="org.rs:CollaborativeFiltering" xmi:id="_cf1">
+        <data xmi:id="_data1"/>
+      </cfComponent>
+      <cbComponent xsi:type="org.rs:ContentBased" xmi:id="_cb1">
+        <preferences>
+          <preference xmi:id="_pref_price" key="preferredPriceRange" value="mid"/>
+          <preference xmi:id="_pref_transport" key="preferredTransportationMode" value="bus"/>
+          <preference xmi:id="_pref_hiking" key="hikingSkill" value="intermediate"/>
+          <preference xmi:id="_pref_season" key="seasonality" value="summer"/>
+          <preference xmi:id="_pref_access" key="accessibility" value="wheelchair"/>
+        </preferences>
+      </cbComponent>
+    </filteringRS>
+  </org.rs:Algorithm>
+</xmi:XMI>

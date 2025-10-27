@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+         xmlns:xmi="http://www.omg.org/XMI"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:domain="http://org.rs.domain">
+  <domain:RSDomain xmi:id="_gen_domain_1" name="National Park of Abruzzo">
+    <!-- Categories -->
+    <categories xsi:type="domain:Category" xmi:id="_gen_category_INFOPOINT" name="INFOPOINT"/>
+    <categories xsi:type="domain:Category" xmi:id="_gen_category_MUSEO" name="MUSEO"/>
+    <categories xsi:type="domain:Category" xmi:id="_gen_category_AREA_FAUNISTICA" name="AREA_FAUNISTICA"/>
+    <categories xsi:type="domain:Category" xmi:id="_gen_category_COMUNE" name="COMUNE"/>
+    
+    <!-- POIs -->
+    <pois xsi:type="domain:IndoorPOI" xmi:id="_gen_poi_1" name="Abruzzo Museum" category="_gen_category_MUSEO"/>
+    <pois xsi:type="domain:OutdoorPOI" xmi:id="_gen_poi_2" name="Wolf Sanctuary" category="_gen_category_AREA_FAUNISTICA"/>
+    <pois xsi:type="domain:OutdoorPOI" xmi:id="_gen_poi_3" name="Visitor Info Center" category="_gen_category_INFOPOINT"/>
+    <pois xsi:type="domain:IndoorPOI" xmi:id="_gen_poi_4" name="Town Hall" category="_gen_category_COMUNE"/>
+    
+    <!-- Tourists -->
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_1" name="Alice">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Low"
+                  preferredTransportationMode="Bus"
+                  hikingSkill="Beginner"
+                  seasonality="Spring"
+                  accessibility="Partial"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_2" name="Bob">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Medium"
+                  preferredTransportationMode="Car"
+                  hikingSkill="Intermediate"
+                  seasonality="Summer"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_3" name="Clara">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="High"
+                  preferredTransportationMode="Train"
+                  hikingSkill="Advanced"
+                  seasonality="Autumn"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_4" name="David">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Medium"
+                  preferredTransportationMode="Bike"
+                  hikingSkill="Intermediate"
+                  seasonality="Winter"
+                  accessibility="Partial"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_5" name="Eva">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Low"
+                  preferredTransportationMode="Foot"
+                  hikingSkill="Beginner"
+                  seasonality="Spring"
+                  accessibility="None"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_6" name="Frank">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Medium"
+                  preferredTransportationMode="Bus"
+                  hikingSkill="Intermediate"
+                  seasonality="Summer"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_7" name="Grace">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="High"
+                  preferredTransportationMode="Car"
+                  hikingSkill="Advanced"
+                  seasonality="Autumn"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_8" name="Hugo">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Low"
+                  preferredTransportationMode="Bike"
+                  hikingSkill="Beginner"
+                  seasonality="Winter"
+                  accessibility="Partial"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_9" name="Isabel">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Medium"
+                  preferredTransportationMode="Foot"
+                  hikingSkill="Intermediate"
+                  seasonality="Spring"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_10" name="Jack">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="High"
+                  preferredTransportationMode="Train"
+                  hikingSkill="Advanced"
+                  seasonality="Summer"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_11" name="Karen">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Low"
+                  preferredTransportationMode="Bus"
+                  hikingSkill="Beginner"
+                  seasonality="Autumn"
+                  accessibility="Partial"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_12" name="Liam">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Medium"
+                  preferredTransportationMode="Car"
+                  hikingSkill="Intermediate"
+                  seasonality="Winter"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_13" name="Mia">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="High"
+                  preferredTransportationMode="Bike"
+                  hikingSkill="Advanced"
+                  seasonality="Spring"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_14" name="Noah">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Low"
+                  preferredTransportationMode="Foot"
+                  hikingSkill="Beginner"
+                  seasonality="Summer"
+                  accessibility="None"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_15" name="Olivia">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Medium"
+                  preferredTransportationMode="Train"
+                  hikingSkill="Intermediate"
+                  seasonality="Autumn"
+                  accessibility="Partial"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_16" name="Paul">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="High"
+                  preferredTransportationMode="Car"
+                  hikingSkill="Advanced"
+                  seasonality="Winter"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_17" name="Quinn">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Low"
+                  preferredTransportationMode="Bus"
+                  hikingSkill="Beginner"
+                  seasonality="Spring"
+                  accessibility="Partial"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_18" name="Rosa">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Medium"
+                  preferredTransportationMode="Bike"
+                  hikingSkill="Intermediate"
+                  seasonality="Summer"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_19" name="Sam">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="High"
+                  preferredTransportationMode="Foot"
+                  hikingSkill="Advanced"
+                  seasonality="Autumn"
+                  accessibility="Full"/>
+    </tourists>
+    <tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_20" name="Tina">
+      <preference xsi:type="domain:Preference"
+                  preferredPriceRange="Low"
+                  preferredTransportationMode="Train"
+                  hikingSkill="Beginner"
+                  seasonality="Winter"
+                  accessibility="Partial"/>
+    </tourists>
+  </domain:RSDomain>
+</xmi:XMI>

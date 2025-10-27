@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain">
+  <org.rs:Algorithm xmi:id="_alg_TRS" name="TRS">
+    <filteringRS xsi:type="org.rs:HybridBased" xmi:id="_hyb1">
+      <cfComponent xsi:type="org.rs:CollaborativeFiltering" xmi:id="_cf1">
+        <data xmi:id="_data1">
+          <rows xmi:id="_r1"  value="4.7" user="domain.model#_gen_user1" item="domain.model#_gen_item1"/>
+          <rows xmi:id="_r2"  value="4.2" user="domain.model#_gen_user2" item="domain.model#_gen_item2"/>
+          <rows xmi:id="_r3"  value="3.9" user="domain.model#_gen_user3" item="domain.model#_gen_item3"/>
+          <rows xmi:id="_r4"  value="4.5" user="domain.model#_gen_user4" item="domain.model#_gen_item4"/>
+          <rows xmi:id="_r5"  value="4.8" user="domain.model#_gen_user5" item="domain.model#_gen_item1"/>
+          <rows xmi:id="_r6"  value="4.1" user="domain.model#_gen_user1" item="domain.model#_gen_item2"/>
+          <rows xmi:id="_r7"  value="3.6" user="domain.model#_gen_user2" item="domain.model#_gen_item3"/>
+          <rows xmi:id="_r8"  value="4.9" user="domain.model#_gen_user3" item="domain.model#_gen_item4"/>
+          <rows xmi:id="_r9"  value="4.3" user="domain.model#_gen_user4" item="domain.model#_gen_item1"/>
+          <rows xmi:id="_r10" value="5.0" user="domain.model#_gen_user5" item="domain.model#_gen_item2"/>
+          <rows xmi:id="_r11" value="3.8" user="domain.model#_gen_user1" item="domain.model#_gen_item3"/>
+          <rows xmi:id="_r12" value="4.6" user="domain.model#_gen_user2" item="domain.model#_gen_item4"/>
+          <rows xmi:id="_r13" value="4.0" user="domain.model#_gen_user3" item="domain.model#_gen_item1"/>
+          <rows xmi:id="_r14" value="4.4" user="domain.model#_gen_user4" item="domain.model#_gen_item2"/>
+          <rows xmi:id="_r15" value="3.7" user="domain.model#_gen_user5" item="domain.model#_gen_item3"/>
+          <rows xmi:id="_r16" value="4.9" user="domain.model#_gen_user1" item="domain.model#_gen_item4"/>
+          <rows xmi:id="_r17" value="4.2" user="domain.model#_gen_user2" item="domain.model#_gen_item1"/>
+          <rows xmi:id="_r18" value="3.9" user="domain.model#_gen_user3" item="domain.model#_gen_item2"/>
+          <rows xmi:id="_r19" value="4.5" user="domain.model#_gen_user4" item="domain.model#_gen_item3"/>
+          <rows xmi:id="_r20" value="4.8" user="domain.model#_gen_user5" item="domain.model#_gen_item4"/>
+        </data>
+      </cfComponent>
+    </filteringRS>
+  </org.rs:Algorithm>
+</xmi:XMI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain"
+    xmi:id="_alg_TRS"
+    name="TRS">
+  <filteringRS xsi:type="org.rs:HybridBased" xmi:id="_hyb_TRS">
+    <collaborativeFiltering xsi:type="org.rs:CollaborativeFiltering" xmi:id="_cf_TRS">
+      <data xmi:id="_data_TRS">
+        <rows xmi:id="_r1" value="4.5" user="domain.model#_gen_tourist_1" item="domain.model#_gen_poi_1"/>
+        <rows xmi:id="_r2" value="4.2" user="domain.model#_gen_tourist_1" item="domain.model#_gen_poi_2"/>
+        <rows xmi:id="_r3" value="4.8" user="domain.model#_gen_tourist_1" item="domain.model#_gen_poi_3"/>
+        <rows xmi:id="_r4" value="5.0" user="domain.model#_gen_tourist_2" item="domain.model#_gen_poi_1"/>
+        <rows xmi:id="_r5" value="4.6" user="domain.model#_gen_tourist_2" item="domain.model#_gen_poi_4"/>
+        <rows xmi:id="_r6" value="4.3" user="domain.model#_gen_tourist_2" item="domain.model#_gen_poi_5"/>
+        <rows xmi:id="_r7" value="3.9" user="domain.model#_gen_tourist_3" item="domain.model#_gen_poi_2"/>
+        <rows xmi:id="_r8" value="4.7" user="domain.model#_gen_tourist_3" item="domain.model#_gen_poi_3"/>
+        <rows xmi:id="_r9" value="4.1" user="domain.model#_gen_tourist_3" item="domain.model#_gen_poi_4"/>
+        <rows xmi:id="_r10" value="4.9" user="domain.model#_gen_tourist_4" item="domain.model#_gen_poi_2"/>
+        <rows xmi:id="_r11" value="3.8" user="domain.model#_gen_tourist_4" item="domain.model#_gen_poi_5"/>
+        <rows xmi:id="_r12" value="4.4" user="domain.model#_gen_tourist_4" item="domain.model#_gen_poi_1"/>
+        <rows xmi:id="_r13" value="4.0" user="domain.model#_gen_tourist_5" item="domain.model#_gen_poi_3"/>
+        <rows xmi:id="_r14" value="4.6" user="domain.model#_gen_tourist_5" item="domain.model#_gen_poi_4"/>
+        <rows xmi:id="_r15" value="3.7" user="domain.model#_gen_tourist_5" item="domain.model#_gen_poi_5"/>
+        <rows xmi:id="_r16" value="4.2" user="domain.model#_gen_tourist_6" item="domain.model#_gen_poi_1"/>
+        <rows xmi:id="_r17" value="4.5" user="domain.model#_gen_tourist_6" item="domain.model#_gen_poi_2"/>
+        <rows xmi:id="_r18" value="4.3" user="domain.model#_gen_tourist_6" item="domain.model#_gen_poi_3"/>
+        <rows xmi:id="_r19" value="4.8" user="domain.model#_gen_tourist_7" item="domain.model#_gen_poi_4"/>
+        <rows xmi:id="_r20" value="4.1" user="domain.model#_gen_tourist_7" item="domain.model#_gen_poi_5"/>
+        <rows xmi:id="_r21" value="5.0" user="domain.model#_gen_tourist_7" item="domain.model#_gen_poi_1"/>
+        <rows xmi:id="_r22" value="4.9" user="domain.model#_gen_tourist_8" item="domain.model#_gen_poi_2"/>
+        <rows xmi:id="_r23" value="4.4" user="domain.model#_gen_tourist_8" item="domain.model#_gen_poi_3"/>
+        <rows xmi:id="_r24" value="3.9" user="domain.model#_gen_tourist_8" item="domain.model#_gen_poi_4"/>
+        <rows xmi:id="_r25" value="4.7" user="domain.model#_gen_tourist_9" item="domain.model#_gen_poi_5"/>
+        <rows xmi:id="_r26" value="4.2" user="domain.model#_gen_tourist_9" item="domain.model#_gen_poi_1"/>
+        <rows xmi:id="_r27" value="4.6" user="domain.model#_gen_tourist_10" item="domain.model#_gen_poi_2"/>
+        <rows xmi:id="_r28" value="4.5" user="domain.model#_gen_tourist_10" item="domain.model#_gen_poi_3"/>
+        <rows xmi:id="_r29" value="4.0" user="domain.model#_gen_tourist_10" item="domain.model#_gen_poi_4"/>
+        <rows xmi:id="_r30" value="4.8" user="domain.model#_gen_tourist_11" item="domain.model#_gen_poi_5"/>
+      </data>
+    </collaborativeFiltering>
+    <contentBased xsi:type="org.rs:ContentBased" xmi:id="_cb_TRS">
+      <features xmi:id="_features_TRS">
+        <feature xmi:id="_f_price" name="preferredPriceRange" value="medium"/>
+        <feature xmi:id="_f_transport" name="preferredTransportationMode" value="public"/>
+        <feature xmi:id="_f_skill" name="hikingSkill" value="intermediate"/>
+        <feature xmi:id="_f_season" name="seasonality" value="summer"/>
+        <feature xmi:id="_f_access" name="accessibility" value="wheelchair"/>
+      </features>
+    </contentBased>
+  </filteringRS>
+</org.rs:Algorithm>

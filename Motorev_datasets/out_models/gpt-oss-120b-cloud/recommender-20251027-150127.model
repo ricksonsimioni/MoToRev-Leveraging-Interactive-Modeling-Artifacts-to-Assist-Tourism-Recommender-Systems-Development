@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain"
+    xmi:id="_TRS_Alg"
+    name="TRS">
+  <filteringRS xsi:type="org.rs:HybridBased" xmi:id="_TRS_Hybrid">
+    <_cfComponent xmi:id="_TRS_CF">
+      <data>
+        <rows xmi:id="_row1" value="4.5">
+          <_user href="domain.model#_4iuNMBRXEe-xqaUUKrsSng"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_0gfqoJ3PEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row2" value="4.2">
+          <_user href="domain.model#_jzWPkBRhEe-xqaUUKrsSng"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_VI2VkBRXEe-xqaUUKrsSng"/>
+        </rows>
+        <rows xmi:id="_row3" value="4.8">
+          <_user href="domain.model#_gen_tourist_21"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_HZUqcJ3TEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row4" value="3.9">
+          <_user href="domain.model#_gen_tourist_22"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_U5Bw4BRXEe-xqaUUKrsSng"/>
+        </rows>
+        <rows xmi:id="_row5" value="4.6">
+          <_user href="domain.model#_gen_tourist_23"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_BH1o0J3UEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row6" value="4.1">
+          <_user href="domain.model#_gen_tourist_24"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_C4cq0J3UEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row7" value="4.3">
+          <_user href="domain.model#_gen_tourist_25"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_TY2XkBRXEe-xqaUUKrsSng"/>
+        </rows>
+        <rows xmi:id="_row8" value="4.7">
+          <_user href="domain.model#_gen_tourist_26"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_FeijUJ3UEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row9" value="3.8">
+          <_user href="domain.model#_gen_tourist_27"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_Ve7TQBRXEe-xqaUUKrsSng"/>
+        </rows>
+        <rows xmi:id="_row10" value="4.9">
+          <_user href="domain.model#_gen_tourist_28"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_CtVnQCMjEe-kdKBnMBYA1g"/>
+        </rows>
+        <rows xmi:id="_row11" value="4.0">
+          <_user href="domain.model#_gen_tourist_29"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_0gfqoJ3PEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row12" value="4.4">
+          <_user href="domain.model#_gen_tourist_30"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_uPauIJ3PEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row13" value="4.2">
+          <_user href="domain.model#_gen_tourist_31"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_HZUqcJ3TEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row14" value="4.5">
+          <_user href="domain.model#_gen_tourist_32"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_E3H-QCMjEe-kdKBnMBYA1g"/>
+        </rows>
+        <rows xmi:id="_row15" value="3.7">
+          <_user href="domain.model#_gen_tourist_33"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_BH1o0J3UEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row16" value="4.6">
+          <_user href="domain.model#_gen_tourist_34"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_X2jWULC1Ee-9_-U5v1vn1w"/>
+        </rows>
+        <rows xmi:id="_row17" value="4.8">
+          <_user href="domain.model#_gen_tourist_35"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_Ve7TQBRXEe-xqaUUKrsSng"/>
+        </rows>
+        <rows xmi:id="_row18" value="4.1">
+          <_user href="domain.model#_gen_tourist_36"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_D9pYkCMjEe-kdKBnMBYA1g"/>
+        </rows>
+        <rows xmi:id="_row19" value="4.3">
+          <_user href="domain.model#_gen_tourist_37"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_tMPhgLC1Ee-9_-U5v1vn1w"/>
+        </rows>
+        <rows xmi:id="_row20" value="4.9">
+          <_user href="domain.model#_gen_tourist_38"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_mjSv8J3PEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row21" value="4.2">
+          <_user href="domain.model#_gen_tourist_21"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_EUDGYCMjEe-kdKBnMBYA1g"/>
+        </rows>
+        <rows xmi:id="_row22" value="3.9">
+          <_user href="domain.model#_gen_tourist_22"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_JM6SgJ3UEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row23" value="4.7">
+          <_user href="domain.model#_gen_tourist_23"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_qRI6sJ3PEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row24" value="4.0">
+          <_user href="domain.model#_gen_tourist_24"/>
+          <_item xsi:type="domain:Outdoor" href="domain.model#_0gfqoJ3PEe-msKNMZk5ySw"/>
+        </rows>
+        <rows xmi:id="_row25" value="4.5">
+          <_user href="domain.model#_gen_tourist_25"/>
+          <_item xsi:type="domain:Indoor" href="domain.model#_CtVnQCMjEe-kdKBnMBYA1g"/>
+        </rows>
+      </data>
+    </_cfComponent>
+    <_cbComponent xmi:id="_TRS_CB">
+      <contentBasedPreference xmi:id="_cb1">
+        <_user href="domain.model#_4iuNMBRXEe-xqaUUKrsSng"/>
+        <_prefs xsi:type="domain:POICategory" href="domain.model#_F-onYJ3OEe-msKNMZk5ySw"/>
+      </contentBasedPreference>
+      <contentBasedPreference xmi:id="_cb2">
+        <_user href="domain.model#_gen_tourist_21"/>
+        <_prefs xsi:type="domain:POICategory" href="domain.model#_Jq6r4J3OEe-msKNMZk5ySw"/>
+      </contentBasedPreference>
+    </_cbComponent>
+  </filteringRS>
+</org.rs:Algorithm>
