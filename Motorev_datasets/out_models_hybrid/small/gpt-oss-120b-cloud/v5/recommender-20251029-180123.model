@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain"
+    name="TRS">
+  <filteringRS xsi:type="org.rs:HybridBased">
+    <collaborativeFiltering xsi:type="org.rs:CollaborativeFiltering">
+      <data>
+        <rows value="4.5" user="domain.model#_tourist_1" item="domain.model#_poi_1"/>
+        <rows value="4.0" user="domain.model#_tourist_1" item="domain.model#_poi_2"/>
+        <rows value="4.2" user="domain.model#_tourist_2" item="domain.model#_poi_3"/>
+        <rows value="3.8" user="domain.model#_tourist_2" item="domain.model#_poi_4"/>
+        <rows value="5.0" user="domain.model#_tourist_3" item="domain.model#_poi_5"/>
+        <rows value="4.7" user="domain.model#_tourist_3" item="domain.model#_poi_6"/>
+        <rows value="4.1" user="domain.model#_tourist_4" item="domain.model#_poi_7"/>
+        <rows value="3.9" user="domain.model#_tourist_4" item="domain.model#_poi_8"/>
+        <rows value="4.6" user="domain.model#_tourist_5" item="domain.model#_poi_9"/>
+        <rows value="4.3" user="domain.model#_tourist_5" item="domain.model#_poi_10"/>
+        <rows value="4.8" user="domain.model#_tourist_6" item="domain.model#_poi_11"/>
+        <rows value="4.0" user="domain.model#_tourist_6" item="domain.model#_poi_12"/>
+        <rows value="3.7" user="domain.model#_tourist_7" item="domain.model#_poi_13"/>
+        <rows value="4.9" user="domain.model#_tourist_7" item="domain.model#_poi_14"/>
+        <rows value="4.2" user="domain.model#_tourist_8" item="domain.model#_poi_15"/>
+        <rows value="4.4" user="domain.model#_tourist_8" item="domain.model#_poi_16"/>
+        <rows value="5.0" user="domain.model#_tourist_9" item="domain.model#_poi_17"/>
+        <rows value="4.6" user="domain.model#_tourist_9" item="domain.model#_poi_18"/>
+        <rows value="4.1" user="domain.model#_tourist_10" item="domain.model#_poi_19"/>
+        <rows value="3.9" user="domain.model#_tourist_10" item="domain.model#_poi_20"/>
+        <rows value="4.3" user="domain.model#_tourist_11" item="domain.model#_poi_21"/>
+        <rows value="4.7" user="domain.model#_tourist_11" item="domain.model#_poi_22"/>
+        <rows value="4.0" user="domain.model#_tourist_12" item="domain.model#_poi_23"/>
+        <rows value="4.5" user="domain.model#_tourist_12" item="domain.model#_poi_24"/>
+        <rows value="3.8" user="domain.model#_tourist_13" item="domain.model#_poi_25"/>
+        <rows value="4.9" user="domain.model#_tourist_13" item="domain.model#_poi_26"/>
+        <rows value="4.2" user="domain.model#_tourist_14" item="domain.model#_poi_27"/>
+        <rows value="4.4" user="domain.model#_tourist_14" item="domain.model#_poi_28"/>
+        <rows value="5.0" user="domain.model#_tourist_15" item="domain.model#_poi_29"/>
+        <rows value="4.6" user="domain.model#_tourist_15" item="domain.model#_poi_30"/>
+        <rows value="4.1" user="domain.model#_tourist_16" item="domain.model#_poi_31"/>
+        <rows value="3.7" user="domain.model#_tourist_16" item="domain.model#_poi_32"/>
+        <rows value="4.8" user="domain.model#_tourist_17" item="domain.model#_poi_33"/>
+        <rows value="4.0" user="domain.model#_tourist_17" item="domain.model#_poi_34"/>
+        <rows value="4.5" user="domain.model#_tourist_18" item="domain.model#_poi_35"/>
+        <rows value="4.3" user="domain.model#_tourist_18" item="domain.model#_poi_36"/>
+        <rows value="4.9" user="domain.model#_tourist_19" item="domain.model#_poi_37"/>
+        <rows value="4.2" user="domain.model#_tourist_19" item="domain.model#_poi_38"/>
+        <rows value="4.7" user="domain.model#_tourist_20" item="domain.model#_poi_39"/>
+        <rows value="3.9" user="domain.model#_tourist_20" item="domain.model#_poi_40"/>
+        <rows value="4.4" user="domain.model#_tourist_21" item="domain.model#_poi_41"/>
+        <rows value="4.6" user="domain.model#_tourist_21" item="domain.model#_poi_42"/>
+        <rows value="4.0" user="domain.model#_tourist_22" item="domain.model#_poi_43"/>
+        <rows value="4.8" user="domain.model#_tourist_22" item="domain.model#_poi_44"/>
+        <rows value="3.8" user="domain.model#_tourist_23" item="domain.model#_poi_45"/>
+        <rows value="5.0" user="domain.model#_tourist_23" item="domain.model#_poi_46"/>
+        <rows value="4.2" user="domain.model#_tourist_24" item="domain.model#_poi_47"/>
+        <rows value="4.5" user="domain.model#_tourist_24" item="domain.model#_poi_48"/>
+        <rows value="4.1" user="domain.model#_tourist_25" item="domain.model#_poi_49"/>
+        <rows value="4.7" user="domain.model#_tourist_25" item="domain.model#_poi_50"/>
+      </data>
+    </collaborativeFiltering>
+  </filteringRS>
+</org.rs:Algorithm>

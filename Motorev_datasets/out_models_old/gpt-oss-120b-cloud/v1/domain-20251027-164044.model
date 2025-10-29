@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domain="http://org.rs.domain" xmi:version="2.0">
+  <domain:RSDomain xmi:id="_gen_rsdomain" name="National Park of Abruzzo">
+    <!-- Categories -->
+    <domain:categories xsi:type="domain:Category" xmi:id="_gen_category_INFOPOINT" name="INFOPOINT"/>
+    <domain:categories xsi:type="domain:Category" xmi:id="_gen_category_MUSEO" name="MUSEO"/>
+    <domain:categories xsi:type="domain:Category" xmi:id="_gen_category_AREA_FAUNISTICA" name="AREA_FAUNISTICA"/>
+    <domain:categories xsi:type="domain:Category" xmi:id="_gen_category_COMUNE" name="COMUNE"/>
+    <!-- POIs -->
+    <domain:pois xsi:type="domain:OutdoorPOI" xmi:id="_gen_poi_1" name="Gran Sasso Trail" category="_gen_category_AREA_FAUNISTICA"/>
+    <domain:pois xsi:type="domain:IndoorPOI" xmi:id="_gen_poi_2" name="Abruzzo Museum" category="_gen_category_MUSEO"/>
+    <domain:pois xsi:type="domain:OutdoorPOI" xmi:id="_gen_poi_3" name="Rocca Calvani" category="_gen_category_COMUNE"/>
+    <domain:pois xsi:type="domain:OutdoorPOI" xmi:id="_gen_poi_4" name="Lago di Scanno" category="_gen_category_INFOPOINT"/>
+    <domain:pois xsi:type="domain:IndoorPOI" xmi:id="_gen_poi_5" name="Visitor Center" category="_gen_category_INFOPOINT"/>
+    <!-- Tourists -->
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_1" name="Tourist 1">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_1" preferredPriceRange="Low" preferredTransportationMode="Bus" hikingSkill="Beginner" seasonality="Spring" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_2" name="Tourist 2">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_2" preferredPriceRange="Medium" preferredTransportationMode="Car" hikingSkill="Intermediate" seasonality="Summer" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_3" name="Tourist 3">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_3" preferredPriceRange="High" preferredTransportationMode="Train" hikingSkill="Advanced" seasonality="Autumn" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_4" name="Tourist 4">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_4" preferredPriceRange="Medium" preferredTransportationMode="Bike" hikingSkill="Intermediate" seasonality="Winter" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_5" name="Tourist 5">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_5" preferredPriceRange="Low" preferredTransportationMode="Foot" hikingSkill="Beginner" seasonality="Spring" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_6" name="Tourist 6">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_6" preferredPriceRange="High" preferredTransportationMode="Car" hikingSkill="Advanced" seasonality="Summer" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_7" name="Tourist 7">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_7" preferredPriceRange="Medium" preferredTransportationMode="Bus" hikingSkill="Intermediate" seasonality="Autumn" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_8" name="Tourist 8">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_8" preferredPriceRange="Low" preferredTransportationMode="Train" hikingSkill="Beginner" seasonality="Winter" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_9" name="Tourist 9">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_9" preferredPriceRange="Medium" preferredTransportationMode="Bike" hikingSkill="Intermediate" seasonality="Spring" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_10" name="Tourist 10">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_10" preferredPriceRange="High" preferredTransportationMode="Foot" hikingSkill="Advanced" seasonality="Summer" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_11" name="Tourist 11">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_11" preferredPriceRange="Low" preferredTransportationMode="Bus" hikingSkill="Beginner" seasonality="Autumn" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_12" name="Tourist 12">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_12" preferredPriceRange="Medium" preferredTransportationMode="Car" hikingSkill="Intermediate" seasonality="Winter" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_13" name="Tourist 13">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_13" preferredPriceRange="High" preferredTransportationMode="Train" hikingSkill="Advanced" seasonality="Spring" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_14" name="Tourist 14">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_14" preferredPriceRange="Medium" preferredTransportationMode="Bike" hikingSkill="Intermediate" seasonality="Summer" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_15" name="Tourist 15">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_15" preferredPriceRange="Low" preferredTransportationMode="Foot" hikingSkill="Beginner" seasonality="Autumn" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_16" name="Tourist 16">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_16" preferredPriceRange="High" preferredTransportationMode="Bus" hikingSkill="Advanced" seasonality="Winter" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_17" name="Tourist 17">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_17" preferredPriceRange="Medium" preferredTransportationMode="Car" hikingSkill="Intermediate" seasonality="Spring" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_18" name="Tourist 18">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_18" preferredPriceRange="Low" preferredTransportationMode="Train" hikingSkill="Beginner" seasonality="Summer" accessibility="No"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_19" name="Tourist 19">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_19" preferredPriceRange="Medium" preferredTransportationMode="Bike" hikingSkill="Intermediate" seasonality="Autumn" accessibility="Yes"/>
+    </domain:tourists>
+    <domain:tourists xsi:type="domain:Tourist" xmi:id="_gen_tourist_20" name="Tourist 20">
+      <domain:preference xsi:type="domain:Preference" xmi:id="_gen_pref_20" preferredPriceRange="High" preferredTransportationMode="Foot" hikingSkill="Advanced" seasonality="Winter" accessibility="No"/>
+    </domain:tourists>
+  </domain:RSDomain>
+</xmi:XMI>

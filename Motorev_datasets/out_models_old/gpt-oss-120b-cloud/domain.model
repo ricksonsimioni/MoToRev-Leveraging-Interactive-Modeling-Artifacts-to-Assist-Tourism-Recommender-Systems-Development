@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ASCII"?>
+<domain:RSDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domain="http://org.rs.domain" xmi:id="_KkRjkBRXEe-xqaUUKrsSng" name="National Park of Abruzzo">
+  <tourist xmi:id="_4iuNMBRXEe-xqaUUKrsSng" userId="1" name="Mario">
+    <touristPreference xmi:id="_43EskBRXEe-xqaUUKrsSng" preferredPriceRange="HIGH" preferredTransportationMode="WALK" hikingSkill="AVERAGE"/>
+    <touristProfile xmi:id="_5HHTsBRXEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_Hue2oBRhEe-xqaUUKrsSng" userId="2" name="Francesco">
+    <touristPreference xmi:id="_I0ljEBRhEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_JD5xcBRhEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_hihccBRhEe-xqaUUKrsSng" userId="3" name="Sophia">
+    <touristPreference xmi:id="_h8HoMBRhEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_ic5aABRhEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_jTkjUBRhEe-xqaUUKrsSng" userId="4" name="Olivia">
+    <touristPreference xmi:id="_ng1_kBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_nQblABRiEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_jzWPkBRhEe-xqaUUKrsSng" userId="5" name="Liam">
+    <touristPreference xmi:id="_nwkdoBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_lztk0BRhEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_kLTckBRhEe-xqaUUKrsSng" userId="6" name="Ava">
+    <touristPreference xmi:id="_oDtcEBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_oS_1QBRiEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_kkO58BRhEe-xqaUUKrsSng" userId="7" name="Noah">
+    <touristPreference xmi:id="_pC4aEBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_oswZEBRiEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_mY2SMBRhEe-xqaUUKrsSng" userId="8" name="William">
+    <touristPreference xmi:id="_pY3RIBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_pqqy0BRiEe-xqaUUKrsSng"/>
+  </tourist>
+  <tourist xmi:id="_k-AE0BRhEe-xqaUUKrsSng" userId="9" name="Emma">
+    <touristPreference xmi:id="_qAJ6oBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_qUWpABRiEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_mviT4BRhEe-xqaUUKrsSng" userId="10" name="Isabella">
+    <touristPreference xmi:id="_q8b8sBRiEe-xqaUUKrsSng"/>
+    <touristProfile xmi:id="_qmwAkBRiEe-xqaUUKrsSng" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_9zJlMCMiEe-kdKBnMBYA1g" userId="11" name="Benjamin">
+    <touristPreference xmi:id="_RH6d0KwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_RYJSMKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_-QDjoCMiEe-kdKBnMBYA1g" userId="12" name="James">
+    <touristPreference xmi:id="_Ro5rAKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_R5YXAKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_-tOn0CMiEe-kdKBnMBYA1g" userId="13" name="Mia">
+    <touristPreference xmi:id="_SJugIKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_SYdfsKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="__DaTMCMiEe-kdKBnMBYA1g" userId="14" name="Alexander">
+    <touristPreference xmi:id="_SpoIMKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_S8TzoKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="__W2MkCMiEe-kdKBnMBYA1g" userId="15" name="William">
+    <touristPreference xmi:id="_TmTy4KwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_TR5pIKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_AXysMCMjEe-kdKBnMBYA1g" userId="16" name="Harper">
+    <touristPreference xmi:id="_T5VckKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_UKe28KwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_Ap-oYCMjEe-kdKBnMBYA1g" userId="17" name="Valquiria">
+    <touristPreference xmi:id="_UhoysKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_VMHTEKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_ADZwkCMjEe-kdKBnMBYA1g" userId="18" name="Cecilia">
+    <touristPreference xmi:id="_VkZQMKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_V7zqoKwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_A-HFUCMjEe-kdKBnMBYA1g" userId="19" name="Marcello">
+    <touristPreference xmi:id="_WN3rAKwEEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_WnUs0KwEEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_IYpCwKwTEe-3SJufpezX0Q" userId="20" name="Irene">
+    <touristPreference xmi:id="_KxDEkKwTEe-3SJufpezX0Q"/>
+    <touristProfile xmi:id="_KTfl4KwTEe-3SJufpezX0Q"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_21" userId="21" name="Luca">
+    <touristPreference xmi:id="_gen_pref_21" preferredPriceRange="AVERAGE" hikingSkill="BEGINNER"/>
+    <touristProfile xmi:id="_gen_prof_21"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_22" userId="22" name="Giulia">
+    <touristPreference xmi:id="_gen_pref_22" preferredTransportationMode="BICYCLE"/>
+    <touristProfile xmi:id="_gen_prof_22" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_23" userId="23" name="Alessandro">
+    <touristPreference xmi:id="_gen_pref_23" preferredPriceRange="LOW" hikingSkill="ADVANCED"/>
+    <touristProfile xmi:id="_gen_prof_23"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_24" userId="24" name="Martina">
+    <touristPreference xmi:id="_gen_pref_24"/>
+    <touristProfile xmi:id="_gen_prof_24" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_25" userId="25" name="Simone">
+    <touristPreference xmi:id="_gen_pref_25" preferredTransportationMode="CAR" hikingSkill="AVERAGE"/>
+    <touristProfile xmi:id="_gen_prof_25"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_26" userId="26" name="Chiara">
+    <touristPreference xmi:id="_gen_pref_26" preferredPriceRange="HIGH"/>
+    <touristProfile xmi:id="_gen_prof_26" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_27" userId="27" name="Matteo">
+    <touristPreference xmi:id="_gen_pref_27" hikingSkill="BEGINNER"/>
+    <touristProfile xmi:id="_gen_prof_27"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_28" userId="28" name="Aurora">
+    <touristPreference xmi:id="_gen_pref_28" preferredTransportationMode="WALK"/>
+    <touristProfile xmi:id="_gen_prof_28" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_29" userId="29" name="Davide">
+    <touristPreference xmi:id="_gen_pref_29" preferredPriceRange="AVERAGE" hikingSkill="ADVANCED"/>
+    <touristProfile xmi:id="_gen_prof_29"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_30" userId="30" name="Alice">
+    <touristPreference xmi:id="_gen_pref_30"/>
+    <touristProfile xmi:id="_gen_prof_30" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_31" userId="31" name="Riccardo">
+    <touristPreference xmi:id="_gen_pref_31" preferredTransportationMode="BICYCLE" hikingSkill="AVERAGE"/>
+    <touristProfile xmi:id="_gen_prof_31"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_32" userId="32" name="Greta">
+    <touristPreference xmi:id="_gen_pref_32" preferredPriceRange="LOW"/>
+    <touristProfile xmi:id="_gen_prof_32" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_33" userId="33" name="Tommaso">
+    <touristPreference xmi:id="_gen_pref_33" hikingSkill="BEGINNER"/>
+    <touristProfile xmi:id="_gen_prof_33"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_34" userId="34" name="Nicole">
+    <touristPreference xmi:id="_gen_pref_34" preferredTransportationMode="CAR"/>
+    <touristProfile xmi:id="_gen_prof_34" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_35" userId="35" name="Andrea">
+    <touristPreference xmi:id="_gen_pref_35" preferredPriceRange="HIGH" hikingSkill="ADVANCED"/>
+    <touristProfile xmi:id="_gen_prof_35"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_36" userId="36" name="Sara">
+    <touristPreference xmi:id="_gen_pref_36"/>
+    <touristProfile xmi:id="_gen_prof_36" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_37" userId="37" name="Federico">
+    <touristPreference xmi:id="_gen_pref_37" preferredTransportationMode="WALK" hikingSkill="AVERAGE"/>
+    <touristProfile xmi:id="_gen_prof_37"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_38" userId="38" name="Gaia">
+    <touristPreference xmi:id="_gen_pref_38" preferredPriceRange="AVERAGE"/>
+    <touristProfile xmi:id="_gen_prof_38" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_39" userId="39" name="Lorenzo">
+    <touristPreference xmi:id="_gen_pref_39" hikingSkill="BEGINNER"/>
+    <touristProfile xmi:id="_gen_prof_39"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_40" userId="40" name="Anna">
+    <touristPreference xmi:id="_gen_pref_40" preferredTransportationMode="BICYCLE"/>
+    <touristProfile xmi:id="_gen_prof_40" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_41" userId="41" name="Marco">
+    <touristPreference xmi:id="_gen_pref_41" preferredPriceRange="LOW" hikingSkill="AVERAGE"/>
+    <touristProfile xmi:id="_gen_prof_41"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_42" userId="42" name="Beatrice">
+    <touristPreference xmi:id="_gen_pref_42"/>
+    <touristProfile xmi:id="_gen_prof_42" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_43" userId="43" name="Antonio">
+    <touristPreference xmi:id="_gen_pref_43" preferredTransportationMode="CAR" hikingSkill="ADVANCED"/>
+    <touristProfile xmi:id="_gen_prof_43"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_44" userId="44" name="Vittoria">
+    <touristPreference xmi:id="_gen_pref_44" preferredPriceRange="HIGH"/>
+    <touristProfile xmi:id="_gen_prof_44" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_45" userId="45" name="Giovanni">
+    <touristPreference xmi:id="_gen_pref_45" hikingSkill="BEGINNER"/>
+    <touristProfile xmi:id="_gen_prof_45"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_46" userId="46" name="Elena">
+    <touristPreference xmi:id="_gen_pref_46" preferredTransportationMode="WALK"/>
+    <touristProfile xmi:id="_gen_prof_46" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_47" userId="47" name="Nicola">
+    <touristPreference xmi:id="_gen_pref_47" preferredPriceRange="AVERAGE" hikingSkill="AVERAGE"/>
+    <touristProfile xmi:id="_gen_prof_47"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_48" userId="48" name="Francesca">
+    <touristPreference xmi:id="_gen_pref_48"/>
+    <touristProfile xmi:id="_gen_prof_48" gender="FEMALE"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_49" userId="49" name="Edoardo">
+    <touristPreference xmi:id="_gen_pref_49" preferredTransportationMode="BICYCLE" hikingSkill="ADVANCED"/>
+    <touristProfile xmi:id="_gen_prof_49"/>
+  </tourist>
+  <tourist xmi:id="_gen_tourist_50" userId="50" name="Caterina">
+    <touristPreference xmi:id="_gen_pref_50" preferredPriceRange="LOW"/>
+    <touristProfile xmi:id="_gen_prof_50" gender="FEMALE"/>
+  </tourist>
+  <pois xsi:type="domain:Outdoor" xmi:id="_0gfqoJ3PEe-msKNMZk5ySw" itemId="1" category="_F-onYJ3OEe-msKNMZk5ySw" name="Camping Wolf"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_HZUqcJ3TEe-msKNMZk5ySw" itemId="2" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Pescasseroli"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_BH1o0J3UEe-msKNMZk5ySw" itemId="3" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Opi"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_TY2XkBRXEe-xqaUUKrsSng" itemId="4" longitude="" category="_F-onYJ3OEe-msKNMZk5ySw" name="Area Faunistica del Lupo"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_Ve7TQBRXEe-xqaUUKrsSng" itemId="5" category="_F-onYJ3OEe-msKNMZk5ySw" name="Area Faunistica del Cervo"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_WpJDoBRXEe-xqaUUKrsSng" itemId="6" category="_F-onYJ3OEe-msKNMZk5ySw" name="Area Faunistica dell'Orso"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_JM6SgJ3UEe-msKNMZk5ySw" itemId="7" category="_FaD6sJ3OEe-msKNMZk5ySw" name="MOrso"/>
+  <pois xsi:type="domain:Outdoor" xmi:id="_X2jWULC1Ee-9_-U5v1vn1w" itemId="19" category="_IEe5kJ3OEe-msKNMZk5ySw" name="Civitella Alfedena"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_VI2VkBRXEe-xqaUUKrsSng" itemId="8" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Pro Loco Pescasseroli"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_U5Bw4BRXEe-xqaUUKrsSng" itemId="9" category="_KbgbUJ3OEe-msKNMZk5ySw" name="Museo Storico del Parco Nazionale d'Abruzzo, Lazio e Molise" openingHours=""/>
+  <pois xsi:type="domain:Indoor" xmi:id="_C4cq0J3UEe-msKNMZk5ySw" itemId="10" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Camosciara"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_FeijUJ3UEe-msKNMZk5ySw" itemId="11" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Centro Visita dell'Orso"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_CtVnQCMjEe-kdKBnMBYA1g" itemId="12" category="_FaD6sJ3OEe-msKNMZk5ySw" name="Centro Visita del Pipistrello"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_D9pYkCMjEe-kdKBnMBYA1g" itemId="13" category="_KbgbUJ3OEe-msKNMZk5ySw" name="Museo della Transumanza" capacity=""/>
+  <pois xsi:type="domain:Indoor" xmi:id="_EUDGYCMjEe-kdKBnMBYA1g" itemId="14" longitude="" category="_KbgbUJ3OEe-msKNMZk5ySw" name="Museo Civico Archeologico Antonio De Nino"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_E3H-QCMjEe-kdKBnMBYA1g" itemId="15" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Ufficio Informazioni Scanno" capacity=""/>
+  <pois xsi:type="domain:Indoor" xmi:id="_uPauIJ3PEe-msKNMZk5ySw" itemId="16" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Fattoria Didattica &quot;Le Case Marcieglie&quot;"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_mjSv8J3PEe-msKNMZk5ySw" itemId="17" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Ecorifugio Cicerana"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_qRI6sJ3PEe-msKNMZk5ySw" itemId="18" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Naturalmente Trekking"/>
+  <pois xsi:type="domain:Indoor" xmi:id="_tMPhgLC1Ee-9_-U5v1vn1w" itemId="20" category="_Jq6r4J3OEe-msKNMZk5ySw" name="InfoPoint Istituzionale Centro Visita di Pescasseroli"/>
+  <categories xmi:id="_F-onYJ3OEe-msKNMZk5ySw" categoryId="AREA_FAUNISTICA" category="AREA_FAUNISTICA"/>
+  <categories xmi:id="_FaD6sJ3OEe-msKNMZk5ySw" categoryId="CENTRO_VISITA" category="CENTRO_VISITA"/>
+  <categories xmi:id="_IEe5kJ3OEe-msKNMZk5ySw" categoryId="COMUNE"/>
+  <categories xmi:id="_I0wf8J3OEe-msKNMZk5ySw" categoryId="GENERICO" category="GENERICO"/>
+  <categories xmi:id="_Jq6r4J3OEe-msKNMZk5ySw" categoryId="INFOPOINT" category="INFOPOINT"/>
+  <categories xmi:id="_KbgbUJ3OEe-msKNMZk5ySw" categoryId="MUSEO" category="MUSEO"/>
+</domain:RSDomain>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:org.rs="http://org.rs"
+         xmlns:domain="http://org.rs.domain"
+         xmi:version="2.0">
+  <org.rs:Algorithm xmi:id="_alg_TRS" name="TRS">
+    <filteringRS xsi:type="org.rs:HybridBased" xmi:id="_hf_1">
+      <collaborativeFiltering xsi:type="org.rs:CFComponent" xmi:id="_cf_1">
+        <data xmi:id="_data_1">
+          <rows xmi:id="_row1"  value="4.27" user="domain.model#_gen_tourist_1"  item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row2"  value="4.86" user="domain.model#_gen_tourist_2"  item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row3"  value="3.91" user="domain.model#_gen_tourist_3"  item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row4"  value="4.73" user="domain.model#_gen_tourist_4"  item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row5"  value="4.12" user="domain.model#_gen_tourist_5"  item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row6"  value="4.58" user="domain.model#_gen_tourist_6"  item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row7"  value="4.33" user="domain.model#_gen_tourist_7"  item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row8"  value="4.95" user="domain.model#_gen_tourist_8"  item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row9"  value="4.04" user="domain.model#_gen_tourist_9"  item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row10" value="3.78" user="domain.model#_gen_tourist_10" item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row11" value="4.61" user="domain.model#_gen_tourist_11" item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row12" value="4.22" user="domain.model#_gen_tourist_12" item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row13" value="4.87" user="domain.model#_gen_tourist_13" item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row14" value="4.35" user="domain.model#_gen_tourist_14" item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row15" value="3.96" user="domain.model#_gen_tourist_15" item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row16" value="4.69" user="domain.model#_gen_tourist_16" item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row17" value="4.51" user="domain.model#_gen_tourist_17" item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row18" value="4.77" user="domain.model#_gen_tourist_18" item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row19" value="3.84" user="domain.model#_gen_tourist_19" item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row20" value="4.10" user="domain.model#_gen_tourist_20" item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row21" value="4.42" user="domain.model#_gen_tourist_1"  item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row22" value="4.90" user="domain.model#_gen_tourist_2"  item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row23" value="3.73" user="domain.model#_gen_tourist_3"  item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row24" value="4.58" user="domain.model#_gen_tourist_4"  item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row25" value="4.19" user="domain.model#_gen_tourist_5"  item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row26" value="4.64" user="domain.model#_gen_tourist_6"  item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row27" value="4.28" user="domain.model#_gen_tourist_7"  item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row28" value="4.99" user="domain.model#_gen_tourist_8"  item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row29" value="4.07" user="domain.model#_gen_tourist_9"  item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row30" value="3.81" user="domain.model#_gen_tourist_10" item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row31" value="4.55" user="domain.model#_gen_tourist_11" item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row32" value="4.26" user="domain.model#_gen_tourist_12" item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row33" value="4.88" user="domain.model#_gen_tourist_13" item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row34" value="4.31" user="domain.model#_gen_tourist_14" item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row35" value="3.99" user="domain.model#_gen_tourist_15" item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row36" value="4.71" user="domain.model#_gen_tourist_16" item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row37" value="4.49" user="domain.model#_gen_tourist_17" item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row38" value="4.80" user="domain.model#_gen_tourist_18" item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row39" value="3.86" user="domain.model#_gen_tourist_19" item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row40" value="4.13" user="domain.model#_gen_tourist_20" item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row41" value="4.39" user="domain.model#_gen_tourist_1"  item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row42" value="4.93" user="domain.model#_gen_tourist_2"  item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row43" value="3.70" user="domain.model#_gen_tourist_3"  item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row44" value="4.60" user="domain.model#_gen_tourist_4"  item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row45" value="4.21" user="domain.model#_gen_tourist_5"  item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row46" value="4.66" user="domain.model#_gen_tourist_6"  item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row47" value="4.30" user="domain.model#_gen_tourist_7"  item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row48" value="4.97" user="domain.model#_gen_tourist_8"  item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row49" value="4.05" user="domain.model#_gen_tourist_9"  item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row50" value="3.79" user="domain.model#_gen_tourist_10" item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row51" value="4.53" user="domain.model#_gen_tourist_11" item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row52" value="4.24" user="domain.model#_gen_tourist_12" item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row53" value="4.85" user="domain.model#_gen_tourist_13" item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row54" value="4.33" user="domain.model#_gen_tourist_14" item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row55" value="4.00" user="domain.model#_gen_tourist_15" item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row56" value="4.73" user="domain.model#_gen_tourist_16" item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row57" value="4.47" user="domain.model#_gen_tourist_17" item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row58" value="4.82" user="domain.model#_gen_tourist_18" item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row59" value="3.88" user="domain.model#_gen_tourist_19" item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row60" value="4.15" user="domain.model#_gen_tourist_20" item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row61" value="4.41" user="domain.model#_gen_tourist_1"  item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row62" value="4.96" user="domain.model#_gen_tourist_2"  item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row63" value="3.75" user="domain.model#_gen_tourist_3"  item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row64" value="4.62" user="domain.model#_gen_tourist_4"  item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row65" value="4.18" user="domain.model#_gen_tourist_5"  item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row66" value="4.68" user="domain.model#_gen_tourist_6"  item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row67" value="4.32" user="domain.model#_gen_tourist_7"  item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row68" value="4.99" user="domain.model#_gen_tourist_8"  item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row69" value="4.03" user="domain.model#_gen_tourist_9"  item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row70" value="3.82" user="domain.model#_gen_tourist_10" item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row71" value="4.57" user="domain.model#_gen_tourist_11" item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row72" value="4.27" user="domain.model#_gen_tourist_12" item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row73" value="4.87" user="domain.model#_gen_tourist_13" item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row74" value="4.35" user="domain.model#_gen_tourist_14" item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row75" value="4.02" user="domain.model#_gen_tourist_15" item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row76" value="4.71" user="domain.model#_gen_tourist_16" item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row77" value="4.45" user="domain.model#_gen_tourist_17" item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row78" value="4.84" user="domain.model#_gen_tourist_18" item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row79" value="3.90" user="domain.model#_gen_tourist_19" item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row80" value="4.17" user="domain.model#_gen_tourist_20" item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row81" value="4.43" user="domain.model#_gen_tourist_1"  item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row82" value="4.94" user="domain.model#_gen_tourist_2"  item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row83" value="3.68" user="domain.model#_gen_tourist_3"  item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row84" value="4.64" user="domain.model#_gen_tourist_4"  item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row85" value="4.20" user="domain.model#_gen_tourist_5"  item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row86" value="4.70" user="domain.model#_gen_tourist_6"  item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row87" value="4.34" user="domain.model#_gen_tourist_7"  item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row88" value="4.98" user="domain.model#_gen_tourist_8"  item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row89" value="4.01" user="domain.model#_gen_tourist_9"  item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row90" value="3.85" user="domain.model#_gen_tourist_10" item="domain.model#_gen_poi_4"/>
+          <rows xmi:id="_row91" value="4.55" user="domain.model#_gen_tourist_11" item="domain.model#_gen_poi_5"/>
+          <rows xmi:id="_row92" value="4.25" user="domain.model#_gen_tourist_12" item="domain.model#_gen_poi_6"/>
+          <rows xmi:id="_row93" value="4.86" user="domain.model#_gen_tourist_13" item="domain.model#_gen_poi_7"/>
+          <rows xmi:id="_row94" value="4.36" user="domain.model#_gen_tourist_14" item="domain.model#_gen_poi_8"/>
+          <rows xmi:id="_row95" value="4.03" user="domain.model#_gen_tourist_15" item="domain.model#_gen_poi_9"/>
+          <rows xmi:id="_row96" value="4.72" user="domain.model#_gen_tourist_16" item="domain.model#_gen_poi_10"/>
+          <rows xmi:id="_row97" value="4.46" user="domain.model#_gen_tourist_17" item="domain.model#_gen_poi_1"/>
+          <rows xmi:id="_row98" value="4.85" user="domain.model#_gen_tourist_18" item="domain.model#_gen_poi_2"/>
+          <rows xmi:id="_row99" value="3.92" user="domain.model#_gen_tourist_19" item="domain.model#_gen_poi_3"/>
+          <rows xmi:id="_row100" value="4.18" user="domain.model#_gen_tourist_20" item="domain.model#_gen_poi_4"/>
+        </data>
+      </collaborativeFiltering>
+    </filteringRS>
+  </org.rs:Algorithm>
+</xmi:XMI>

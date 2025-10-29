@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0"
+                   xmlns:xmi="http://www.omg.org/XMI"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns:org.rs="http://org.rs"
+                   xmlns:domain="http://org.rs.domain"
+                   name="TRS">
+  <filteringRS xsi:type="org.rs:HybridBased">
+    <cfComponent xsi:type="org.rs:CollaborativeFiltering">
+      <data>
+        <rows value="4.5" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_1" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_2" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_3" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_4" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_5" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_6" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_7" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_8" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_9" item="domain.model#_gen_poi_10"/>
+        <rows value="4.5" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_1"/>
+        <rows value="4.6" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_2"/>
+        <rows value="4.7" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_3"/>
+        <rows value="4.8" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_4"/>
+        <rows value="4.9" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_5"/>
+        <rows value="4.5" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_6"/>
+        <rows value="4.6" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_7"/>
+        <rows value="4.7" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_8"/>
+        <rows value="4.8" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_9"/>
+        <rows value="4.9" user="domain.model#_gen_user_10" item="domain.model#_gen_poi_10"/>
+      </data>
+    </cfComponent>
+    <!-- Content-based component could be added here if desired -->
+  </filteringRS>
+</org.rs:Algorithm>

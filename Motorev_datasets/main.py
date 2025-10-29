@@ -219,7 +219,7 @@ def main_xmi_pipeline_tourism():
     ]
 
     # Output folders
-    out_root = "./out_models"
+    out_root = "./out_models_old"
     os.makedirs(out_root, exist_ok=True)
     model_slug = _safe_slug(MODEL) or "model"
     export_dir = os.path.join(out_root, model_slug)
@@ -288,7 +288,7 @@ def main_xmi_pipeline_tourism_versions(
     NUM_RATINGS: int = 600,
     PREFERENCE_TYPES: Optional[List[str]] = None,
     FEW_SHOTS: Optional[List[str]] = None,
-    OUT_ROOT: str = "./out_models"
+    OUT_ROOT: str = "./out_models_old"
 ):
     """
     Generate N versions of:
@@ -307,7 +307,7 @@ def main_xmi_pipeline_tourism_versions(
     ]
     FEW_SHOTS = FEW_SHOTS or []  # paths to .model few-shot examples
 
-    # Folder: ./out_models/<model_slug>/
+    # Folder: ./out_models_old/<model_slug>/
     os.makedirs(OUT_ROOT, exist_ok=True)
     model_slug = _safe_slug(MODEL) or "model"
     export_root = os.path.join(OUT_ROOT, model_slug)
@@ -328,7 +328,7 @@ def main_xmi_pipeline_tourism_versions(
     for v in range(1, N_VERSIONS + 1):
         print(f"\n=== Version {v}/{N_VERSIONS} ===")
 
-        # Optional per-version subfolder: ./out_models/<model_slug>/v{v}
+        # Optional per-version subfolder: ./out_models_old/<model_slug>/v{v}
         version_dir = os.path.join(export_root, f"v{v}")
         os.makedirs(version_dir, exist_ok=True)
 
@@ -397,8 +397,8 @@ if __name__ == "__main__":
     main_xmi_pipeline_tourism_versions(
         N_VERSIONS=5,
         MODEL="gpt-oss:120b-cloud",
-        NUM_USERS=20,
-        NUM_RATINGS=25,
+        NUM_USERS=200,
+        NUM_RATINGS=400,
         PREFERENCE_TYPES=[
             "preferredPriceRange", "preferredTransportationMode",
             "hikingSkill"
@@ -407,6 +407,6 @@ if __name__ == "__main__":
             "./input_models/large/domain.model",
             "./input_models/large/recommendersystemGeneric.model",
         ],
-        OUT_ROOT="./out_models"
+        OUT_ROOT="./out_models_hybrid/large"
     )
 

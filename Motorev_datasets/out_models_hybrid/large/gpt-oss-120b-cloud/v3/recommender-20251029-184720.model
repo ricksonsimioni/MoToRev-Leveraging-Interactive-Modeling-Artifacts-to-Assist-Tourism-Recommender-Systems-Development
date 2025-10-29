@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain">
+  <org.rs:Algorithm xmi:id="_alg_TRS" name="TRS">
+    <filteringRS xsi:type="org.rs:HybridBased" xmi:id="_hybrid_TRS">
+      <cfComponent xsi:type="org.rs:CFComponent" xmi:id="_cf_TRS">
+        <data xmi:id="_data_CF_TRS">
+          <!-- Rating rows would be placed here linking to domain.model resources.
+               Omitted because no valid domain model IDs are available. -->
+        </data>
+      </cfComponent>
+      <cbComponent xsi:type="org.rs:CBComponent" xmi:id="_cb_TRS">
+        <features>
+          <feature xmi:id="_prefPrice" name="preferredPriceRange" value="mid"/>
+          <feature xmi:id="_prefTransport" name="preferredTransportationMode" value="public"/>
+          <feature xmi:id="_prefSkill" name="hikingSkill" value="intermediate"/>
+        </features>
+      </cbComponent>
+    </filteringRS>
+  </org.rs:Algorithm>
+</xmi:XMI>

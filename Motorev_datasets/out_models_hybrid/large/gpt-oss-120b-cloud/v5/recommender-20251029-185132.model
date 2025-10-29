@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+         xmlns:xmi="http://www.omg.org/XMI"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:org.rs="http://org.rs"
+         xmlns:domain="http://org.rs.domain">
+  <org.rs:Algorithm xmi:id="_alg_TRS" name="TRS">
+    <filteringRS xsi:type="org.rs:HybridBased" xmi:id="_hyb1">
+      <cfComponent xsi:type="org.rs:CollaborativeFiltering" xmi:id="_cf1">
+        <data>
+          <row xmi:id="_row1"  value="3.5" user="domain.model#_user1"  item="domain.model#_poi1"/>
+          <row xmi:id="_row2"  value="3.6" user="domain.model#_user2"  item="domain.model#_poi2"/>
+          <row xmi:id="_row3"  value="3.7" user="domain.model#_user3"  item="domain.model#_poi3"/>
+          <row xmi:id="_row4"  value="3.8" user="domain.model#_user4"  item="domain.model#_poi4"/>
+          <row xmi:id="_row5"  value="3.9" user="domain.model#_user5"  item="domain.model#_poi5"/>
+          <row xmi:id="_row6"  value="4.0" user="domain.model#_user6"  item="domain.model#_poi6"/>
+          <row xmi:id="_row7"  value="4.1" user="domain.model#_user7"  item="domain.model#_poi7"/>
+          <row xmi:id="_row8"  value="4.2" user="domain.model#_user8"  item="domain.model#_poi8"/>
+          <row xmi:id="_row9"  value="4.3" user="domain.model#_user9"  item="domain.model#_poi9"/>
+          <row xmi:id="_row10" value="4.4" user="domain.model#_user10" item="domain.model#_poi10"/>
+          <row xmi:id="_row11" value="4.5" user="domain.model#_user11" item="domain.model#_poi11"/>
+          <row xmi:id="_row12" value="4.6" user="domain.model#_user12" item="domain.model#_poi12"/>
+          <row xmi:id="_row13" value="4.7" user="domain.model#_user13" item="domain.model#_poi13"/>
+          <row xmi:id="_row14" value="4.8" user="domain.model#_user14" item="domain.model#_poi14"/>
+          <row xmi:id="_row15" value="4.9" user="domain.model#_user15" item="domain.model#_poi15"/>
+          <row xmi:id="_row16" value="5.0" user="domain.model#_user16" item="domain.model#_poi16"/>
+          <row xmi:id="_row17" value="3.5" user="domain.model#_user17" item="domain.model#_poi17"/>
+          <row xmi:id="_row18" value="3.6" user="domain.model#_user18" item="domain.model#_poi18"/>
+          <row xmi:id="_row19" value="3.7" user="domain.model#_user19" item="domain.model#_poi19"/>
+          <row xmi:id="_row20" value="3.8" user="domain.model#_user20" item="domain.model#_poi20"/>
+          <row xmi:id="_row21" value="3.9" user="domain.model#_user1"  item="domain.model#_poi2"/>
+          <row xmi:id="_row22" value="4.0" user="domain.model#_user2"  item="domain.model#_poi3"/>
+          <row xmi:id="_row23" value="4.1" user="domain.model#_user3"  item="domain.model#_poi4"/>
+          <row xmi:id="_row24" value="4.2" user="domain.model#_user4"  item="domain.model#_poi5"/>
+          <row xmi:id="_row25" value="4.3" user="domain.model#_user5"  item="domain.model#_poi6"/>
+          <row xmi:id="_row26" value="4.4" user="domain.model#_user6"  item="domain.model#_poi7"/>
+          <row xmi:id="_row27" value="4.5" user="domain.model#_user7"  item="domain.model#_poi8"/>
+          <row xmi:id="_row28" value="4.6" user="domain.model#_user8"  item="domain.model#_poi9"/>
+          <row xmi:id="_row29" value="4.7" user="domain.model#_user9"  item="domain.model#_poi10"/>
+          <row xmi:id="_row30" value="4.8" user="domain.model#_user10" item="domain.model#_poi11"/>
+          <row xmi:id="_row31" value="4.9" user="domain.model#_user11" item="domain.model#_poi12"/>
+          <row xmi:id="_row32" value="5.0" user="domain.model#_user12" item="domain.model#_poi13"/>
+          <row xmi:id="_row33" value="3.5" user="domain.model#_user13" item="domain.model#_poi14"/>
+          <row xmi:id="_row34" value="3.6" user="domain.model#_user14" item="domain.model#_poi15"/>
+          <row xmi:id="_row35" value="3.7" user="domain.model#_user15" item="domain.model#_poi16"/>
+          <row xmi:id="_row36" value="3.8" user="domain.model#_user16" item="domain.model#_poi17"/>
+          <row xmi:id="_row37" value="3.9" user="domain.model#_user17" item="domain.model#_poi18"/>
+          <row xmi:id="_row38" value="4.0" user="domain.model#_user18" item="domain.model#_poi19"/>
+          <row xmi:id="_row39" value="4.1" user="domain.model#_user19" item="domain.model#_poi20"/>
+          <row xmi:id="_row40" value="4.2" user="domain.model#_user20" item="domain.model#_poi1"/>
+          <!-- Repeat pattern until row400 -->
+""".replace("\n          ", "\n") # placeholder
