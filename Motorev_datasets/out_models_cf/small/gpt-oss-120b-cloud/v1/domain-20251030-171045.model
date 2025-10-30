@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain:RSDomain xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:domain="http://org.rs.domain"
+    xmi:id="_gen_domain_1"
+    name="National Park of Abruzzo">
+  <tourists>
+    <domain:Tourist xmi:id="_gen_tourist_1" name="Tourist 1">
+      <preference preferredPriceRange="Low" preferredTransportationMode="Bus" hikingSkill="Beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_2" name="Tourist 2">
+      <preference preferredPriceRange="Medium" preferredTransportationMode="Train" hikingSkill="Intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_3" name="Tourist 3">
+      <preference preferredPriceRange="High" preferredTransportationMode="Car" hikingSkill="Expert"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_4" name="Tourist 4">
+      <preference preferredPriceRange="Medium" preferredTransportationMode="Foot" hikingSkill="Beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_5" name="Tourist 5">
+      <preference preferredPriceRange="Low" preferredTransportationMode="Bus" hikingSkill="Intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_6" name="Tourist 6">
+      <preference preferredPriceRange="High" preferredTransportationMode="Car" hikingSkill="Expert"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_7" name="Tourist 7">
+      <preference preferredPriceRange="Medium" preferredTransportationMode="Train" hikingSkill="Beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_8" name="Tourist 8">
+      <preference preferredPriceRange="Low" preferredTransportationMode="Foot" hikingSkill="Intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_9" name="Tourist 9">
+      <preference preferredPriceRange="High" preferredTransportationMode="Car" hikingSkill="Beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_10" name="Tourist 10">
+      <preference preferredPriceRange="Medium" preferredTransportationMode="Bus" hikingSkill="Expert"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_11" name="Tourist 11">
+      <preference preferredPriceRange="Low" preferredTransportationMode="Train" hikingSkill="Intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_12" name="Tourist 12">
+      <preference preferredPriceRange="Medium" preferredTransportationMode="Foot" hikingSkill="Expert"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_13" name="Tourist 13">
+      <preference preferredPriceRange="High" preferredTransportationMode="Bus" hikingSkill="Beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_14" name="Tourist 14">
+      <preference preferredPriceRange="Low" preferredTransportationMode="Car" hikingSkill="Intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_15" name="Tourist 15">
+      <preference preferredPriceRange="Medium" preferredTransportationMode="Train" hikingSkill="Beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_16" name="Tourist 16">
+      <preference preferredPriceRange="High" preferredTransportationMode="Foot" hikingSkill="Expert"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_17" name="Tourist 17">
+      <preference preferredPriceRange="Low" preferredTransportationMode="Bus" hikingSkill="Intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_18" name="Tourist 18">
+      <preference preferredPriceRange="Medium" preferredTransportationMode="Car" hikingSkill="Beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_19" name="Tourist 19">
+      <preference preferredPriceRange="High" preferredTransportationMode="Train" hikingSkill="Expert"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_20" name="Tourist 20">
+      <preference preferredPriceRange="Low" preferredTransportationMode="Foot" hikingSkill="Intermediate"/>
+    </domain:Tourist>
+  </tourists>
+  <pois>
+    <domain:IndoorPOI xmi:id="_gen_poi_1" name="Museo Abruzzo">
+      <category xmi:idref="_gen_category_museo"/>
+    </domain:IndoorPOI>
+    <domain:OutdoorPOI xmi:id="_gen_poi_2" name="Info Point Center">
+      <category xmi:idref="_gen_category_infopoint"/>
+    </domain:OutdoorPOI>
+    <domain:OutdoorPOI xmi:id="_gen_poi_3" name="Area Faunistica">
+      <category xmi:idref="_gen_category_faunistica"/>
+    </domain:OutdoorPOI>
+    <domain:OutdoorPOI xmi:id="_gen_poi_4" name="Comune di Pescara Office">
+      <category xmi:idref="_gen_category_comune"/>
+    </domain:OutdoorPOI>
+  </pois>
+  <categories>
+    <domain:Category xmi:id="_gen_category_infopoint" name="INFOPOINT"/>
+    <domain:Category xmi:id="_gen_category_museo" name="MUSEO"/>
+    <domain:Category xmi:id="_gen_category_faunistica" name="AREA_FAUNISTICA"/>
+    <domain:Category xmi:id="_gen_category_comune" name="COMUNE"/>
+  </categories>
+</domain:RSDomain>

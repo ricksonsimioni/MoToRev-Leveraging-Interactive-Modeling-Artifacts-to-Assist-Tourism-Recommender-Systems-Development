@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:org.rs="http://org.rs"
+         xmlns:domain="http://org.rs.domain"
+         xmi:version="2.0">
+  <org.rs:Algorithm xmi:id="Alg_TRS" name="TRS">
+    <filteringRS xsi:type="org.rs:ContentBased" xmi:id="CB_TRS">
+      <featureRepresentations xmi:id="FR_TRS">
+        <itemFeatures xmi:id="ItemFeat_TRS">
+          <!-- Example feature referencing domain attribute (category/type) -->
+          <feature xmi:id="ItemFeat_Category" name="category" type="categorical"/>
+          <feature xmi:id="ItemFeat_Type" name="type" type="categorical"/>
+        </itemFeatures>
+        <userFeatures xmi:id="UserFeat_TRS">
+          <!-- Preference dimensions defined in the description -->
+          <feature xmi:id="UserPref_PriceRange" name="preferredPriceRange" type="categorical"/>
+          <feature xmi:id="UserPref_TransportationMode" name="preferredTransportationMode" type="categorical"/>
+          <feature xmi:id="UserPref_HikingSkill" name="hikingSkill" type="categorical"/>
+        </userFeatures>
+      </featureRepresentations>
+    </filteringRS>
+  </org.rs:Algorithm>
+</xmi:XMI>

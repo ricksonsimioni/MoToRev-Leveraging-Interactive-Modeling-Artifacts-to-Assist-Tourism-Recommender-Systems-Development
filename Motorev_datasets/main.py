@@ -172,6 +172,104 @@ def compose_tourism_domain_description(
         f"- Avoid hallucinated attributes; if unsure, omit optional fields."
     )
 
+
+
+
+
+def compose_tourism_rs_cf_description(
+    num_ratings: int,
+    preference_types: List[str],
+) -> str:
+    """
+    Collaborative Filtering only.
+    - Uses rating matrix rows (<rows>) that link users and items in domain.model.
+    - No CB feature vectors required; still respects metamodel and href constraints.
+    """
+    prefs_csv = ", ".join(preference_types) if preference_types else "priceRange, transportationMode, hikingSkill"
+    return (
+        "Collaborative Filtering tourism recommender (org.rs:CollaborativeBased).\n\n"
+        "STRUCTURE\n"
+        "- Root element: org.rs:Algorithm with name='TRS'.\n"
+        "- Provide a <filteringRS xsi:type='org.rs:CollaborativeBased'> that contains:\n"
+        "  * A CF component with a <data> section containing rating rows only.\n"
+        "  * Do NOT include CB feature vectors in this variant.\n\n"
+        "RATINGS\n"
+        f"- Generate AT LEAST {num_ratings} rating rows as <rows value='float'>.\n"
+        "- EACH row MUST link a user and an item using cross-resource hrefs to domain.model\n"
+        "  (e.g., domain.model#_gen_tourist_21 and a POI id like domain.model#_0gfqoJ3PEe-msKNMZk5ySw).\n"
+        "- Distribute ratings across multiple users and items; values in [3.5, 5.0].\n\n"
+        "CONSTRAINTS\n"
+        "- All href targets MUST exist in domain.model (no fabricated ids).\n"
+        "- Preserve xmi:version='2.0' and namespaces: http://org.rs and http://org.rs.domain.\n"
+        "- If a referenced id is missing, OMIT that row (do not invent ids).\n"
+        f"- Although CB is not used, keep domain alignment in mind: preferences include {prefs_csv}.\n"
+        "- Output ONLY valid XMI payload for the recommender model."
+    )
+
+def compose_tourism_rs_cb_description(
+    num_ratings: int,
+    preference_types: List[str],
+) -> str:
+    """
+    Content-Based only.
+    - Uses item/user feature representations aligned to domain preferences.
+    - Ratings are optional but allowed (e.g., seed supervision), still with valid hrefs.
+    """
+    prefs_csv = ", ".join(preference_types) if preference_types else "priceRange, transportationMode, hikingSkill"
+    return (
+        "Content-Based tourism recommender (org.rs:ContentBased).\n\n"
+        "STRUCTURE\n"
+        "- Root element: org.rs:Algorithm with name='TRS'.\n"
+        "- Provide a <filteringRS xsi:type='org.rs:ContentBased'> that contains:\n"
+        "  * A CB component with feature representations referencing domain attributes.\n"
+        "    - For items (POIs): encode features derived from category/type (Indoor/Outdoor) and the preference dimensions.\n"
+        "    - For users (tourists): encode preferences strictly from the domain model (no new attributes).\n"
+        "  * (Optional) A minimal rating <data> block may be included for calibration, but CB matching must be derivable from features alone.\n\n"
+        "FEATURES\n"
+        f"- Allowed preference dimensions: {prefs_csv}. Do NOT introduce attributes outside these unless present in domain.model.\n"
+        "- For each feature/link, use cross-resource hrefs to domain.model for the target entity (user/item).\n"
+        "- Provide normalized or categorical encodings within the XMI as attributes/elements supported by the metamodel (no free-form prose).\n\n"
+        "OPTIONAL RATINGS (if included)\n"
+        f"- Up to {num_ratings} rows as <rows value='float'>, each linking user/item via domain.model hrefs.\n"
+        "- Values in [3.5, 5.0]; omit any row whose href target does not exist.\n\n"
+        "CONSTRAINTS\n"
+        "- All href targets MUST exist in domain.model; do not fabricate ids.\n"
+        "- Use xmi:version='2.0' and namespaces: http://org.rs and http://org.rs.domain.\n"
+        "- Output ONLY valid XMI payload for the recommender model."
+    )
+
+def compose_tourism_rs_hybrid_description(
+    num_ratings: int,
+    preference_types: List[str],
+) -> str:
+    """
+    Hybrid CF + CB (updated).
+    - Keeps your original hybrid spec but clarifies CB feature encoding and id discipline.
+    """
+    prefs_csv = ", ".join(preference_types) if preference_types else "priceRange, transportationMode, hikingSkill"
+    return (
+        "Hybrid tourism recommender (org.rs:HybridBased) combining collaborative and content-based signals.\n\n"
+        "STRUCTURE\n"
+        "- Root element: org.rs:Algorithm with name='TRS'.\n"
+        "- Provide a <filteringRS xsi:type='org.rs:HybridBased'> that contains:\n"
+        "  * A CF component with a <data> section of rating rows.\n"
+        "  * A CB component with user/item features aligned to domain preferences and POI categories/types.\n"
+        "  * Keep CF and CB as separate child components (e.g., <_cfComponent>, <_cbComponent>) as per metamodel.\n\n"
+        "RATINGS (CF)\n"
+        f"- Generate AT LEAST {num_ratings} rating rows as <rows value='float'>.\n"
+        "- Each row MUST link a user and an item using cross-resource hrefs to domain.model.\n"
+        "- Spread ratings across multiple users/items; values in [3.5, 5.0].\n\n"
+        "FEATURES (CB)\n"
+        f"- Map features strictly to these preference dimensions (if present in the domain): {prefs_csv}.\n"
+        "- Derive item features from POI category/type (Indoor/Outdoor) and available attributes; do not invent fields.\n"
+        "- All user/item references in features MUST use domain.model hrefs; omit any feature whose target is missing.\n\n"
+        "CONSTRAINTS\n"
+        "- All href targets MUST exist in domain.model; no fabricated ids.\n"
+        "- xmi:version='2.0'; namespaces: http://org.rs and http://org.rs.domain.\n"
+        "- Output ONLY valid XMI payload for the recommender model."
+    )
+
+'''
 def compose_tourism_recommender_description(
     num_ratings: int,
     preference_types: List[str],
@@ -193,7 +291,7 @@ def compose_tourism_recommender_description(
         f"- If using CB features, align them to the domain preference dimensions: {prefs_csv}.\n"
         "- Use proper namespaces: http://org.rs and http://org.rs.domain; xmi:version='2.0'.\n"
         "- No fabricated ids; if a target is missing, omit the row."
-    )
+    )'''
 
 # ---- Few-shot loader reused ----
 def _read_few_shots(files: Optional[List[str]] = None) -> str:
@@ -208,7 +306,7 @@ def _read_few_shots(files: Optional[List[str]] = None) -> str:
     return "\n\n".join(blocks)
 
 # ---- Wire the tourism parameters into the existing generators ----
-def main_xmi_pipeline_tourism():
+'''def main_xmi_pipeline_tourism():
     MODEL = "gpt-oss:120b-cloud"
 
     # Parameters requested (kept from your previous main style)
@@ -237,7 +335,7 @@ def main_xmi_pipeline_tourism():
         num_users=NUM_USERS,
         preference_types=PREFERENCE_TYPES,
     )
-    rs_desc = compose_tourism_recommender_description(
+    rs_desc = compose_tourism_rs_cf_description(
         num_ratings=NUM_RATINGS,
         preference_types=PREFERENCE_TYPES,
     )
@@ -277,15 +375,15 @@ def main_xmi_pipeline_tourism():
     miss_n = len(href_report.get("missing", []))
     print(f"[RS] Cross-resource hrefs: OK={ok_n}, Missing={miss_n}")
     if miss_n:
-        print("Missing examples:", href_report["missing"][:10])
+        print("Missing examples:", href_report["missing"][:10])'''
 
 
 
 def main_xmi_pipeline_tourism_versions(
     N_VERSIONS: int = 5,
     MODEL: str = "gpt-oss:120b-cloud",
-    NUM_USERS: int = 50,
-    NUM_RATINGS: int = 600,
+    NUM_USERS: int = 20,
+    NUM_RATINGS: int = 40,
     PREFERENCE_TYPES: Optional[List[str]] = None,
     FEW_SHOTS: Optional[List[str]] = None,
     OUT_ROOT: str = "./out_models_old"
@@ -318,7 +416,7 @@ def main_xmi_pipeline_tourism_versions(
     base_domain_desc = compose_tourism_domain_description(
         num_users=NUM_USERS, preference_types=PREFERENCE_TYPES
     )
-    base_rs_desc = compose_tourism_recommender_description(
+    base_rs_desc = compose_tourism_rs_cb_description(
         num_ratings=NUM_RATINGS, preference_types=PREFERENCE_TYPES
     )
     few_shots_text = _read_few_shots(FEW_SHOTS)
@@ -397,8 +495,8 @@ if __name__ == "__main__":
     main_xmi_pipeline_tourism_versions(
         N_VERSIONS=5,
         MODEL="gpt-oss:120b-cloud",
-        NUM_USERS=200,
-        NUM_RATINGS=400,
+        NUM_USERS=20,
+        NUM_RATINGS=40,
         PREFERENCE_TYPES=[
             "preferredPriceRange", "preferredTransportationMode",
             "hikingSkill"
@@ -407,6 +505,6 @@ if __name__ == "__main__":
             "./input_models/large/domain.model",
             "./input_models/large/recommendersystemGeneric.model",
         ],
-        OUT_ROOT="./out_models_hybrid/large"
+        OUT_ROOT="./out_models_cb/small"
     )
 

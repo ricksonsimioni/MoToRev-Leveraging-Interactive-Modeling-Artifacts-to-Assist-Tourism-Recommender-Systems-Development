@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:org.rs="http://org.rs"
+         xmlns:domain="http://org.rs.domain"
+         xmi:version="2.0">
+  <org.rs:Algorithm xmi:id="alg1" name="TRS">
+    <filteringRS xsi:type="org.rs:ContentBased" xmi:id="cb1">
+      <features>
+        <org.rs:Feature xmi:id="feat1" name="preferredPriceRange"/>
+        <org.rs:Feature xmi:id="feat2" name="preferredTransportationMode"/>
+        <org.rs:Feature xmi:id="feat3" name="hikingSkill"/>
+      </features>
+    </filteringRS>
+  </org.rs:Algorithm>
+</xmi:XMI>

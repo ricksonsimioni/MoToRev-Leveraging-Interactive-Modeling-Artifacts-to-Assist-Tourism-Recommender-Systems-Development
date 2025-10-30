@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:domain="http://org.rs.domain"
+         xmi:version="2.0">
+  <domain:RSDomain xmi:id="_gen_domain_root" name="National Park of Abruzzo">
+    <!-- Categories -->
+    <domain:Category xmi:id="_gen_category_INFOPOINT" name="INFOPOINT"/>
+    <domain:Category xmi:id="_gen_category_MUSEO" name="MUSEO"/>
+    <domain:Category xmi:id="_gen_category_AREA_FAUNISTICA" name="AREA_FAUNISTICA"/>
+    <domain:Category xmi:id="_gen_category_COMUNE" name="COMUNE"/>
+    <!-- POIs -->
+    <domain:POI xmi:id="_gen_poi_1" name="Rifugio Rosetta" xsi:type="domain:OutdoorPOI">
+      <domain:category href="#_gen_category_AREA_FAUNISTICA"/>
+    </domain:POI>
+    <domain:POI xmi:id="_gen_poi_2" name="Museo Castello" xsi:type="domain:IndoorPOI">
+      <domain:category href="#_gen_category_MUSEO"/>
+    </domain:POI>
+    <domain:POI xmi:id="_gen_poi_3" name="Centro Informazioni" xsi:type="domain:IndoorPOI">
+      <domain:category href="#_gen_category_INFOPOINT"/>
+    </domain:POI>
+    <domain:POI xmi:id="_gen_poi_4" name="Area Faunistica Lungo" xsi:type="domain:OutdoorPOI">
+      <domain:category href="#_gen_category_AREA_FAUNISTICA"/>
+    </domain:POI>
+    <domain:POI xmi:id="_gen_poi_5" name="Comune di Pescara" xsi:type="domain:OutdoorPOI">
+      <domain:category href="#_gen_category_COMUNE"/>
+    </domain:POI>
+    <!-- Tourists -->
+    <domain:Tourist xmi:id="_gen_tourist_1" name="Tourist1">
+      <domain:preference xmi:id="_gen_tourist_1_pref" preferredPriceRange="low" preferredTransportationMode="car" hikingSkill="beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_2" name="Tourist2">
+      <domain:preference xmi:id="_gen_tourist_2_pref" preferredPriceRange="medium" preferredTransportationMode="bus" hikingSkill="intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_3" name="Tourist3">
+      <domain:preference xmi:id="_gen_tourist_3_pref" preferredPriceRange="high" preferredTransportationMode="bike" hikingSkill="advanced"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_4" name="Tourist4">
+      <domain:preference xmi:id="_gen_tourist_4_pref" preferredPriceRange="low" preferredTransportationMode="car" hikingSkill="beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_5" name="Tourist5">
+      <domain:preference xmi:id="_gen_tourist_5_pref" preferredPriceRange="medium" preferredTransportationMode="bus" hikingSkill="intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_6" name="Tourist6">
+      <domain:preference xmi:id="_gen_tourist_6_pref" preferredPriceRange="high" preferredTransportationMode="bike" hikingSkill="advanced"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_7" name="Tourist7">
+      <domain:preference xmi:id="_gen_tourist_7_pref" preferredPriceRange="low" preferredTransportationMode="car" hikingSkill="beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_8" name="Tourist8">
+      <domain:preference xmi:id="_gen_tourist_8_pref" preferredPriceRange="medium" preferredTransportationMode="bus" hikingSkill="intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_9" name="Tourist9">
+      <domain:preference xmi:id="_gen_tourist_9_pref" preferredPriceRange="high" preferredTransportationMode="bike" hikingSkill="advanced"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_10" name="Tourist10">
+      <domain:preference xmi:id="_gen_tourist_10_pref" preferredPriceRange="low" preferredTransportationMode="car" hikingSkill="beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_11" name="Tourist11">
+      <domain:preference xmi:id="_gen_tourist_11_pref" preferredPriceRange="medium" preferredTransportationMode="bus" hikingSkill="intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_12" name="Tourist12">
+      <domain:preference xmi:id="_gen_tourist_12_pref" preferredPriceRange="high" preferredTransportationMode="bike" hikingSkill="advanced"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_13" name="Tourist13">
+      <domain:preference xmi:id="_gen_tourist_13_pref" preferredPriceRange="low" preferredTransportationMode="car" hikingSkill="beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_14" name="Tourist14">
+      <domain:preference xmi:id="_gen_tourist_14_pref" preferredPriceRange="medium" preferredTransportationMode="bus" hikingSkill="intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_15" name="Tourist15">
+      <domain:preference xmi:id="_gen_tourist_15_pref" preferredPriceRange="high" preferredTransportationMode="bike" hikingSkill="advanced"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_16" name="Tourist16">
+      <domain:preference xmi:id="_gen_tourist_16_pref" preferredPriceRange="low" preferredTransportationMode="car" hikingSkill="beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_17" name="Tourist17">
+      <domain:preference xmi:id="_gen_tourist_17_pref" preferredPriceRange="medium" preferredTransportationMode="bus" hikingSkill="intermediate"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_18" name="Tourist18">
+      <domain:preference xmi:id="_gen_tourist_18_pref" preferredPriceRange="high" preferredTransportationMode="bike" hikingSkill="advanced"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_19" name="Tourist19">
+      <domain:preference xmi:id="_gen_tourist_19_pref" preferredPriceRange="low" preferredTransportationMode="car" hikingSkill="beginner"/>
+    </domain:Tourist>
+    <domain:Tourist xmi:id="_gen_tourist_20" name="Tourist20">
+      <domain:preference xmi:id="_gen_tourist_20_pref" preferredPriceRange="medium" preferredTransportationMode="bus" hikingSkill="intermediate"/>
+    </domain:Tourist>
+  </domain:RSDomain>
+</xmi:XMI>
