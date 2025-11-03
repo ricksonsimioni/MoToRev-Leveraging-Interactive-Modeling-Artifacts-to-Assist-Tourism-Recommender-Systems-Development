@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.rs="http://org.rs" xmlns:domain="http://org.rs.domain" name="TRS">
+  <filteringRS xsi:type="org.rs:HybridBased">
+    <_cfComponent xsi:type="org.rs:CollaborativeFiltering">
+      <data>
+        <rows value="4.5" user="domain.model#_user1" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user1" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user1" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user1" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user1" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user1" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user1" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user1" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user1" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user1" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user2" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user2" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user2" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user2" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user2" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user2" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user2" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user2" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user2" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user2" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user3" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user3" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user3" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user3" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user3" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user3" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user3" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user3" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user3" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user3" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user4" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user4" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user4" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user4" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user4" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user4" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user4" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user4" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user4" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user4" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user5" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user5" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user5" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user5" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user5" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user5" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user5" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user5" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user5" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user5" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user6" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user6" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user6" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user6" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user6" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user6" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user6" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user6" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user6" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user6" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user7" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user7" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user7" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user7" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user7" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user7" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user7" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user7" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user7" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user7" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user8" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user8" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user8" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user8" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user8" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user8" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user8" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user8" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user8" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user8" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user9" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user9" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user9" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user9" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user9" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user9" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user9" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user9" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user9" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user9" item="domain.model#_poi10"/>
+        <rows value="4.5" user="domain.model#_user10" item="domain.model#_poi1"/>
+        <rows value="4.0" user="domain.model#_user10" item="domain.model#_poi2"/>
+        <rows value="5.0" user="domain.model#_user10" item="domain.model#_poi3"/>
+        <rows value="3.5" user="domain.model#_user10" item="domain.model#_poi4"/>
+        <rows value="4.5" user="domain.model#_user10" item="domain.model#_poi5"/>
+        <rows value="4.0" user="domain.model#_user10" item="domain.model#_poi6"/>
+        <rows value="4.5" user="domain.model#_user10" item="domain.model#_poi7"/>
+        <rows value="4.5" user="domain.model#_user10" item="domain.model#_poi8"/>
+        <rows value="4.0" user="domain.model#_user10" item="domain.model#_poi9"/>
+        <rows value="5.0" user="domain.model#_user10" item="domain.model#_poi10"/>
+      </data>
+    </_cfComponent>
+    <_cbComponent xsi:type="org.rs:ContentBased">
+      <userFeatures user="domain.model#_user1" feature="domain.model#_preferredPriceRange1"/>
+      <userFeatures user="domain.model#_user1" feature="domain.model#_preferredTransportationMode1"/>
+      <userFeatures user="domain.model#_user1" feature="domain.model#_hikingSkill1"/>
+      <userFeatures user="domain.model#_user2" feature="domain.model#_preferredPriceRange2"/>
+      <userFeatures user="domain.model#_user2" feature="domain.model#_preferredTransportationMode2"/>
+      <userFeatures user="domain.model#_user2" feature="domain.model#_hikingSkill2"/>
+      <userFeatures user="domain.model#_user3" feature="domain.model#_preferredPriceRange3"/>
+      <userFeatures user="domain.model#_user3" feature="domain.model#_preferredTransportationMode3"/>
+      <userFeatures user="domain.model#_user3" feature="domain.model#_hikingSkill3"/>
+      <userFeatures user="domain.model#_user4" feature="domain.model#_preferredPriceRange4"/>
+      <userFeatures user="domain.model#_user4" feature="domain.model#_preferredTransportationMode4"/>
+      <userFeatures user="domain.model#_user4" feature="domain.model#_hikingSkill4"/>
+      <userFeatures user="domain.model#_user5" feature="domain.model#_preferredPriceRange5"/>
+      <userFeatures user="domain.model#_user5" feature="domain.model#_preferredTransportationMode5"/>
+      <userFeatures user="domain.model#_user5" feature="domain.model#_hikingSkill5"/>
+      <userFeatures user="domain.model#_user6" feature="domain.model#_preferredPriceRange6"/>
+      <userFeatures user="domain.model#_user6" feature="domain.model#_preferredTransportationMode6"/>
+      <userFeatures user="domain.model#_user6" feature="domain.model#_hikingSkill6"/>
+      <userFeatures user="domain.model#_user7" feature="domain.model#_preferredPriceRange7"/>
+      <userFeatures user="domain.model#_user7" feature="domain.model#_preferredTransportationMode7"/>
+      <userFeatures user="domain.model#_user7" feature="domain.model#_hikingSkill7"/>
+      <userFeatures user="domain.model#_user8" feature="domain.model#_preferredPriceRange8"/>
+      <userFeatures user="domain.model#_user8" feature="domain.model#_preferredTransportationMode8"/>
+      <userFeatures user="domain.model#_user8" feature="domain.model#_hikingSkill8"/>
+      <userFeatures user="domain.model#_user9" feature="domain.model#_preferredPriceRange9"/>
+      <userFeatures user="domain.model#_user9" feature="domain.model#_preferredTransportationMode9"/>
+      <userFeatures user="domain.model#_user9" feature="domain.model#_hikingSkill9"/>
+      <userFeatures user="domain.model#_user10" feature="domain.model#_preferredPriceRange10"/>
+      <userFeatures user="domain.model#_user10" feature="domain.model#_preferredTransportationMode10"/>
+      <userFeatures user="domain.model#_user10" feature="domain.model#_hikingSkill10"/>
+      <itemFeatures item="domain.model#_poi1" feature="domain.model#_category1"/>
+      <itemFeatures item="domain.model#_poi1" feature="domain.model#_type1"/>
+      <itemFeatures item="domain.model#_poi2" feature="domain.model#_category2"/>
+      <itemFeatures item="domain.model#_poi2" feature="domain.model#_type2"/>
+      <itemFeatures item="domain.model#_poi3" feature="domain.model#_category3"/>
+      <itemFeatures item="domain.model#_poi3" feature="domain.model#_type3"/>
+      <itemFeatures item="domain.model#_poi4" feature="domain.model#_category4"/>
+      <itemFeatures item="domain.model#_poi4" feature="domain.model#_type4"/>
+      <itemFeatures item="domain.model#_poi5" feature="domain.model#_category5"/>
+      <itemFeatures item="domain.model#_poi5" feature="domain.model#_type5"/>
+      <itemFeatures item="domain.model#_poi6" feature="domain.model#_category6"/>
+      <itemFeatures item="domain.model#_poi6" feature="domain.model#_type6"/>
+      <itemFeatures item="domain.model#_poi7" feature="domain.model#_category7"/>
+      <itemFeatures item="domain.model#_poi7" feature="domain.model#_type7"/>
+      <itemFeatures item="domain.model#_poi8" feature="domain.model#_category8"/>
+      <itemFeatures item="domain.model#_poi8" feature="domain.model#_type8"/>
+      <itemFeatures item="domain.model#_poi9" feature="domain.model#_category9"/>
+      <itemFeatures item="domain.model#_poi9" feature="domain.model#_type9"/>
+      <itemFeatures item="domain.model#_poi10" feature="domain.model#_category10"/>
+      <itemFeatures item="domain.model#_poi10" feature="domain.model#_type10"/>
+    </_cbComponent>
+  </filteringRS>
+</org.rs:Algorithm>

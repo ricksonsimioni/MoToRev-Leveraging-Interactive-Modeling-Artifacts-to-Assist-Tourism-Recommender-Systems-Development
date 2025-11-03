@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain:RSDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domain="http://org.rs.domain" name="National Park of Abruzzo">
+  <tourists xmi:id="_gen_tourist_1" name="Alice" age="28">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_2" name="Bob" age="45">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_3" name="Charlie" age="32">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_4" name="Diana" age="60">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BUS" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_5" name="Evan" age="24">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_6" name="Fiona" age="29">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_7" name="George" age="50">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_8" name="Hannah" age="35">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BICYCLE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_9" name="Ian" age="41">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_10" name="Julia" age="27">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BUS" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_11" name="Kevin" age="33">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_12" name="Laura" age="58">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_13" name="Mike" age="22">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_14" name="Nina" age="39">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_15" name="Oscar" age="47">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BUS" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_16" name="Paula" age="31">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_17" name="Quentin" age="25">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BICYCLE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_18" name="Rachel" age="52">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_19" name="Steve" age="36">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_20" name="Tina" age="43">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BUS" hikingSkill="BEGINNER"/>
+  </tourists>
+  <categories xmi:id="_category_INFOPOINT" name="INFOPOINT"/>
+  <categories xmi:id="_category_MUSEO" name="MUSEO"/>
+  <categories xmi:id="_category_AREA_FAUNISTICA" name="AREA_FAUNISTICA"/>
+  <categories xmi:id="_category_COMUNE" name="COMUNE"/>
+  <pois xmi:id="_poi_1" name="Visitor Center Pescasseroli" description="Main information point for the park">
+    <categories xmi:idref="_category_INFOPOINT"/>
+    <categories xmi:idref="_category_COMUNE"/>
+  </pois>
+  <pois xmi:id="_poi_2" name="Museo del Lupo" description="Museum dedicated to the wolf">
+    <categories xmi:idref="_category_MUSEO"/>
+  </pois>
+  <pois xmi:id="_poi_3" name="Area Faunistica della Lince" description="Wildlife area for lynx observation">
+    <categories xmi:idref="_category_AREA_FAUNISTICA"/>
+  </pois>
+  <pois xmi:id="_poi_4" name="Camosciara" description="Famous hiking area with waterfalls">
+    <categories xmi:idref="_category_AREA_FAUNISTICA"/>
+  </pois>
+  <pois xmi:id="_poi_5" name="Civita d'Antino" description="Historic hilltop village">
+    <categories xmi:idref="_category_COMUNE"/>
+  </pois>
+</domain:RSDomain>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0" name="TRS" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.rs="http://org.rs" xmlns:domain="http://org.rs.domain">
+  <filteringRS xsi:type="org.rs:ContentBased">
+    <CB>
+      <featureRepresentations>
+        <itemFeatures href="domain.model#_POI_1"/>
+        <itemFeatures href="domain.model#_POI_2"/>
+        <itemFeatures href="domain.model#_POI_3"/>
+        <itemFeatures href="domain.model#_POI_4"/>
+        <itemFeatures href="domain.model#_POI_5"/>
+        <userPreferences href="domain.model#_Tourist_1"/>
+        <userPreferences href="domain.model#_Tourist_2"/>
+        <userPreferences href="domain.model#_Tourist_3"/>
+      </featureRepresentations>
+    </CB>
+    <data>
+      <rows value="4.5" user="domain.model#_Tourist_1" item="domain.model#_POI_1"/>
+      <rows value="5.0" user="domain.model#_Tourist_1" item="domain.model#_POI_2"/>
+      <rows value="3.5" user="domain.model#_Tourist_1" item="domain.model#_POI_3"/>
+      <rows value="4.0" user="domain.model#_Tourist_2" item="domain.model#_POI_2"/>
+      <rows value="4.5" user="domain.model#_Tourist_2" item="domain.model#_POI_4"/>
+      <rows value="5.0" user="domain.model#_Tourist_3" item="domain.model#_POI_5"/>
+    </data>
+  </filteringRS>
+</org.rs:Algorithm>

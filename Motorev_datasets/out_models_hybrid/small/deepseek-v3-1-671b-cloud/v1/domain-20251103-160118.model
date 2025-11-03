@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain:RSDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domain="http://org.rs.domain" name="National Park of Abruzzo">
+  <tourists xmi:id="_gen_tourist_1">
+    <name>Marco Rossi</name>
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_2">
+    <name>Laura Bianchi</name>
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_3">
+    <name>Giuseppe Verdi</name>
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_4">
+    <name>Francesca Neri</name>
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_5">
+    <name>Alessio Conti</name>
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_6">
+    <name>Elena Romano</name>
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_7">
+    <name>Davide Gallo</name>
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_8">
+    <name>Silvia Costa</name>
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_9">
+    <name>Riccardo Ferrari</name>
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_10">
+    <name>Valentina Rizzo</name>
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_11">
+    <name>Simone Marino</name>
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_12">
+    <name>Giovanna Greco</name>
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_13">
+    <name>Antonio Barbieri</name>
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_14">
+    <name>Chiara Fontana</name>
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_15">
+    <name>Federico Santoro</name>
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_16">
+    <name>Beatrice Lombardi</name>
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_17">
+    <name>Luca Giordano</name>
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_18">
+    <name>Marta Mancini</name>
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_19">
+    <name>Daniele Moretti</name>
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_20">
+    <name>Aurora Colombo</name>
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="HIKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <categories xmi:id="_gen_category_INFOPOINT" name="INFOPOINT"/>
+  <categories xmi:id="_gen_category_MUSEO" name="MUSEO"/>
+  <categories xmi:id="_gen_category_AREA_FAUNISTICA" name="AREA_FAUNISTICA"/>
+  <categories xmi:id="_gen_category_COMUNE" name="COMUNE"/>
+  <pois xmi:id="_gen_poi_1" name="Visitor Center Pescasseroli" category="_gen_category_INFOPOINT" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_gen_poi_2" name="Museo del Lupo" category="_gen_category_MUSEO" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_gen_poi_3" name="Area Faunistica della Lontra" category="_gen_category_AREA_FAUNISTICA" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_gen_poi_4" name="Camosciara Nature Reserve" category="_gen_category_AREA_FAUNISTICA" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_gen_poi_5" name="Town Hall of Opi" category="_gen_category_COMUNE" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_gen_poi_6" name="Civetta D'Abbruzzo Observatory" category="_gen_category_MUSEO" xsi:type="domain:IndoorPOI"/>
+</domain:RSDomain>

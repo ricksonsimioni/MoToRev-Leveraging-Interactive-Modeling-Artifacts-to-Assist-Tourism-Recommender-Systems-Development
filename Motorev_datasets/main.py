@@ -416,7 +416,7 @@ def main_xmi_pipeline_tourism_versions(
     base_domain_desc = compose_tourism_domain_description(
         num_users=NUM_USERS, preference_types=PREFERENCE_TYPES
     )
-    base_rs_desc = compose_tourism_rs_cb_description(
+    base_rs_desc = compose_tourism_rs_hybrid_description(
         num_ratings=NUM_RATINGS, preference_types=PREFERENCE_TYPES
     )
     few_shots_text = _read_few_shots(FEW_SHOTS)
@@ -492,11 +492,13 @@ def main_xmi_pipeline_tourism_versions(
 if __name__ == "__main__":
     #main_xmi_pipeline_tourism()
 
+    #"deepseek-v3.1:671b-cloud"  gpt-oss:120b-cloud glm-4.6:cloud
+
     main_xmi_pipeline_tourism_versions(
         N_VERSIONS=5,
-        MODEL="gpt-oss:120b-cloud",
-        NUM_USERS=20,
-        NUM_RATINGS=40,
+        MODEL="deepseek-v3.1:671b-cloud",
+        NUM_USERS=50,
+        NUM_RATINGS=100,
         PREFERENCE_TYPES=[
             "preferredPriceRange", "preferredTransportationMode",
             "hikingSkill"
@@ -505,6 +507,6 @@ if __name__ == "__main__":
             "./input_models/large/domain.model",
             "./input_models/large/recommendersystemGeneric.model",
         ],
-        OUT_ROOT="./out_models_cb/small"
+        OUT_ROOT="./out_models_hybrid/medium"
     )
 

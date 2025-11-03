@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain:RSDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domain="http://org.rs.domain" name="National Park of Abruzzo">
+  <tourists xmi:id="_gen_tourist_1">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_2">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_3">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_4">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="WALKING" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_5">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_6">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_7">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_8">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_9">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="WALKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_10">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_11">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_12">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_13">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_14">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_15">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_16">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_17">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="WALKING" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_18">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_19">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_20">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_21">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="WALKING" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_22">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_23">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_24">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_25">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_26">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_27">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_28">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_29">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="WALKING" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_30">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_31">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_32">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_33">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="WALKING" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_34">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_35">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_36">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_37">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_38">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_39">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_40">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_41">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="WALKING" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_42">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_43">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_44">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_45">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="WALKING" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_46">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_47">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_48">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_49">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_50">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="PUBLIC_TRANSPORT" hikingSkill="BEGINNER"/>
+  </tourists>
+  <categories xmi:id="_category_INFOPOINT" name="INFOPOINT"/>
+  <categories xmi:id="_category_MUSEO" name="MUSEO"/>
+  <categories xmi:id="_category_AREA_FAUNISTICA" name="AREA_FAUNISTICA"/>
+  <categories xmi:id="_category_COMUNE" name="COMUNE"/>
+  <pois xmi:id="_poi_1" name="Visitor Center Pescasseroli" category="_category_INFOPOINT" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_poi_2" name="Museo del Lupo" category="_category_MUSEO" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_poi_3" name="Area Faunistica della Lontra" category="_category_AREA_FAUNISTICA" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_poi_4" name="Camosciara Nature Reserve" category="_category_AREA_FAUNISTICA" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_poi_5" name="Town of Opi" category="_category_COMUNE" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_poi_6" name="Museo della Transumanza" category="_category_MUSEO" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_poi_7" name="Info Point Civitella Alfedena" category="_category_INFOPOINT" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_poi_8" name="Val di Rose Bear Watching Area" category="_category_AREA_FAUNISTICA" xsi:type="domain:OutdoorPOI"/>
+</domain:RSDomain>

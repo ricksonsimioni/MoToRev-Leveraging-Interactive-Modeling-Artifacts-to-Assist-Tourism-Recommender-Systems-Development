@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain"
+    name="TRS">
+  <filteringRS xsi:type="org.rs:ContentBased"/>
+</org.rs:Algorithm>

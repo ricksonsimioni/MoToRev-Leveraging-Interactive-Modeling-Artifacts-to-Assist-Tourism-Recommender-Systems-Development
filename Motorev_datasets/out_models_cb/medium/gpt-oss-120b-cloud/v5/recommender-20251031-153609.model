@@ -1,0 +1,5 @@
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.rs="http://org.rs" xmlns:domain="http://org.rs.domain" xmi:version="2.0">
+  <org.rs:Algorithm xmi:id="_alg1" name="TRS">
+    <filteringRS xsi:type="org.rs:ContentBased" xmi:id="_cb1"/>
+  </org.rs:Algorithm>
+</xmi:XMI>

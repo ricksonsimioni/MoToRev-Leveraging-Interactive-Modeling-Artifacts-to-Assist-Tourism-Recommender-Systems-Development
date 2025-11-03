@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain:RSDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domain="http://org.rs.domain" name="National Park of Abruzzo">
+  <tourists xmi:id="_gen_tourist_1">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_2">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_3">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_4">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BICYCLE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_5">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_6">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_7">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="BICYCLE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_8">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_9">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_10">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="WALKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_11">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="BICYCLE" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_12">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="WALKING" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_13">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_14">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_15">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BICYCLE" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_16">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_17">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="WALKING" hikingSkill="EXPERT"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_18">
+    <preferences preferredPriceRange="MEDIUM" preferredTransportationMode="BICYCLE" hikingSkill="BEGINNER"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_19">
+    <preferences preferredPriceRange="HIGH" preferredTransportationMode="WALKING" hikingSkill="INTERMEDIATE"/>
+  </tourists>
+  <tourists xmi:id="_gen_tourist_20">
+    <preferences preferredPriceRange="LOW" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+  </tourists>
+  <categories xmi:id="_category_INFOPOINT" name="INFOPOINT"/>
+  <categories xmi:id="_category_MUSEO" name="MUSEO"/>
+  <categories xmi:id="_category_AREA_FAUNISTICA" name="AREA_FAUNISTICA"/>
+  <categories xmi:id="_category_COMUNE" name="COMUNE"/>
+  <pois xmi:id="_poi_1" name="Visitor Center Pescasseroli" category="_category_INFOPOINT" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_poi_2" name="Museo del Lupo" category="_category_MUSEO" xsi:type="domain:IndoorPOI"/>
+  <pois xmi:id="_poi_3" name="Area Faunistica della Lontra" category="_category_AREA_FAUNISTICA" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_poi_4" name="Camosciara Valley" category="_category_COMUNE" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_poi_5" name="Historic Center of Opi" category="_category_COMUNE" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_poi_6" name="Bear Observation Point" category="_category_AREA_FAUNISTICA" xsi:type="domain:OutdoorPOI"/>
+  <pois xmi:id="_poi_7" name="Park Information Point Civitella Alfedena" category="_category_INFOPOINT" xsi:type="domain:IndoorPOI"/>
+</domain:RSDomain>

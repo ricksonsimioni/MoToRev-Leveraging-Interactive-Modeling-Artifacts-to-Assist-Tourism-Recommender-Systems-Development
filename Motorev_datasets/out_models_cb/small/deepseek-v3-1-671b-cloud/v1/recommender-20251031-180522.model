@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0" name="TRS" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.rs="http://org.rs" xmlns:domain="http://org.rs.domain">
+  <filteringRS xsi:type="org.rs:ContentBased">
+    <data>
+      <rows value="4.5" user="domain.model#_user1" item="domain.model#_poi1"/>
+      <rows value="5.0" user="domain.model#_user2" item="domain.model#_poi3"/>
+      <rows value="4.0" user="domain.model#_user1" item="domain.model#_poi5"/>
+      <rows value="3.5" user="domain.model#_user3" item="domain.model#_poi2"/>
+    </data>
+    <component xsi:type="org.rs:CBComponent">
+      <itemFeatures item="domain.model#_poi1">
+        <feature name="category" value="0.8"/>
+        <feature name="preferredPriceRange" value="0.6"/>
+        <feature name="preferredTransportationMode" value="0.9"/>
+        <feature name="hikingSkill" value="0.2"/>
+      </itemFeatures>
+      <itemFeatures item="domain.model#_poi2">
+        <feature name="category" value="0.3"/>
+        <feature name="preferredPriceRange" value="0.9"/>
+        <feature name="preferredTransportationMode" value="0.4"/>
+        <feature name="hikingSkill" value="0.7"/>
+      </itemFeatures>
+      <itemFeatures item="domain.model#_poi3">
+        <feature name="category" value="0.9"/>
+        <feature name="preferredPriceRange" value="0.5"/>
+        <feature name="preferredTransportationMode" value="0.8"/>
+        <feature name="hikingSkill" value="0.1"/>
+      </itemFeatures>
+      <itemFeatures item="domain.model#_poi4">
+        <feature name="category" value="0.4"/>
+        <feature name="preferredPriceRange" value="0.7"/>
+        <feature name="preferredTransportationMode" value="0.3"/>
+        <feature name="hikingSkill" value="0.8"/>
+      </itemFeatures>
+      <itemFeatures item="domain.model#_poi5">
+        <feature name="category" value="0.7"/>
+        <feature name="preferredPriceRange" value="0.4"/>
+        <feature name="preferredTransportationMode" value="0.6"/>
+        <feature name="hikingSkill" value="0.5"/>
+      </itemFeatures>
+      <userProfiles user="domain.model#_user1">
+        <preference name="preferredPriceRange" value="0.6"/>
+        <preference name="preferredTransportationMode" value="0.9"/>
+        <preference name="hikingSkill" value="0.3"/>
+      </userProfiles>
+      <userProfiles user="domain.model#_user2">
+        <preference name="preferredPriceRange" value="0.5"/>
+        <preference name="preferredTransportationMode" value="0.8"/>
+        <preference name="hikingSkill" value="0.2"/>
+      </userProfiles>
+      <userProfiles user="domain.model#_user3">
+        <preference name="preferredPriceRange" value="0.8"/>
+        <preference name="preferredTransportationMode" value="0.4"/>
+        <preference name="hikingSkill" value="0.7"/>
+      </userProfiles>
+    </component>
+  </filteringRS>
+</org.rs:Algorithm>
