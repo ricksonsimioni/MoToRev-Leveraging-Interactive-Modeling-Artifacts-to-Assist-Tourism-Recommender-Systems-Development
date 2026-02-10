@@ -3,6 +3,44 @@ var itemData = new Map();
 var ratingsData = new Sequence();
 var categoriesData = new Sequence();
 
+var rsType = "UNKNOWN";
+var hasCF = false;
+var hasCB = false;
+
+var algo = recommendersystemModel!Algorithm.allInstances().first();
+
+if (algo.isDefined() and algo.filteringRS.isDefined()) {
+    var f = algo.filteringRS;
+
+    if (f.isKindOf(recommendersystemModel!HybridBased)) {
+        rsType = "HYBRID";
+        hasCF = f._cfComponent.isDefined();
+        hasCB = f._cbComponent.isDefined();
+    } else if (f.isKindOf(recommendersystemModel!CollaborativeFiltering)) {
+        rsType = "CF";
+        hasCF = true;
+    } else if (f.isKindOf(recommendersystemModel!ContentBased)) {
+        rsType = "CB";
+        hasCB = true;
+    }
+} else {
+    // Fallback: infer from data presence
+    if (recommendersystemModel!UserItemMatrix.allInstances().size() > 0) {
+        hasCF = true;
+    }
+    if (recommendersystemModel!ContentBasedPreference.allInstances().size() > 0) {
+        hasCB = true;
+    }
+
+    if (hasCF and hasCB) {
+        rsType = "HYBRID";
+    } else if (hasCF) {
+        rsType = "CF";
+    } else if (hasCB) {
+        rsType = "CB";
+    }
+}
+
 for (user in recommendersystemModel!User.allInstances()) {
     var userDetails = new Map();
     
@@ -12,12 +50,13 @@ for (user in recommendersystemModel!User.allInstances()) {
     userData.put(user.id, userDetails); 
 }
 
-for (Item in recommendersystemModel!Item.allInstances()) {
+
+for (Item in domainModel!Item.allInstances()) {
     var itemDetails = new Map();
     
     itemDetails.put("itemId", Item.itemId);
     itemDetails.put("itemName", Item.name);
-    itemDetails.put("category", Item.category.category);
+    itemDetails.put("category", Item.category);
     
     itemData.put(Item.id, itemDetails);
 }
@@ -58,12 +97,15 @@ for (ContentBasedPreference in recommendersystemModel!ContentBasedPreference.all
     categoriesData.add(categoriesDetails);
 }
 
+
 var extractedData = new Map();
 extractedData.put("userData", userData);
 extractedData.put("itemData", itemData);
 extractedData.put("ratingsData", ratingsData);
 extractedData.put("categoriesData", categoriesData);
-
+extractedData.put("rsType", rsType);
+extractedData.put("hasCF", hasCF);
+extractedData.put("hasCB", hasCB);
 //System.out.println("userData: " + userData + "\n");
 //System.out.println("\nTotal user data entries: " + userData.size());
 //System.out.println("itemData:" + itemData + "\n");
@@ -71,7 +113,7 @@ extractedData.put("categoriesData", categoriesData);
 //System.out.println("Total rows in UserItemMatrix: " + recommendersystemModel!UserItemMatrix.all.first().rows.size());
 //System.out.println("\nTotal ratings data entries: " + ratingsData.size());
 //for (userItemRow in recommendersystemModel!UserItemMatrix.all.first().rows) {
-//    System.out.println("Row User ID: " + userItemRow._user.identification);
+ //   System.out.println("Row User ID: " + userItemRow._user.userId);
 //}
 //System.out.println("categoriesData: " + categoriesData + "\n");
 

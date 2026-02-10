@@ -5,36 +5,34 @@ import "http://org.rs";
 
 class RSDomain {
 	val Tourist[*] tourist;
-	val Itinerary[+] itineraries;
 	attr String name;
 	val POI[*] pois;
-	val POICategory[*] categories;
+	val Category[*] categories;
 }
 
 abstract class POI extends rs.Item {
 	attr String latitude;
 	attr String longitude;
-	ref  POICategory category;
+	ref Category category;
 	attr String name;
 	attr String openingHours;
 	!unique attr OpeningDays[*] openingDays;
 	attr PriceRange priceRange;
 	attr String img;
-	
 }
 
-class POICategory extends rs.Preference {
+class Category extends rs.Preference {
 	id attr String categoryId;
-	attr Category category;
+	attr POICategory category;
 }
 
-class Indoor extends POI {
+class IndoorPOI extends POI {
 	attr String capacity;
 	attr boolean strike;
 	attr int crowdness;
 }
 
-class Outdoor extends POI {
+class OutdoorPOI extends POI {
 	attr String weatherCondition;
 	attr String pathCondition;
 	attr HikingSkill hikingSkill;
@@ -52,12 +50,12 @@ class TouristProfile extends rs.Profile {
 
 class Tourist extends rs.User {
 	attr String name;
-	val TouristPreference[1] touristPreference;
-	val TouristProfile[1] touristProfile;
+	val TouristPreference touristPreference;
+	val TouristProfile touristProfile;
 }
 
 class Itinerary extends rs.Item {
-	ref POICategory[*] category;
+	ref Category[*] category;
 	attr TransportationMode transportationMode;
 	ref POI[*] pois;
 	attr String name;
@@ -70,7 +68,7 @@ enum TransportationMode {
 	PUBLIC = 3;
 }
 
-enum Category {
+enum POICategory {
 	COMUNE = 0;
 	INFOPOINT = 1;
 	AREA_FAUNISTICA = 2;

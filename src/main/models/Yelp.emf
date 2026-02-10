@@ -1,0 +1,245 @@
+@namespace(uri="http://www.example.org/yelp", prefix="yelp")
+package yelp;
+
+import "http://org.rs";
+
+class YelpBusiness extends rs.Item {
+	attr String name;
+	attr float stars;
+	attr float latitude;
+	attr float longitude;
+	val Category[*] category;
+}
+
+class YelpUser extends rs.User {
+	attr String name;
+	attr int review_count;
+	val YelpUserPreference yelpUserPreference;
+	val YelpUserProfile yelpUserProfile;
+}
+
+class YelpUserProfile extends rs.Profile {
+	attr Gender gender;
+}
+
+class YelpUserPreference extends rs.Preference {
+
+}
+
+class Category extends rs.Preference {
+	id attr String categoryId;
+	attr BusinessCategory category;
+}
+
+class YelpDomain {
+	val YelpBusiness[*] businesses;
+	val YelpUser[*] users;
+	val Category[*] categories;
+}
+
+
+enum Gender {
+	MALE = 0;
+	FEMALE = 1;
+	OTHER = 2;
+}
+
+
+
+enum BusinessCategory {
+Restaurants = 0;
+Food = 1;
+Nightlife = 2;
+Bars = 3;
+American_New = 4;
+Italian = 5;
+Breakfast_Brunch = 6;
+Sandwiches = 7;
+American_Traditional = 8;
+Pizza = 9;
+Coffee_Tea = 10;
+Chinese = 11;
+Sushi_Bars = 12;
+Mexican = 13;
+Japanese = 14;
+Bakeries = 15;
+Arts_Entertainment = 16;
+Burgers = 17;
+Mediterranean = 18;
+Vietnamese = 19;
+Desserts = 20;
+Specialty_Food = 21;
+Thai = 22;
+Seafood = 23;
+IceCream_FrozenYogurt = 24;
+Lounges = 25;
+Beer = 26;
+Cocktail_Bars = 27;
+Active_Life = 28;
+Asian_Fusion = 29;
+Wine_Bars = 30;
+Shopping = 31;
+French = 32;
+Pubs = 33;
+Grocery = 34;
+Cheesesteaks = 35;
+EventPlanning_Services = 36;
+Steakhouses = 37;
+Fast_Food = 38;
+Indian = 39;
+Diners = 40;
+Gastropubs = 41;
+Tex_Mex = 42;
+Latin_American = 43;
+Vegan = 44;
+Cinema = 45;
+Cafes = 46;
+Comfort_Food = 47;
+Delis = 48;
+Soup = 49;
+Vegetarian = 50;
+Food_Trucks = 51;
+Dance_Clubs = 52;
+GlutenFree = 53;
+Salad = 54;
+Korean = 55;
+Noodles = 56;
+Barbeque = 57;
+Hotels_Travel = 58;
+Local_Flavor = 59;
+Soul_Food = 60;
+Greek = 61;
+Buffets = 62;
+JuiceBars_Smoothies = 63;
+Parks = 64;
+Southern = 65;
+MusicVenues = 66;
+StreetVendors = 67;
+Fashion = 68;
+FoodDeliveryServices = 69;
+Szechuan = 70;
+FoodStands = 71;
+BeerBar = 72;
+TapasSmallPlates = 73;
+Used = 74;
+Gyms = 75;
+German = 76;
+Taiwanese = 77;
+BubbleTea = 78;
+Caterers = 79;
+SportsBars = 80;
+PerformingArts = 81;
+MiddleEastern = 82;
+Beauty_Spas = 83;
+LocalServices = 84;
+Belgian = 85;
+Poke = 86;
+Irish = 87;
+IrishPub = 88;
+ChickenWings = 89;
+Falafel = 90;
+Transportation = 91;
+Ramen = 92;
+Indonesian = 93;
+Singaporean = 94;
+Pakistani = 95;
+Bagels = 96;
+CheeseShops = 97;
+Tacos = 98;
+Halal = 99;
+Spanish = 100;
+MensClothing = 101;
+Fitness_Instruction = 102;
+DimSum = 103;
+BeerGardens = 104;
+DiveBars = 105;
+Breweries = 106;
+Donuts = 107;
+EthnicFood = 108;
+Landmarks_HistoricalBuildings = 109;
+TrainStations = 110;
+ComedyClubs = 111;
+Moroccan = 112;
+British = 113;
+ArtClasses = 114;
+Wraps = 115;
+Iberian = 116;
+ChickenShop = 117;
+Wineries = 118;
+Home_Garden = 119;
+Pretzels = 120;
+Filipino = 121;
+Cuban = 122;
+Brazilian = 123;
+Health_Medical = 124;
+MobilePhones = 125;
+ArtGalleries = 126;
+Apartments = 127;
+Casinos = 128;
+CandyStores = 129;
+HomeDecor = 130;
+Accessories = 131;
+MeatShops = 132;
+Fruits_Veggies = 133;
+Chocolatiers_Shops = 134;
+OutletStores = 135;
+WomensClothing = 136;
+HardwareStores = 137;
+HotDogs = 138;
+WeddingPlanning = 139;
+RecreationCenters = 140;
+Brewpubs = 141;
+Nurseries_Gardening = 142;
+Arts_Crafts = 143;
+Flowers_Gifts = 144;
+HealthMarkets = 145;
+Drugstores = 146;
+Kebab = 147;
+SportingGoods = 148;
+Music_DVDs = 149;
+Ethiopian = 150;
+BikeRepair_Maintenance = 151;
+DepartmentStores = 152;
+HomeServices = 153;
+Mongolian = 154;
+Peruvian = 155;
+HairStylists = 156;
+Cideries = 157;
+Bikes = 158;
+Bookstores = 159;
+Malaysian = 160;
+Hiking = 161;
+PublicTransportation = 162;
+Automotive = 163;
+NewMexicanCuisine = 164;
+Hainan = 165;
+Karaoke = 166;
+MakeupArtists = 167;
+Caribbean = 168;
+Gun_RifleRanges = 169;
+Eatertainment = 170;
+InternationalGrocery = 171;
+Pets = 172;
+Hotels = 173;
+Kitchen_Bath = 174;
+Kosher = 175;
+Empanadas = 176;
+Cupcakes = 177;
+ConvenienceStores = 178;
+PackingSupplies = 179;
+Shanghainese = 180;
+SkinCare = 181;
+ArtMuseums = 182;
+Live_RawFood = 183;
+Basque = 184;
+Scandinavian = 185;
+Museums = 186;
+HotPot = 187;
+Burmese = 188;
+ProfessionalServices = 189;
+ReligiousOrganizations = 190;
+Smokehouse = 191;
+PhotographyStores_Services = 192;
+JewelryRepair = 193;
+Books = 194;
+}

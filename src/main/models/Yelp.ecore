@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="yelp" nsURI="http://www.example.org/yelp" nsPrefix="yelp">
+  <eClassifiers xsi:type="ecore:EClass" name="YelpBusiness" eSuperTypes="http://org.rs#//Item">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="stars" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="latitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="longitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="category" eType="#//Category"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="YelpUser" eSuperTypes="http://org.rs#//User">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="review_count" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="yelpUserPreference" eType="#//YelpUserPreference"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="yelpUserProfile" eType="#//YelpUserProfile"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="YelpUserProfile" eSuperTypes="http://org.rs#//Profile">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gender" eType="#//Gender"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="YelpUserPreference" eSuperTypes="http://org.rs#//Preference"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Category" eSuperTypes="http://org.rs#//Preference">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="categoryId" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="category" eType="#//BusinessCategory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="YelpDomain">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="businesses" upperBound="-1"
+        eType="#//YelpBusiness" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="users" upperBound="-1"
+        eType="#//YelpUser" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="categories" upperBound="-1"
+        eType="#//Category" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Gender">
+    <eLiterals name="MALE"/>
+    <eLiterals name="FEMALE" value="1"/>
+    <eLiterals name="OTHER" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="BusinessCategory">
+    <eLiterals name="Restaurants" value="195"/>
+    <eLiterals name="Food" value="1"/>
+    <eLiterals name="Nightlife" value="2"/>
+    <eLiterals name="Bars" value="3"/>
+    <eLiterals name="American_(New)" value="4"/>
+    <eLiterals name="Italian" value="5"/>
+    <eLiterals name="Breakfast_Brunch" value="6"/>
+    <eLiterals name="Sandwiches" value="7"/>
+    <eLiterals name="American_(Traditional)" value="8"/>
+    <eLiterals name="Pizza" value="9"/>
+    <eLiterals name="Coffee_Tea" value="10"/>
+    <eLiterals name="Chinese" value="11"/>
+    <eLiterals name="Sushi_Bars" value="12"/>
+    <eLiterals name="Mexican" value="13"/>
+    <eLiterals name="Japanese" value="14"/>
+    <eLiterals name="Bakeries" value="15"/>
+    <eLiterals name="Arts_Entertainment" value="16"/>
+    <eLiterals name="Burgers" value="17"/>
+    <eLiterals name="Mediterranean" value="18"/>
+    <eLiterals name="Vietnamese" value="19"/>
+    <eLiterals name="Desserts" value="20"/>
+    <eLiterals name="Specialty_Food" value="21"/>
+    <eLiterals name="Thai" value="22"/>
+    <eLiterals name="Seafood" value="23"/>
+    <eLiterals name="Ice_Cream_Frozen_Yogurt" value="24"/>
+    <eLiterals name="Lounges" value="25"/>
+    <eLiterals name="Beer" value="26"/>
+    <eLiterals name="Cocktail_Bars" value="27"/>
+    <eLiterals name="Active_Life" value="28"/>
+    <eLiterals name="Asian_Fusion" value="29"/>
+    <eLiterals name="Wine_Bars" value="30"/>
+    <eLiterals name="Shopping" value="31"/>
+    <eLiterals name="French" value="32"/>
+    <eLiterals name="Pubs" value="33"/>
+    <eLiterals name="Grocery" value="34"/>
+    <eLiterals name="Cheesesteaks" value="35"/>
+    <eLiterals name="Event_Planning_Services" value="36"/>
+    <eLiterals name="Steakhouses" value="37"/>
+    <eLiterals name="Fast_Food" value="38"/>
+    <eLiterals name="Indian" value="39"/>
+    <eLiterals name="Diners" value="40"/>
+    <eLiterals name="Gastropubs" value="41"/>
+    <eLiterals name="Tex_Mex" value="42"/>
+    <eLiterals name="Latin_American" value="43"/>
+    <eLiterals name="Vegan" value="44"/>
+    <eLiterals name="Cinema" value="45"/>
+    <eLiterals name="Cafes" value="46"/>
+    <eLiterals name="Comfort_Food" value="47"/>
+    <eLiterals name="Delis" value="48"/>
+    <eLiterals name="Soup" value="49"/>
+    <eLiterals name="Vegetarian" value="50"/>
+    <eLiterals name="Food_Trucks" value="51"/>
+    <eLiterals name="Dance_Clubs" value="52"/>
+    <eLiterals name="Gluten_Free" value="53"/>
+    <eLiterals name="Salad" value="54"/>
+    <eLiterals name="Korean" value="55"/>
+    <eLiterals name="Noodles" value="56"/>
+    <eLiterals name="Barbeque" value="57"/>
+    <eLiterals name="Hotels_Travel" value="58"/>
+    <eLiterals name="Local_Flavor" value="59"/>
+    <eLiterals name="Soul_Food" value="60"/>
+    <eLiterals name="Greek" value="61"/>
+    <eLiterals name="Buffets" value="62"/>
+    <eLiterals name="Juice_Bars_Smoothies" value="63"/>
+    <eLiterals name="Parks" value="64"/>
+    <eLiterals name="Southern" value="65"/>
+    <eLiterals name="Music_Venues" value="66"/>
+    <eLiterals name="Street_Vendors" value="67"/>
+    <eLiterals name="Fashion" value="68"/>
+    <eLiterals name="Food_Delivery_Services" value="69"/>
+    <eLiterals name="Szechuan" value="70"/>
+    <eLiterals name="Food_Stands" value="71"/>
+    <eLiterals name="Beer_Bar" value="72"/>
+    <eLiterals name="Tapas_Small_Plates" value="73"/>
+    <eLiterals name="Used" value="74"/>
+    <eLiterals name="Gyms" value="75"/>
+    <eLiterals name="German" value="76"/>
+    <eLiterals name="Taiwanese" value="77"/>
+    <eLiterals name="Bubble_Tea" value="78"/>
+    <eLiterals name="Caterers" value="79"/>
+    <eLiterals name="Sports_Bars" value="80"/>
+    <eLiterals name="Performing_Arts" value="81"/>
+    <eLiterals name="Middle_Eastern" value="82"/>
+    <eLiterals name="Beauty_Spas" value="83"/>
+    <eLiterals name="Local_Services" value="84"/>
+    <eLiterals name="Belgian" value="85"/>
+    <eLiterals name="Poke" value="86"/>
+    <eLiterals name="Irish" value="87"/>
+    <eLiterals name="Irish_Pub" value="88"/>
+    <eLiterals name="Chicken_Wings" value="89"/>
+    <eLiterals name="Falafel" value="90"/>
+    <eLiterals name="Transportation" value="91"/>
+    <eLiterals name="Ramen" value="92"/>
+    <eLiterals name="Indonesian" value="93"/>
+    <eLiterals name="Singaporean" value="94"/>
+    <eLiterals name="Pakistani" value="95"/>
+    <eLiterals name="Bagels" value="96"/>
+    <eLiterals name="Cheese_Shops" value="97"/>
+    <eLiterals name="Tacos" value="98"/>
+    <eLiterals name="Halal" value="99"/>
+    <eLiterals name="Spanish" value="100"/>
+    <eLiterals name="Mens_Clothing" value="101"/>
+    <eLiterals name="Fitness_Instruction" value="102"/>
+    <eLiterals name="Dim_Sum" value="103"/>
+    <eLiterals name="Beer_Gardens" value="104"/>
+    <eLiterals name="Dive_Bars" value="105"/>
+    <eLiterals name="Breweries" value="106"/>
+    <eLiterals name="Donuts" value="107"/>
+    <eLiterals name="Ethnic_Food" value="108"/>
+    <eLiterals name="Landmarks_Historical_Buildings" value="109"/>
+    <eLiterals name="Train_Stations" value="110"/>
+    <eLiterals name="Comedy_Clubs" value="111"/>
+    <eLiterals name="Moroccan" value="112"/>
+    <eLiterals name="British" value="113"/>
+    <eLiterals name="Art_Classes" value="114"/>
+    <eLiterals name="Wraps" value="115"/>
+    <eLiterals name="Iberian" value="116"/>
+    <eLiterals name="Chicken_Shop" value="117"/>
+    <eLiterals name="Wineries" value="118"/>
+    <eLiterals name="Home_Garden" value="119"/>
+    <eLiterals name="Pretzels" value="120"/>
+    <eLiterals name="Filipino" value="121"/>
+    <eLiterals name="Cuban" value="122"/>
+    <eLiterals name="Brazilian" value="123"/>
+    <eLiterals name="Health_Medical" value="124"/>
+    <eLiterals name="Mobile_Phones" value="125"/>
+    <eLiterals name="Art_Galleries" value="126"/>
+    <eLiterals name="Apartments" value="127"/>
+    <eLiterals name="Casinos" value="128"/>
+    <eLiterals name="Candy_Stores" value="129"/>
+    <eLiterals name="Home_Decor" value="130"/>
+    <eLiterals name="Accessories" value="131"/>
+    <eLiterals name="Meat_Shops" value="132"/>
+    <eLiterals name="Fruits_Veggies" value="133"/>
+    <eLiterals name="Chocolatiers_Shops" value="134"/>
+    <eLiterals name="Outlet_Stores" value="135"/>
+    <eLiterals name="Womens_Clothing" value="136"/>
+    <eLiterals name="Hardware_Stores" value="137"/>
+    <eLiterals name="Hot_Dogs" value="138"/>
+    <eLiterals name="Wedding_Planning" value="139"/>
+    <eLiterals name="Recreation_Centers" value="140"/>
+    <eLiterals name="Brewpubs" value="141"/>
+    <eLiterals name="Nurseries_Gardening" value="142"/>
+    <eLiterals name="Arts_Crafts" value="143"/>
+    <eLiterals name="Flowers_Gifts" value="144"/>
+    <eLiterals name="Health_Markets" value="145"/>
+    <eLiterals name="Drugstores" value="146"/>
+    <eLiterals name="Kebab" value="147"/>
+    <eLiterals name="Sporting_Goods" value="148"/>
+    <eLiterals name="Music_DVDs" value="149"/>
+    <eLiterals name="Ethiopian" value="150"/>
+    <eLiterals name="Bike_Repair_Maintenance" value="151"/>
+    <eLiterals name="Department_Stores" value="152"/>
+    <eLiterals name="Home_Services" value="153"/>
+    <eLiterals name="Mongolian" value="154"/>
+    <eLiterals name="Peruvian" value="155"/>
+    <eLiterals name="Hair_Stylists" value="156"/>
+    <eLiterals name="Cideries" value="157"/>
+    <eLiterals name="Bikes" value="158"/>
+    <eLiterals name="Bookstores" value="159"/>
+    <eLiterals name="Malaysian" value="160"/>
+    <eLiterals name="Hiking" value="161"/>
+    <eLiterals name="Public_Transportation" value="162"/>
+    <eLiterals name="Automotive" value="163"/>
+    <eLiterals name="New_Mexican_Cuisine" value="164"/>
+    <eLiterals name="Hainan" value="165"/>
+    <eLiterals name="Karaoke" value="166"/>
+    <eLiterals name="Makeup_Artists" value="167"/>
+    <eLiterals name="Caribbean" value="168"/>
+    <eLiterals name="Gun_Rifle_Ranges" value="169"/>
+    <eLiterals name="Eatertainment" value="170"/>
+    <eLiterals name="International_Grocery" value="171"/>
+    <eLiterals name="Pets" value="172"/>
+    <eLiterals name="Hotels" value="173"/>
+    <eLiterals name="Kitchen_Bath" value="174"/>
+    <eLiterals name="Kosher" value="175"/>
+    <eLiterals name="Empanadas" value="176"/>
+    <eLiterals name="Cupcakes" value="177"/>
+    <eLiterals name="Convenience_Stores" value="178"/>
+    <eLiterals name="Packing_Supplies" value="179"/>
+    <eLiterals name="Shanghainese" value="180"/>
+    <eLiterals name="Skin_Care" value="181"/>
+    <eLiterals name="Art_Museums" value="182"/>
+    <eLiterals name="Live_Raw_Food" value="183"/>
+    <eLiterals name="Basque" value="184"/>
+    <eLiterals name="Scandinavian" value="185"/>
+    <eLiterals name="Museums" value="186"/>
+    <eLiterals name="Hot_Pot" value="187"/>
+    <eLiterals name="Burmese" value="188"/>
+    <eLiterals name="Professional_Services" value="189"/>
+    <eLiterals name="Religious_Organizations" value="190"/>
+    <eLiterals name="Smokehouse" value="191"/>
+    <eLiterals name="Photography_Stores_Services" value="192"/>
+    <eLiterals name="Jewelry_Repair" value="193"/>
+    <eLiterals name="Books" value="194"/>
+  </eClassifiers>
+</ecore:EPackage>

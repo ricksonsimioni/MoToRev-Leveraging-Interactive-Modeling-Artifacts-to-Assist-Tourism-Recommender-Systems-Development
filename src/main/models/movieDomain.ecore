@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="domainMovie" nsURI="http://org.rs.domain.movie" nsPrefix="domainMovie">
+  <eClassifiers xsi:type="ecore:EClass" name="MovieDomain">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Viewer" upperBound="-1"
+        eType="#//Viewer" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="series" lowerBound="1"
+        upperBound="-1" eType="#//Series" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="movies" upperBound="-1"
+        eType="#//Movie" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="categories" upperBound="-1"
+        eType="#//ShowCategory" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Show" abstract="true" eSuperTypes="http://org.rs#//Item">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pg" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="category" eType="#//ShowCategory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ShowCategory" eSuperTypes="http://org.rs#//Preference">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="category" eType="#//Category"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Movie" eSuperTypes="#//Show">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Series" eSuperTypes="#//Show">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="seasons" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ViewerPreference" eSuperTypes="http://org.rs#//Preference"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ViewerProfile" eSuperTypes="http://org.rs#//Profile">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="age" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Viewer" eSuperTypes="http://org.rs#//User">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="viewerPreference" lowerBound="1"
+        eType="#//ViewerPreference" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="viewerProfile" lowerBound="1"
+        eType="#//ViewerProfile" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Category">
+    <eLiterals name="Horror"/>
+    <eLiterals name="Thriller" value="1"/>
+    <eLiterals name="Film_Noir" value="2"/>
+    <eLiterals name="War" value="3"/>
+    <eLiterals name="Sci_Fi" value="4"/>
+    <eLiterals name="Comedy" value="5"/>
+    <eLiterals name="Mystery" value="6"/>
+    <eLiterals name="Romance" value="7"/>
+    <eLiterals name="Musical" value="8"/>
+    <eLiterals name="Drama" value="9"/>
+    <eLiterals name="Western" value="10"/>
+    <eLiterals name="Documentary" value="11"/>
+    <eLiterals name="Action" value="12"/>
+    <eLiterals name="Fantasy" value="13"/>
+    <eLiterals name="Animation" value="14"/>
+    <eLiterals name="IMAX" value="15"/>
+    <eLiterals name="Adventure" value="16"/>
+    <eLiterals name="Children" value="17"/>
+    <eLiterals name="Crime" value="18"/>
+    <eLiterals name="No_Listed" value="19"/>
+  </eClassifiers>
+</ecore:EPackage>
