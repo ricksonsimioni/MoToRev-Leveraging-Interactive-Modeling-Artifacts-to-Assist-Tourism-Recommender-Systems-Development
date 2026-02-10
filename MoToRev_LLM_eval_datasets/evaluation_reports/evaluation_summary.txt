@@ -1,0 +1,34 @@
+EVALUATION SUMMARY
+================================================================================
+Total Scenarios: 6
+
+
+MEDIUM
+--------------------------------------------------------------------------------
+  out_models_cb_medium_gpt-oss-120b-cloud_v1:
+    Correctness: 100.00%
+    User Hall: 0.0000
+    Item Hall: 0.0000
+  out_models_cf_medium_gpt-oss-120b-cloud_v1:
+    Correctness: 100.00%
+    User Hall: 0.0000
+    Item Hall: 0.0000
+  out_models_hybrid_medium_gpt-oss-120b-cloud_v1:
+    Correctness: 50.00%
+    User Hall: 2.0000
+    Item Hall: 0.0000
+
+SMALL
+--------------------------------------------------------------------------------
+  out_models_cb_small_gpt-oss-120b-cloud_v1:
+    Correctness: 100.00%
+    User Hall: 0.0000
+    Item Hall: 0.0000
+  out_models_cf_small:
+    Correctness: 50.00%
+    User Hall: 0.5000
+    Item Hall: 1.3333
+  out_models_hybrid_small_gpt-oss-120b-cloud_v1:
+    Correctness: 100.00%
+    User Hall: 0.0000
+    Item Hall: 0.0000

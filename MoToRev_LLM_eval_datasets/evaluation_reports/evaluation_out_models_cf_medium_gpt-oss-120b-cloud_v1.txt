@@ -1,0 +1,35 @@
+================================================================================
+MODEL EVALUATION REPORT: out_models_cf_medium_gpt-oss-120b-cloud_v1
+================================================================================
+Generated: 2026-01-23 11:32:27
+Directory: /Users/ricksonsimionipereira/Documents/PhD/Publications/ACM TORS 2025/Motorev_datasets/tests/out_models_cf/medium/gpt-oss-120b-cloud/v1
+
+SUMMARY
+================================================================================
+Model pairs: 1
+Successfully evaluated: 1
+Errors: 0
+
+METRICS
+--------------------------------------------------------------------------------
+Overall Correctness: 100.00%
+Avg User Hallucination Rate: 0.0000
+Avg Item Hallucination Rate: 0.0000
+
+================================================================================
+DETAILED RESULTS
+================================================================================
+
+Pair 1
+================================================================================
+Domain: domain-20260115-100955.model
+RS: recommender-20260115-101036.model
+
+Domain: ✓ CORRECT
+
+RS: ✓ CORRECT
+
+Hallucination Metrics:
+  Users: 0.0000 (0/50, 0 hallucinated)
+  Items: inf (0/0, 0 hallucinated)
+

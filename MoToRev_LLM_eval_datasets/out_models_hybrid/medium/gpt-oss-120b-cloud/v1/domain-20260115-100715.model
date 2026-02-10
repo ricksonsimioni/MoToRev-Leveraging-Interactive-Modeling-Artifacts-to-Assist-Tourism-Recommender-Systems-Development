@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:domain="http://org.rs.domain"
+         xmi:version="2.0">
+  <domain:RSDomain xmi:id="_gen_domain_1" name="National Park of Abruzzo">
+    <!-- Categories -->
+    <domain:Category xmi:id="_gen_category_INFOPOINT" name="INFOPOINT"/>
+    <domain:Category xmi:id="_gen_category_MUSEO" name="MUSEO"/>
+    <domain:Category xmi:id="_gen_category_AREA_FAUNISTICA" name="AREA_FAUNISTICA"/>
+    <domain:Category xmi:id="_gen_category_COMUNE" name="COMUNE"/>
+    
+    <!-- POIs -->
+    <domain:POI xmi:id="_gen_poi_1" xsi:type="domain:IndoorPOI" name="Visitor Center" category="_gen_category_INFOPOINT"/>
+    <domain:POI xmi:id="_gen_poi_2" xsi:type="domain:IndoorPOI" name="Regional Museum" category="_gen_category_MUSEO"/>
+    <domain:POI xmi:id="_gen_poi_3" xsi:type="domain:OutdoorPOI" name="Wolf Sanctuary" category="_gen_category_AREA_FAUNISTICA"/>
+    <domain:POI xmi:id="_gen_poi_4" xsi:type="domain:OutdoorPOI" name="Historic Town Hall" category="_gen_category_COMUNE"/>
+    
+    <!-- Tourists and Preferences -->
+    <domain:Tourist xmi:id="_gen_tourist_1" name="Tourist 1" preference="_gen_pref_1"/>
+    <domain:Preference xmi:id="_gen_pref_1" preferredPriceRange="LOW" preferredTransportationMode="WALK" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_2" name="Tourist 2" preference="_gen_pref_2"/>
+    <domain:Preference xmi:id="_gen_pref_2" preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_3" name="Tourist 3" preference="_gen_pref_3"/>
+    <domain:Preference xmi:id="_gen_pref_3" preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_4" name="Tourist 4" preference="_gen_pref_4"/>
+    <domain:Preference xmi:id="_gen_pref_4" preferredPriceRange="LOW" preferredTransportationMode="BUS" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_5" name="Tourist 5" preference="_gen_pref_5"/>
+    <domain:Preference xmi:id="_gen_pref_5" preferredPriceRange="MEDIUM" preferredTransportationMode="WALK" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_6" name="Tourist 6" preference="_gen_pref_6"/>
+    <domain:Preference xmi:id="_gen_pref_6" preferredPriceRange="HIGH" preferredTransportationMode="BIKE" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_7" name="Tourist 7" preference="_gen_pref_7"/>
+    <domain:Preference xmi:id="_gen_pref_7" preferredPriceRange="LOW" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_8" name="Tourist 8" preference="_gen_pref_8"/>
+    <domain:Preference xmi:id="_gen_pref_8" preferredPriceRange="MEDIUM" preferredTransportationMode="BUS" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_9" name="Tourist 9" preference="_gen_pref_9"/>
+    <domain:Preference xmi:id="_gen_pref_9" preferredPriceRange="HIGH" preferredTransportationMode="WALK" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_10" name="Tourist 10" preference="_gen_pref_10"/>
+    <domain:Preference xmi:id="_gen_pref_10" preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_11" name="Tourist 11" preference="_gen_pref_11"/>
+    <domain:Preference xmi:id="_gen_pref_11" preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_12" name="Tourist 12" preference="_gen_pref_12"/>
+    <domain:Preference xmi:id="_gen_pref_12" preferredPriceRange="HIGH" preferredTransportationMode="BUS" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_13" name="Tourist 13" preference="_gen_pref_13"/>
+    <domain:Preference xmi:id="_gen_pref_13" preferredPriceRange="LOW" preferredTransportationMode="WALK" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_14" name="Tourist 14" preference="_gen_pref_14"/>
+    <domain:Preference xmi:id="_gen_pref_14" preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_15" name="Tourist 15" preference="_gen_pref_15"/>
+    <domain:Preference xmi:id="_gen_pref_15" preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_16" name="Tourist 16" preference="_gen_pref_16"/>
+    <domain:Preference xmi:id="_gen_pref_16" preferredPriceRange="LOW" preferredTransportationMode="BUS" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_17" name="Tourist 17" preference="_gen_pref_17"/>
+    <domain:Preference xmi:id="_gen_pref_17" preferredPriceRange="MEDIUM" preferredTransportationMode="WALK" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_18" name="Tourist 18" preference="_gen_pref_18"/>
+    <domain:Preference xmi:id="_gen_pref_18" preferredPriceRange="HIGH" preferredTransportationMode="BIKE" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_19" name="Tourist 19" preference="_gen_pref_19"/>
+    <domain:Preference xmi:id="_gen_pref_19" preferredPriceRange="LOW" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_20" name="Tourist 20" preference="_gen_pref_20"/>
+    <domain:Preference xmi:id="_gen_pref_20" preferredPriceRange="MEDIUM" preferredTransportationMode="BUS" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_21" name="Tourist 21" preference="_gen_pref_21"/>
+    <domain:Preference xmi:id="_gen_pref_21" preferredPriceRange="HIGH" preferredTransportationMode="WALK" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_22" name="Tourist 22" preference="_gen_pref_22"/>
+    <domain:Preference xmi:id="_gen_pref_22" preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_23" name="Tourist 23" preference="_gen_pref_23"/>
+    <domain:Preference xmi:id="_gen_pref_23" preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_24" name="Tourist 24" preference="_gen_pref_24"/>
+    <domain:Preference xmi:id="_gen_pref_24" preferredPriceRange="HIGH" preferredTransportationMode="BUS" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_25" name="Tourist 25" preference="_gen_pref_25"/>
+    <domain:Preference xmi:id="_gen_pref_25" preferredPriceRange="LOW" preferredTransportationMode="WALK" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_26" name="Tourist 26" preference="_gen_pref_26"/>
+    <domain:Preference xmi:id="_gen_pref_26" preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_27" name="Tourist 27" preference="_gen_pref_27"/>
+    <domain:Preference xmi:id="_gen_pref_27" preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_28" name="Tourist 28" preference="_gen_pref_28"/>
+    <domain:Preference xmi:id="_gen_pref_28" preferredPriceRange="LOW" preferredTransportationMode="BUS" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_29" name="Tourist 29" preference="_gen_pref_29"/>
+    <domain:Preference xmi:id="_gen_pref_29" preferredPriceRange="MEDIUM" preferredTransportationMode="WALK" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_30" name="Tourist 30" preference="_gen_pref_30"/>
+    <domain:Preference xmi:id="_gen_pref_30" preferredPriceRange="HIGH" preferredTransportationMode="BIKE" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_31" name="Tourist 31" preference="_gen_pref_31"/>
+    <domain:Preference xmi:id="_gen_pref_31" preferredPriceRange="LOW" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_32" name="Tourist 32" preference="_gen_pref_32"/>
+    <domain:Preference xmi:id="_gen_pref_32" preferredPriceRange="MEDIUM" preferredTransportationMode="BUS" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_33" name="Tourist 33" preference="_gen_pref_33"/>
+    <domain:Preference xmi:id="_gen_pref_33" preferredPriceRange="HIGH" preferredTransportationMode="WALK" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_34" name="Tourist 34" preference="_gen_pref_34"/>
+    <domain:Preference xmi:id="_gen_pref_34" preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_35" name="Tourist 35" preference="_gen_pref_35"/>
+    <domain:Preference xmi:id="_gen_pref_35" preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_36" name="Tourist 36" preference="_gen_pref_36"/>
+    <domain:Preference xmi:id="_gen_pref_36" preferredPriceRange="HIGH" preferredTransportationMode="BUS" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_37" name="Tourist 37" preference="_gen_pref_37"/>
+    <domain:Preference xmi:id="_gen_pref_37" preferredPriceRange="LOW" preferredTransportationMode="WALK" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_38" name="Tourist 38" preference="_gen_pref_38"/>
+    <domain:Preference xmi:id="_gen_pref_38" preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_39" name="Tourist 39" preference="_gen_pref_39"/>
+    <domain:Preference xmi:id="_gen_pref_39" preferredPriceRange="HIGH" preferredTransportationMode="CAR" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_40" name="Tourist 40" preference="_gen_pref_40"/>
+    <domain:Preference xmi:id="_gen_pref_40" preferredPriceRange="LOW" preferredTransportationMode="BUS" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_41" name="Tourist 41" preference="_gen_pref_41"/>
+    <domain:Preference xmi:id="_gen_pref_41" preferredPriceRange="MEDIUM" preferredTransportationMode="WALK" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_42" name="Tourist 42" preference="_gen_pref_42"/>
+    <domain:Preference xmi:id="_gen_pref_42" preferredPriceRange="HIGH" preferredTransportationMode="BIKE" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_43" name="Tourist 43" preference="_gen_pref_43"/>
+    <domain:Preference xmi:id="_gen_pref_43" preferredPriceRange="LOW" preferredTransportationMode="CAR" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_44" name="Tourist 44" preference="_gen_pref_44"/>
+    <domain:Preference xmi:id="_gen_pref_44" preferredPriceRange="MEDIUM" preferredTransportationMode="BUS" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_45" name="Tourist 45" preference="_gen_pref_45"/>
+    <domain:Preference xmi:id="_gen_pref_45" preferredPriceRange="HIGH" preferredTransportationMode="WALK" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_46" name="Tourist 46" preference="_gen_pref_46"/>
+    <domain:Preference xmi:id="_gen_pref_46" preferredPriceRange="LOW" preferredTransportationMode="BIKE" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_47" name="Tourist 47" preference="_gen_pref_47"/>
+    <domain:Preference xmi:id="_gen_pref_47" preferredPriceRange="MEDIUM" preferredTransportationMode="CAR" hikingSkill="INTERMEDIATE"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_48" name="Tourist 48" preference="_gen_pref_48"/>
+    <domain:Preference xmi:id="_gen_pref_48" preferredPriceRange="HIGH" preferredTransportationMode="BUS" hikingSkill="ADVANCED"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_49" name="Tourist 49" preference="_gen_pref_49"/>
+    <domain:Preference xmi:id="_gen_pref_49" preferredPriceRange="LOW" preferredTransportationMode="WALK" hikingSkill="BEGINNER"/>
+    
+    <domain:Tourist xmi:id="_gen_tourist_50" name="Tourist 50" preference="_gen_pref_50"/>
+    <domain:Preference xmi:id="_gen_pref_50" preferredPriceRange="MEDIUM" preferredTransportationMode="BIKE" hikingSkill="INTERMEDIATE"/>
+    
+  </domain:RSDomain>
+</xmi:XMI>

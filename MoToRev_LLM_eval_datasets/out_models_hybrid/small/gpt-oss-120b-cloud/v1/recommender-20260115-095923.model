@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain">
+  <org.rs:Algorithm xmi:id="Algorithm_TRS" name="TRS">
+    <filteringRS xsi:type="org.rs:HybridBased" xmi:id="Hybrid_TRS">
+      <_cfComponent xsi:type="org.rs:CollaborativeFilteringComponent" xmi:id="CFComp_TRS">
+        <data xmi:id="CFData_TRS">
+          <!-- Rating rows would be placed here, referencing domain.model via hrefs when available -->
+        </data>
+      </_cfComponent>
+      <_cbComponent xsi:type="org.rs:ContentBasedComponent" xmi:id="CBComp_TRS">
+        <features xmi:id="CBFeatures_TRS">
+          <!-- Content‑based feature mappings would be placed here, referencing domain.model via hrefs when available -->
+        </features>
+      </_cbComponent>
+    </filteringRS>
+  </org.rs:Algorithm>
+</xmi:XMI>

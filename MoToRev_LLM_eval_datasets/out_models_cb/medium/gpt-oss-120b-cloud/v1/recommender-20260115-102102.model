@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.rs:Algorithm xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.rs="http://org.rs"
+    xmlns:domain="http://org.rs.domain"
+    name="TRS"
+    xmi:id="TRS_Algorithm">
+  <filteringRS xsi:type="org.rs:ContentBased" xmi:id="TRS_ContentBased">
+    <features>
+      <itemFeature xmi:id="itemFeature_categoryType" name="categoryType">
+        <value>Indoor</value>
+      </itemFeature>
+      <userFeature xmi:id="userFeature_preferredPriceRange" name="preferredPriceRange">
+        <value>Mid</value>
+      </userFeature>
+      <userFeature xmi:id="userFeature_preferredTransportationMode" name="preferredTransportationMode">
+        <value>PublicTransport</value>
+      </userFeature>
+      <userFeature xmi:id="userFeature_hikingSkill" name="hikingSkill">
+        <value>Intermediate</value>
+      </userFeature>
+    </features>
+  </filteringRS>
+</org.rs:Algorithm>

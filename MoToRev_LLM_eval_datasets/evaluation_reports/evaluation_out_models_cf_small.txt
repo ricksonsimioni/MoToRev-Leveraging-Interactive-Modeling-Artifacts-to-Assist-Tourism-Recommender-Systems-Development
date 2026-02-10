@@ -1,0 +1,36 @@
+================================================================================
+MODEL EVALUATION REPORT: out_models_cf_small
+================================================================================
+Generated: 2026-01-23 11:32:27
+Directory: /Users/ricksonsimionipereira/Documents/PhD/Publications/ACM TORS 2025/Motorev_datasets/tests/out_models_cf/small
+
+SUMMARY
+================================================================================
+Model pairs: 1
+Successfully evaluated: 1
+Errors: 0
+
+METRICS
+--------------------------------------------------------------------------------
+Overall Correctness: 50.00%
+Avg User Hallucination Rate: 0.5000
+Avg Item Hallucination Rate: 1.3333
+
+================================================================================
+DETAILED RESULTS
+================================================================================
+
+Pair 1
+================================================================================
+Domain: domain-20260115-101320.model
+RS: recommender-20260115-101341.model
+
+Domain: ✓ CORRECT
+
+RS: ✗ INCORRECT
+  - Item Hallucinations: 8 items not in domain. Sample: _poi_1, _poi_2, _poi_3, _poi_4, _poi_5
+
+Hallucination Metrics:
+  Users: 0.5000 (10/20, 0 hallucinated)
+  Items: 1.3333 (8/6, 8 hallucinated)
+

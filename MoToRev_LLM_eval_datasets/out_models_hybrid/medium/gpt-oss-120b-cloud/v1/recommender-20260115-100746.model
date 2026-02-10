@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:org.rs="http://org.rs"
+         xmlns:domain="http://org.rs.domain"
+         xmi:version="2.0">
+  <org.rs:Algorithm xmi:id="_alg1" name="TRS">
+    <filteringRS xsi:type="org.rs:HybridBased" xmi:id="_hyb1">
+      <_cfComponent xsi:type="org.rs:CollaborativeFiltering" xmi:id="_cf1">
+        <data>
+          <rows xmi:id="_r1" value="4.7" user="domain.model#user1" item="domain.model#item1"/>
+          <rows xmi:id="_r2" value="3.9" user="domain.model#user2" item="domain.model#item2"/>
+          <rows xmi:id="_r3" value="4.2" user="domain.model#user3" item="domain.model#item3"/>
+          <rows xmi:id="_r4" value="5.0" user="domain.model#user4" item="domain.model#item4"/>
+          <rows xmi:id="_r5" value="3.8" user="domain.model#user5" item="domain.model#item5"/>
+          <rows xmi:id="_r6" value="4.5" user="domain.model#user6" item="domain.model#item6"/>
+          <rows xmi:id="_r7" value="4.1" user="domain.model#user7" item="domain.model#item7"/>
+          <rows xmi:id="_r8" value="4.9" user="domain.model#user8" item="domain.model#item8"/>
+          <rows xmi:id="_r9" value="3.6" user="domain.model#user9" item="domain.model#item9"/>
+          <rows xmi:id="_r10" value="4.3" user="domain.model#user10" item="domain.model#item10"/>
+          <rows xmi:id="_r11" value="4.8" user="domain.model#user11" item="domain.model#item11"/>
+          <rows xmi:id="_r12" value="3.7" user="domain.model#user12" item="domain.model#item12"/>
+          <rows xmi:id="_r13" value="4.0" user="domain.model#user13" item="domain.model#item13"/>
+          <rows xmi:id="_r14" value="4.6" user="domain.model#user14" item="domain.model#item14"/>
+          <rows xmi:id="_r15" value="5.0" user="domain.model#user15" item="domain.model#item15"/>
+          <rows xmi:id="_r16" value="3.9" user="domain.model#user16" item="domain.model#item16"/>
+          <rows xmi:id="_r17" value="4.2" user="domain.model#user17" item="domain.model#item17"/>
+          <rows xmi:id="_r18" value="4.4" user="domain.model#user18" item="domain.model#item18"/>
+          <rows xmi:id="_r19" value="3.8" user="domain.model#user19" item="domain.model#item19"/>
+          <rows xmi:id="_r20" value="4.7" user="domain.model#user20" item="domain.model#item20"/>
+          <rows xmi:id="_r21" value="4.1" user="domain.model#user21" item="domain.model#item21"/>
+          <rows xmi:id="_r22" value="4.9" user="domain.model#user22" item="domain.model#item22"/>
+          <rows xmi:id="_r23" value="3.5" user="domain.model#user23" item="domain.model#item23"/>
+          <rows xmi:id="_r24" value="4.3" user="domain.model#user24" item="domain.model#item24"/>
+          <rows xmi:id="_r25" value="4.6" user="domain.model#user25" item="domain.model#item25"/>
+          <rows xmi:id="_r26" value="4.8" user="domain.model#user26" item="domain.model#item26"/>
+          <rows xmi:id="_r27" value="3.9" user="domain.model#user27" item="domain.model#item27"/>
+          <rows xmi:id="_r28" value="4.5" user="domain.model#user28" item="domain.model#item28"/>
+          <rows xmi:id="_r29" value="4.2" user="domain.model#user29" item="domain.model#item29"/>
+          <rows xmi:id="_r30" value="5.0" user="domain.model#user30" item="domain.model#item30"/>
+          <rows xmi:id="_r31" value="4.0" user="domain.model#user31" item="domain.model#item31"/>
+          <rows xmi:id="_r32" value="4.7" user="domain.model#user32" item="domain.model#item32"/>
+          <rows xmi:id="_r33" value="3.8" user="domain.model#user33" item="domain.model#item33"/>
+          <rows xmi:id="_r34" value="4.4" user="domain.model#user34" item="domain.model#item34"/>
+          <rows xmi:id="_r35" value="4.9" user="domain.model#user35" item="domain.model#item35"/>
+          <rows xmi:id="_r36" value="3.6" user="domain.model#user36" item="domain.model#item36"/>
+          <rows xmi:id="_r37" value="4.3" user="domain.model#user37" item="domain.model#item37"/>
+          <rows xmi:id="_r38" value="4.6" user="domain.model#user38" item="domain.model#item38"/>
+          <rows xmi:id="_r39" value="5.0" user="domain.model#user39" item="domain.model#item39"/>
+          <rows xmi:id="_r40" value="4.1" user="domain.model#user40" item="domain.model#item40"/>
+          <rows xmi:id="_r41" value="4.8" user="domain.model#user41" item="domain.model#item41"/>
+          <rows xmi:id="_r42" value="3.9" user="domain.model#user42" item="domain.model#item42"/>
+          <rows xmi:id="_r43" value="4.5" user="domain.model#user43" item="domain.model#item43"/>
+          <rows xmi:id="_r44" value="4.2" user="domain.model#user44" item="domain.model#item44"/>
+          <rows xmi:id="_r45" value="5.0" user="domain.model#user45" item="domain.model#item45"/>
+          <rows xmi:id="_r46" value="3.7" user="domain.model#user46" item="domain.model#item46"/>
+          <rows xmi:id="_r47" value="4.4" user="domain.model#user47" item="domain.model#item47"/>
+          <rows xmi:id="_r48" value="4.9" user="domain.model#user48" item="domain.model#item48"/>
+          <rows xmi:id="_r49" value="3.8" user="domain.model#user49" item="domain.model#item49"/>
+          <rows xmi:id="_r50" value="4.6" user="domain.model#user50" item="domain.model#item50"/>
+          <rows xmi:id="_r51" value="4.0" user="domain.model#user51" item="domain.model#item51"/>
+          <rows xmi:id="_r52" value="4.7" user="domain.model#user52" item="domain.model#item52"/>
+          <rows xmi:id="_r53" value="3.9" user="domain.model#user53" item="domain.model#item53"/>
+          <rows xmi:id="_r54" value="4.3" user="domain.model#user54" item="domain.model#item54"/>
+          <rows xmi:id="_r55" value="4.8" user="domain.model#user55" item="domain.model#item55"/>
+          <rows xmi:id="_r56" value="5.0" user="domain.model#user56" item="domain.model#item56"/>
+          <rows xmi:id="_r57" value="3.6" user="domain.model#user57" item="domain.model#item57"/>
+          <rows xmi:id="_r58" value="4.5" user="domain.model#user58" item="domain.model#item58"/>
+          <rows xmi:id="_r59" value="4.2" user="domain.model#user59" item="domain.model#item59"/>
+          <rows xmi:id="_r60" value="4.9" user="domain.model#user60" item="domain.model#item60"/>
+          <rows xmi:id="_r61" value="3.8" user="domain.model#user61" item="domain.model#item61"/>
+          <rows xmi:id="_r62" value="4.4" user="domain.model#user62" item="domain.model#item62"/>
+          <rows xmi:id="_r63" value="5.0" user="domain.model#user63" item="domain.model#item63"/>
+          <rows xmi:id="_r64" value="4.1" user="domain.model#user64" item="domain.model#item64"/>
+          <rows xmi:id="_r65" value="4.6" user="domain.model#user65" item="domain.model#item65"/>
+          <rows xmi:id="_r66" value="3.9" user="domain.model#user66" item="domain.model#item66"/>
+          <rows xmi:id="_r67" value="4.5" user="domain.model#user67" item="domain.model#item67"/>
+          <rows xmi:id="_r68" value="4.2" user="domain.model#user68" item="domain.model#item68"/>
+          <rows xmi:id="_r69" value="5.0" user="domain.model#user69" item="domain.model#item69"/>
+          <rows xmi:id="_r70" value="3.7" user="domain.model#user70" item="domain.model#item70"/>
+          <rows xmi:id="_r71" value="4.8" user="domain.model#user71" item="domain.model#item71"/>
+          <rows xmi:id="_r72" value="4.3" user="domain.model#user72" item="domain.model#item72"/>
+          <rows xmi:id="_r73" value="4.9" user="domain.model#user73" item="domain.model#item73"/>
+          <rows xmi:id="_r74" value="3.5" user="domain.model#user74" item="domain.model#item74"/>
+          <rows xmi:id="_r75" value="4.4" user="domain.model#user75" item="domain.model#item75"/>
+          <rows xmi:id="_r76" value="5.0" user="domain.model#user76" item="domain.model#item76"/>
+          <rows xmi:id="_r77" value="4.0" user="domain.model#user77" item="domain.model#item77"/>
+          <rows xmi:id="_r78" value="4.7" user="domain.model#user78" item="domain.model#item78"/>
+          <rows xmi:id="_r79" value="3.9" user="domain.model#user79" item="domain.model#item79"/>
+          <rows xmi:id="_r80" value="4.5" user="domain.model#user80" item="domain.model#item80"/>
+          <rows xmi:id="_r81" value="4.2" user="domain.model#user81" item="domain.model#item81"/>
+          <rows xmi:id="_r82" value="5.0" user="domain.model#user82" item="domain.model#item82"/>
+          <rows xmi:id="_r83" value="3.8" user="domain.model#user83" item="domain.model#item83"/>
+          <rows xmi:id="_r84" value="4.6" user="domain.model#user84" item="domain.model#item84"/>
+          <rows xmi:id="_r85" value="4.1" user="domain.model#user85" item="domain.model#item85"/>
+          <rows xmi:id="_r86" value="4.9" user="domain.model#user86" item="domain.model#item86"/>
+          <rows xmi:id="_r87" value="3.7" user="domain.model#user87" item="domain.model#item87"/>
+          <rows xmi:id="_r88" value="4.3" user="domain.model#user88" item="domain.model#item88"/>
+          <rows xmi:id="_r89" value="5.0" user="domain.model#user89" item="domain.model#item89"/>
+          <rows xmi:id="_r90" value="4.4" user="domain.model#user90" item="domain.model#item90"/>
+          <rows xmi:id="_r91" value="4.8" user="domain.model#user91" item="domain.model#item91"/>
+          <rows xmi:id="_r92" value="3.6" user="domain.model#user92" item="domain.model#item92"/>
+          <rows xmi:id="_r93" value="4.5" user="domain.model#user93" item="domain.model#item93"/>
+          <rows xmi:id="_r94" value="4.2" user="domain.model#user94" item="domain.model#item94"/>
+          <rows xmi:id="_r95" value="5.0" user="domain.model#user95" item="domain.model#item95"/>
+          <rows xmi:id="_r96" value="3.9" user="domain.model#user96" item="domain.model#item96"/>
+          <rows xmi:id="_r97" value="4.7" user="domain.model#user97" item="domain.model#item97"/>
+          <rows xmi:id="_r98" value="4.0" user="domain.model#user98" item="domain.model#item98"/>
+          <rows xmi:id="_r99" value="4.6" user="domain.model#user99" item="domain.model#item99"/>
+          <rows xmi:id="_r100" value="5.0" user="domain.model#user100" item="domain.model#item100"/>
+        </data>
+      </_cfComponent>
+      <_cbComponent xsi:type="org.rs:ContentBased" xmi:id="_cb1">
+        <preferences>
+          <preference xmi:id="_p1" dimension="preferredPriceRange" user="domain.model#user1"/>
+          <preference xmi:id="_p2" dimension="preferredTransportationMode" user="domain.model#user2"/>
+          <preference xmi:id="_p3" dimension="hikingSkill" user="domain.model#user3"/>
+        </preferences>
+        <itemFeatures>
+          <feature xmi:id="_f1" category="Indoor" item="domain.model#item1"/>
+          <feature xmi:id="_f2" category="Outdoor" item="domain.model#item2"/>
+        </itemFeatures>
+      </_cbComponent>
+    </filteringRS>
+  </org.rs:Algorithm>
+</xmi:XMI>
